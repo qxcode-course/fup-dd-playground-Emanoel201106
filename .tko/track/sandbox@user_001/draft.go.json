@@ -1,0 +1,74 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-10_17-14-57",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -37,9 +37,12 @@\n ) %7B%0A\n-%09\n+    \n fmt.\n@@ -54,19 +54,28 @@\n ln(%22\n-Hello World\n+qualquer outra coisa\n %22)%0A%7D\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-10_17-31-51",
+            "content": "@@ -39,31 +39,8 @@\n ) %7B%0A\n-    var num1, num2 int%0A\n %09fmt\n@@ -65,20 +65,8 @@\n rld%22\n-, num1, num2\n )%0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-10_17-40-29",
+            "content": "@@ -58,15 +58,11 @@\n um2 \n-float64\n+int\n %0A%09fm\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-10_17-41-06",
+            "content": "@@ -66,28 +66,8 @@\n t64%0A\n-    fmt.Scan(&num1)%0A\n %09fmt\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-10_17-43-12",
+            "content": "@@ -86,28 +86,8 @@\n m1)%0A\n-    fmt.Scan(&num2)%0A\n %09fmt\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-03-10_17-46-29",
+            "content": "@@ -146,28 +146,6 @@\n m2)%0A\n-    fmt.Println(num1)%0A\n %7D%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-03-10_17-48-51",
+            "content": "@@ -168,28 +168,6 @@\n m1)%0A\n-    fmt.Println(num2)%0A\n %7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-10_17-51-23",
+            "content": "@@ -35,17 +35,20 @@\n ain() %7B%0A\n-%09\n+    \n var num1\n@@ -62,17 +62,20 @@\n float64%0A\n-%09\n+    \n fmt.Scan\n@@ -80,18 +80,31 @@\n an(&num1\n-, \n+)%0A    fmt.Scan(\n &num2)%0A%09\n@@ -138,25 +138,28 @@\n num1, num2)%0A\n-%09\n+    \n fmt.Println(\n@@ -164,17 +164,20 @@\n n(num1)%0A\n-%09\n+    \n fmt.Prin\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-10_17-55-39",
+            "content": "@@ -109,16 +109,28 @@\n o World%22\n+, num1, num2\n )%0A%09fmt.P\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-10_17-55-55",
+            "content": "@@ -132,15 +132,8 @@\n num1\n- + num2\n )%0A%09f\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-10_17-57-17",
+            "content": "@@ -158,15 +158,8 @@\n num2\n- - num2\n )%0A%7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-10_17-57-34",
+            "content": "@@ -79,24 +79,52 @@\n um1, &num2)%0A\n+%09fmt.Println(%22Hello World%22)%0A\n %09fmt.Println\n@@ -132,9 +132,11 @@\n num1\n-+\n+ + \n num2\n@@ -158,9 +158,11 @@\n num2\n--\n+ - \n num2\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-10_17-58-18",
+            "content": "@@ -123,17 +123,17 @@\n ntln(num\n-1\n+2\n -num2)%0A%7D\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-03-10_17-59-38",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar num1, num2 float64\n\tfmt.Scan(&num1, &num2)\n\tfmt.Println(num1+num2)\n\tfmt.Println(num1-num2)\n}\n",
+            "lines": "10"
+        }
+    ]
+}
