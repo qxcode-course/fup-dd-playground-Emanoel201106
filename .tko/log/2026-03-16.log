@@ -1,0 +1,30 @@
+2026-03-16 16:10:58, MOVE, v:1, k:fup@resto, mode:PICK
+2026-03-16 16:11:03, EXEC, v:1, k:fup@resto, mode:FULL, rate:100
+2026-03-16 16:11:13, MOVE, v:1, k:fup@resto, mode:BACK
+2026-03-16 16:15:30, SELF, v:1, k:fup@tres, self:1, rate:100, study:20, friend:Nao, guided:1
+2026-03-16 16:15:34, MOVE, v:1, k:fup@resto, mode:PICK
+2026-03-16 16:15:37, MOVE, v:1, k:fup@resto, mode:BACK
+2026-03-16 16:16:57, SELF, v:1, k:fup@resto, self:1, rate:100, study:20, friend:Nao, guided:1
+2026-03-16 16:18:43, MOVE, v:1, k:fup@media, mode:DOWN
+2026-03-16 16:18:44, MOVE, v:1, k:fup@media, mode:PICK
+2026-03-16 16:18:56, EXEC, v:1, k:fup@media, mode:FULL, rate:0, size:5
+2026-03-16 16:22:17, EXEC, v:1, k:fup@media, mode:FULL, rate:0, size:7
+2026-03-16 16:22:30, EXEC, v:1, k:fup@media, mode:FULL, rate:0
+2026-03-16 16:23:42, EXEC, v:1, k:fup@media, mode:FULL, rate:0, size:7
+2026-03-16 16:24:01, EXEC, v:1, k:fup@media, mode:FULL, rate:0, size:7
+2026-03-16 16:24:19, EXEC, v:1, k:fup@media, mode:FULL, rate:0, size:7
+2026-03-16 16:34:47, EXEC, v:1, k:fup@media, mode:FULL, rate:0, size:7
+2026-03-16 16:34:59, EXEC, v:1, k:fup@media, mode:FULL, rate:0, size:7
+2026-03-16 16:35:23, EXEC, v:1, k:fup@media, mode:FULL, rate:0, size:7
+2026-03-16 16:35:52, EXEC, v:1, k:fup@media, mode:FULL, rate:0, size:7
+2026-03-16 16:36:52, EXEC, v:1, k:fup@media, mode:FULL, rate:0, size:7
+2026-03-16 16:37:06, EXEC, v:1, k:fup@media, mode:FULL, rate:0, size:7
+2026-03-16 16:37:22, EXEC, v:1, k:fup@media, mode:FULL, rate:0, size:7
+2026-03-16 16:37:28, EXEC, v:1, k:fup@media, mode:FULL, rate:0, size:7
+2026-03-16 16:38:03, EXEC, v:1, k:fup@media, mode:FULL, rate:0, size:7
+2026-03-16 16:38:10, EXEC, v:1, k:fup@media, mode:FULL, rate:100, size:7
+2026-03-16 16:38:17, MOVE, v:1, k:fup@media, mode:BACK
+2026-03-16 16:42:03, SELF, v:1, k:fup@media, self:1, rate:100, study:19, friend:Sim, chatgpt, concept:1, problem:1, code:1, debug:1, refactor:1
+2026-03-16 16:46:35, MOVE, v:1, k:fup@media, mode:PICK
+2026-03-16 16:46:40, EXEC, v:1, k:fup@media, mode:FULL, rate:100
+2026-03-16 16:49:03, MOVE, v:1, k:fup@media, mode:BACK
