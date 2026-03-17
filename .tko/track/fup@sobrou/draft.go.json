@@ -1,0 +1,59 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-16_17-44-33",
+            "content": "@@ -41,141 +41,28 @@\n     \n-var produtos int%0A    var valor, dinheiro float64%0A    fmt.Scan(&produtos, &valor, &dinheiro)%0A    fmt.Println(produtos, valor, dinheiro\n+fmt.Println(%22qxcode%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-16_17-54-50",
+            "content": "@@ -52,29 +52,9 @@\n duto\n-1, produto2, produto3\n+s\n  int\n@@ -111,31 +111,9 @@\n duto\n-1, &produto2, &produto3\n+s\n , &v\n@@ -156,28 +156,10 @@\n duto\n-1,produto2, produto3\n+s,\n  val\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-16_18-09-29",
+            "content": "@@ -214,17 +214,16 @@\n produto3\n-,\n  valor, \n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-16_18-09-38",
+            "content": "@@ -87,33 +87,26 @@\n ar valor\n-1\n , \n-valor2, valor3\n+dinheiro\n  float64\n@@ -162,27 +162,19 @@\n alor\n-3\n , &\n-valor2, &valor3\n+dinheiro\n )%0A  \n@@ -225,25 +225,18 @@\n alor\n-1\n , \n-valor2, valor3\n+dinheiro\n )%0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-16_18-11-09",
+            "content": "@@ -70,23 +70,19 @@\n roduto3 \n-float64\n+int\n %0A    var\n@@ -117,101 +117,8 @@\n t64%0A\n-    var dinheiro float64%0A    var troco float64 = dinheiro - (produto1 + produto2 + produto3)%0A\n     \n@@ -188,81 +188,52 @@\n lor3\n-, &dinheiro)%0A    valor1 = valor1 * produto1%0A    valor2 = valor2 *\n+)%0A    fmt.Println(produto1,produto2,\n  produto\n 2%0A  \n@@ -232,78 +232,33 @@\n duto\n-2%0A   \n+3,\n  valor\n-3 =\n+1,\n  valor\n-3 * produto3%0A%0A    fmt.Println(%22%25.2f%5Cn%22, troco)%0A    \n+2, valor3)\n %0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-16_18-17-34",
+            "content": "@@ -401,17 +401,18 @@\n mt.Print\n-f\n+ln\n (%22%25.2f%5Cn\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-16_18-17-46",
+            "content": "@@ -182,31 +182,37 @@\n  - (\n-valor1 + valor2 + valor\n+produto1 + produto2 + produto\n 3)%0A \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-16_18-25-22",
+            "content": "@@ -256,17 +256,17 @@\n , &valor\n-1\n+3\n , &valor\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-16_18-25-45",
+            "content": "@@ -159,24 +159,64 @@\n roco float64\n+ = dinheiro - (valor1 + valor2 + valor3)\n %0A    fmt.Sca\n@@ -416,49 +416,8 @@\n roco\n- == dinheiro - (valor1 + valor2 + valor3)\n )%0A  \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-17_16-50-43",
+            "content": "@@ -146,16 +146,33 @@\n t64%0A    \n+var troco float64\n %0A    fmt\n@@ -366,16 +366,25 @@\n %25.2f%5Cn%22,\n+ troco ==\n  dinheir\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-17_16-51-11",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var produto1, produto2, produto3 float64\n    var valor1, valor2, valor3 float64\n    var dinheiro float64\n    \n    fmt.Scan(&produto1, &produto2, &produto3, &valor1, &valor2, &valor3, &dinheiro)\n    valor1 = valor1 * produto1\n    valor2 = valor2 * produto2\n    valor3 = valor3 * produto3\n\n    fmt.Printf(\"%.2f\\n\", dinheiro - (valor1 + valor2 + valor3))\n    \n}\n",
+            "lines": "15"
+        }
+    ]
+}
