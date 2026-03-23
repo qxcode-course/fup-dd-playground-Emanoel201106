@@ -1,0 +1,104 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-17_17-01-27",
+            "content": "@@ -37,29 +37,8 @@\n ) %7B%0A\n-    var segundos int%0A\n     \n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-23_17-06-31",
+            "content": "@@ -58,32 +58,8 @@\n int%0A\n-    fmt.Scan(&segundos)%0A\n     \n",
+            "lines": "6"
+        },
+        {
+            "label": "2026-03-23_17-07-39",
+            "content": "@@ -52,22 +52,9 @@\n undo\n-, minuto, hora\n+s\n  int\n@@ -79,80 +79,35 @@\n undo\n-, &minuto, &hora)%0A    fmt.Printf(%22%25d%22,%22%25d%22,%22%25d%5Cn%22, hora, minuto, segundo\n+s)%0A    fmt.Println(%22qxcode%22\n )%0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-23_17-24-11",
+            "content": "@@ -128,12 +128,16 @@\n (%22%25d\n- %25d \n+%22,%22%25d%22,%22\n %25d%5Cn\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-23_17-28-14",
+            "content": "@@ -128,12 +128,12 @@\n (%22%25d\n-:%25d:\n+ %25d \n %25d%5Cn\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-23_17-29-29",
+            "content": "@@ -110,37 +110,8 @@\n ra)%0A\n-    hora = segundo/3600%0A    %0A\n     \n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-03-23_17-31-04",
+            "content": "@@ -138,43 +138,8 @@\n     \n-minuto = hora %25 3600%0A    minuto =  \n %0A   \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-03-23_17-36-22",
+            "content": "@@ -158,16 +158,27 @@\n 3600%0A   \n+ minuto =  \n %0A    fmt\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-03-23_17-36-31",
+            "content": "@@ -151,10 +151,14 @@\n hora\n-/6\n+ %25 360\n 0%0A  \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-03-23_17-37-02",
+            "content": "@@ -155,47 +155,8 @@\n /60%0A\n-    segundo = segundo %25 minuto %25 hora %0A\n    %0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-03-23_17-38-02",
+            "content": "@@ -164,16 +164,26 @@\n egundo =\n+ segundo %25\n  minuto \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-23_17-38-16",
+            "content": "@@ -169,24 +169,22 @@\n o = \n-segundo %25 minuto\n+minuto %25 hora \n %0A   \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-23_17-38-38",
+            "content": "@@ -175,21 +175,22 @@\n gundo %25 \n-hora \n+minuto\n %0A   %0A   \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-23_17-38-55",
+            "content": "@@ -147,43 +147,45 @@\n o = \n-segundo %25 3600%0A    minuto =\n+hora/60%0A    segundo = segundo %25\n  hora\n-/60\n+ \n %0A   \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-23_17-41-38",
+            "content": "@@ -183,32 +183,8 @@\n /60%0A\n-    segundo = hora %25 60%0A\n    %0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-23_17-42-15",
+            "content": "@@ -193,22 +193,20 @@\n gundo = \n-minuto\n+hora\n  %25 60%0A  \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-23_17-42-40",
+            "content": "@@ -143,17 +143,16 @@\n inuto = \n-(\n segundo \n@@ -157,17 +157,34 @@\n o %25 3600\n-)\n+%0A    minuto = hora\n /60%0A    \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-23_17-50-54",
+            "content": "@@ -48,17 +48,16 @@\n  segundo\n-s\n , minuto\n@@ -88,17 +88,16 @@\n &segundo\n-s\n , &minut\n@@ -124,17 +124,16 @@\n  segundo\n-s\n /3600%0A  \n@@ -143,33 +143,32 @@\n inuto = (segundo\n-s\n  %25 3600)/60%0A    \n@@ -178,31 +178,19 @@\n undo\n-s\n  = \n-(segundos %25 3600) &\n+minuto %25\n  60%0A\n@@ -243,13 +243,12 @@\n  segundo\n-s\n )%0A%7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-23_17-52-44",
+            "content": "@@ -200,17 +200,17 @@\n %25 3600) \n-%25\n+&\n  60%0A   %0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-23_17-52-58",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var segundos, minuto, hora int\n    fmt.Scan(&segundos, &minuto, &hora)\n    hora = segundos/3600\n    minuto = (segundos % 3600)/60\n    segundos = (segundos % 3600) % 60\n   \n    fmt.Printf(\"%d:%d:%d\\n\", hora, minuto, segundos)\n}\n",
+            "lines": "11"
+        }
+    ]
+}

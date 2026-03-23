@@ -13,17 +13,17 @@ sources:
   quests: null
   tasks: null
 expanded:
-- sandbox@sandbox
 - fup@campanha-principal
-- sandbox@sandbox:00_rascunhos
 - fup@missão-operações
+- sandbox@sandbox:00_rascunhos
+- sandbox@sandbox
 tasks:
   sandbox@user_001: '{rate:100}'
   fup@tres: '{self:1, rate:100, study:20, friend:Nao, guided:1}'
-  fup@resto: '{self:1, rate:100, study:20, friend:Nao, guided:1}'
-  fup@media: '{self:1, rate:100, study:19, friend:Sim, concept:1, code:1, debug:1,
-    refactor:1}'
-  fup@sobrou: '{self:1, rate:100, study:40, friend:Nao}'
+  fup@resto: '{self:1, rate:100, study:20, friend:Nao}'
+  fup@media: '{self:1, rate:100, concept:1, refactor:1}'
+  fup@sobrou: '{self:1, rate:100, friend:Nao, refactor:1}'
+  fup@segundos: '{self:1, rate:100, concept:1, refactor:1}'
 flags:
   painel: 0
   quests: 0
