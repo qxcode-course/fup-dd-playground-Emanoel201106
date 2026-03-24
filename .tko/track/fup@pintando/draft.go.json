@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-24_17-08-42",
+            "content": "@@ -22,23 +22,8 @@\n fmt%22\n- %0Aimport %22math%22\n %0Afun\n@@ -41,157 +41,35 @@\n     \n-var a, b, c, p, area float64%0A    fmt.Scan(&a, &b, &c)%0A    p = (a+b+c)/2%0A    area = math.Sqrt(p * (p-a) * (p-b) * (p-c))%0A    fmt.Printf(%22%25.2f%5Cn%22, area\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-24_17-22-59",
+            "content": "package main\nimport \"fmt\" \nimport \"math\"\nfunc main() {\n    var a, b, c, p, area float64\n    fmt.Scan(&a, &b, &c)\n    p = (a+b+c)/2\n    area = math.Sqrt(p * (p-a) * (p-b) * (p-c))\n    fmt.Printf(\"%.2f\\n\", area)\n}\n",
+            "lines": "10"
+        }
+    ]
+}

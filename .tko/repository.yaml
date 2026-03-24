@@ -13,10 +13,8 @@ sources:
   quests: null
   tasks: null
 expanded:
-- fup@campanha-principal
-- fup@missão-operações
-- sandbox@sandbox:00_rascunhos
-- sandbox@sandbox
+- fup@base
+- fup@games
 tasks:
   sandbox@user_001: '{rate:100}'
   fup@tres: '{self:1, rate:100, study:20, friend:Nao, guided:1}'
@@ -24,12 +22,14 @@ tasks:
   fup@media: '{self:1, rate:100, concept:1, refactor:1}'
   fup@sobrou: '{self:1, rate:100, friend:Nao, refactor:1}'
   fup@segundos: '{self:1, rate:100, concept:1, refactor:1}'
+  fup@celsius: '{self:1, rate:100, refactor:1}'
+  fup@pintando: '{self:1, rate:100, refactor:1}'
 flags:
-  painel: 0
-  quests: 0
-  tracks: 0
+  panel: 3
+  inbox: 0
+  show_panel: 0
   tasks: 0
   task_graph_mode: 0
   show_time: 0
 lang: go
-selected: fup@segundos
+selected: fup@resto

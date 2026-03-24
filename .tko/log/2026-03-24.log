@@ -1,0 +1,29 @@
+2026-03-24 16:46:57, MOVE, v:1, k:fup@celsius, mode:PICK
+2026-03-24 16:46:59, EXEC, v:1, k:fup@celsius, mode:FULL, rate:0
+2026-03-24 16:47:58, MOVE, v:1, k:fup@celsius, mode:BACK
+2026-03-24 16:48:09, MOVE, v:1, k:fup@celsius, mode:PICK
+2026-03-24 16:48:16, EXEC, v:1, k:fup@celsius, mode:FULL, rate:0
+2026-03-24 16:53:58, EXEC, v:1, k:fup@celsius, mode:FULL, rate:0, size:8
+2026-03-24 16:56:03, EXEC, v:1, k:fup@celsius, mode:FULL, rate:0
+2026-03-24 16:56:44, EXEC, v:1, k:fup@celsius, mode:FULL, rate:0, size:8
+2026-03-24 16:56:52, EXEC, v:1, k:fup@celsius, mode:FULL, rate:0, size:8
+2026-03-24 16:58:55, EXEC, v:1, k:fup@celsius, mode:FULL, rate:0, size:8
+2026-03-24 16:59:05, EXEC, v:1, k:fup@celsius, mode:FULL, rate:0, size:8
+2026-03-24 17:00:01, EXEC, v:1, k:fup@celsius, mode:FULL, rate:100, size:8
+2026-03-24 17:00:15, MOVE, v:1, k:fup@celsius, mode:BACK
+2026-03-24 17:04:38, SELF, v:1, k:fup@celsius, self:1, rate:100, study:16, refactor:1
+2026-03-24 17:04:50, SELF, v:1, k:fup@celsius, self:1, rate:100, refactor:1
+2026-03-24 17:06:21, MOVE, v:1, k:fup@pintando, mode:DOWN
+2026-03-24 17:06:34, MOVE, v:1, k:fup@pintando, mode:PICK
+2026-03-24 17:08:42, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0, size:5
+2026-03-24 17:09:24, MOVE, v:1, k:fup@pintando, mode:BACK
+2026-03-24 17:09:40, MOVE, v:1, k:fup@pintando, mode:PICK
+2026-03-24 17:10:10, MOVE, v:1, k:fup@pintando, mode:BACK
+2026-03-24 17:10:52, MOVE, v:1, k:fup@pintando, mode:PICK
+2026-03-24 17:10:53, EXEC, v:1, k:fup@pintando, mode:FULL, rate:0
+2026-03-24 17:22:59, EXEC, v:1, k:fup@pintando, mode:FULL, rate:100, size:10
+2026-03-24 17:23:33, MOVE, v:1, k:fup@pintando, mode:BACK
+2026-03-24 17:23:52, MOVE, v:1, k:fup@pintando, mode:PICK
+2026-03-24 17:23:55, EXEC, v:1, k:fup@pintando, mode:FULL, rate:100
+2026-03-24 17:24:32, MOVE, v:1, k:fup@pintando, mode:BACK
+2026-03-24 17:26:22, SELF, v:1, k:fup@pintando, self:1, rate:100, refactor:1

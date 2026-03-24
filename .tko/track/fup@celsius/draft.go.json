@@ -1,0 +1,39 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-23_18-05-37",
+            "content": "@@ -41,134 +41,35 @@\n     \n-var celsius, fahrenheit float64%0A    fahrenheit = 1.8 * celsius + 32%0A    fmt.Scan(&celsius)%0A    fmt.Printf(%22%25.6f%5Cn%22, fahrenheit\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-24_16-53-58",
+            "content": "@@ -130,21 +130,8 @@\n sius\n-, &fahrenheit\n )%0A  \n@@ -153,19 +153,22 @@\n .6f%5Cn%22, \n-celsius\n+fahrenheit\n )%0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-24_16-56-44",
+            "content": "@@ -166,22 +166,19 @@\n .6f%5Cn%22, \n-fahrenheit\n+celsius\n )%0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-24_16-56-52",
+            "content": "@@ -86,17 +86,16 @@\n nheit = \n-(\n 1.8 * ce\n@@ -104,17 +104,16 @@\n ius + 32\n-)\n %0A    fmt\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-24_16-58-55",
+            "content": "@@ -104,14 +104,14 @@\n sius\n-)\n  + 32\n+)\n %0A   \n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-24_16-59-05",
+            "content": "@@ -73,44 +73,8 @@\n t64%0A\n-    fmt.Scan(&celsius, &fahrenheit)%0A\n     \n@@ -86,16 +86,17 @@\n nheit = \n+(\n 1.8 * ce\n@@ -104,14 +104,51 @@\n sius\n+)\n  + 32%0A\n+    fmt.Scan(&celsius, &fahrenheit)%0A\n     \n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-24_17-00-01",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var celsius, fahrenheit float64\n    fmt.Scan(&celsius, &fahrenheit)\n    fahrenheit = 1.8 * celsius + 32\n    fmt.Printf(\"%.6f\\n\", fahrenheit)\n}\n",
+            "lines": "8"
+        }
+    ]
+}
