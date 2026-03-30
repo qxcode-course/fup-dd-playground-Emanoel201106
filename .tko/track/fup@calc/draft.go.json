@@ -1,0 +1,39 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-30_18-02-36",
+            "content": "@@ -41,89 +41,35 @@\n     \n-var num1, num2 int%0A    var simbolo string%0A    fmt.Scan(&num1, &num2, simbolo)%0A    \n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-30_18-11-16",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -33,17 +33,20 @@\n ain() %7B%0A\n-%09\n+    \n var num1\n@@ -56,17 +56,20 @@\n um2 int%0A\n-%09\n+    \n var simb\n@@ -76,14 +76,19 @@\n olo \n-rune%0A%09\n+string%0A    \n fmt.\n@@ -119,205 +119,11 @@\n lo)%0A\n-%09if simbolo == '+' %7B%0A%09%09fmt.Println(num1 + num2)%0A%09%7D else if simbolo == '/' %7B%0A%09%09fmt.Println(num1 / num2)%0A%09%7D else if simbolo == '-' %7B%0A%09%09fmt.Println(num1 - num2)%0A%09%7D else %7B%0A%09%09fmt.Println(num1 * num2)%0A%09%7D%0A\n+    \n %0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-03-30_18-19-18",
+            "content": "@@ -275,26 +275,8 @@\n else\n- if simbolo == '*'\n  %7B%0A%09\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-03-30_18-21-07",
+            "content": "@@ -20,16 +20,17 @@\n t %22fmt%22%0A\n+%0A\n func mai\n@@ -35,20 +35,17 @@\n ain() %7B%0A\n-    \n+%09\n var num1\n@@ -55,20 +55,17 @@\n um2 int%0A\n-    \n+%09\n var simb\n@@ -73,20 +73,17 @@\n lo rune%0A\n-    \n+%09\n fmt.Scan\n@@ -106,20 +106,17 @@\n imbolo)%0A\n-    \n+%09\n if simbo\n@@ -124,26 +124,21 @@\n o == '+'\n+ \n %7B%0A\n-        \n+%09%09\n fmt.Prin\n@@ -157,14 +157,10 @@\n um2)\n- %0A    \n+%0A%09\n %7D el\n@@ -179,26 +179,21 @@\n o == '/'\n+ \n %7B%0A\n-        \n+%09%09\n fmt.Prin\n@@ -205,28 +205,25 @@\n um1 / num2)%0A\n-    \n+%09\n %7D else if si\n@@ -234,26 +234,21 @@\n o == '-'\n+ \n %7B%0A\n-        \n+%09%09\n fmt.Prin\n@@ -268,29 +268,38 @@\n m2)%0A\n-    \n+%09\n %7D else \n-%7B%0A        \n+if simbolo == '*' %7B%0A%09%09\n fmt.\n@@ -323,17 +323,10 @@\n m2)%0A\n-    %7D%0A    \n+%09%7D%0A\n %0A%7D%0A\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-03-30_18-21-20",
+            "content": "@@ -77,14 +77,12 @@\n olo \n-string\n+rune\n %0A   \n@@ -136,11 +136,11 @@\n  == \n-%22+%22\n+'+'\n %7B%0A  \n@@ -200,11 +200,11 @@\n  == \n-%22/%22\n+'/'\n %7B%0A  \n@@ -263,11 +263,11 @@\n  == \n-%22-%22\n+'-'\n %7B%0A  \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-03-30_18-22-52",
+            "content": "@@ -107,17 +107,16 @@\n  &num2, \n-&\n simbolo)\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-03-30_18-24-30",
+            "content": "package main\n\nimport \"fmt\"\nfunc main() {\n    var num1, num2 int\n    var simbolo string\n    fmt.Scan(&num1, &num2, &simbolo)\n    if simbolo == \"+\"{\n        fmt.Println(num1 + num2) \n    } else if simbolo == \"/\"{\n        fmt.Println(num1 / num2)\n    } else if simbolo == \"-\"{\n        fmt.Println(num1 - num2)\n    } else {\n        fmt.Println(num1 * num2)\n    }\n    \n}\n",
+            "lines": "18"
+        }
+    ]
+}

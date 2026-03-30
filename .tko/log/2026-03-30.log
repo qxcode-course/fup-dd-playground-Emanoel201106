@@ -1,0 +1,55 @@
+2026-03-30 16:56:29, SELF, v:1, k:fup@tres, self:1, rate:100, study:20, friend:Nao
+2026-03-30 17:00:15, MOVE, v:1, k:fup@abs, mode:DOWN
+2026-03-30 17:00:18, MOVE, v:1, k:fup@abs, mode:PICK
+2026-03-30 17:00:27, EXEC, v:1, k:fup@abs, mode:FULL, rate:0, size:5
+2026-03-30 17:09:40, EXEC, v:1, k:fup@abs, mode:FULL, rate:100, size:11
+2026-03-30 17:10:16, MOVE, v:1, k:fup@abs, mode:BACK
+2026-03-30 17:10:37, SELF, v:1, k:fup@abs, self:1, rate:100, refactor:1
+2026-03-30 17:10:38, MOVE, v:1, k:fup@abs, mode:PICK
+2026-03-30 17:10:40, EXEC, v:1, k:fup@abs, mode:FULL, rate:100
+2026-03-30 17:13:13, MOVE, v:1, k:fup@abs, mode:BACK
+2026-03-30 17:13:31, MOVE, v:1, k:fup@max, mode:DOWN
+2026-03-30 17:13:36, MOVE, v:1, k:fup@max, mode:PICK
+2026-03-30 17:13:38, EXEC, v:1, k:fup@max, mode:FULL, rate:0, size:5
+2026-03-30 17:18:03, EXEC, v:1, k:fup@max, mode:FULL, rate:100, size:13
+2026-03-30 17:19:18, MOVE, v:1, k:fup@max, mode:BACK
+2026-03-30 17:19:38, SELF, v:1, k:fup@max, self:1, rate:100
+2026-03-30 17:19:49, SELF, v:1, k:fup@max, self:1, rate:100, refactor:1
+2026-03-30 17:19:56, MOVE, v:1, k:fup@max, mode:PICK
+2026-03-30 17:21:50, MOVE, v:1, k:fup@max, mode:BACK
+2026-03-30 17:22:02, MOVE, v:1, k:fup@ou, mode:DOWN
+2026-03-30 17:22:05, MOVE, v:1, k:fup@ou, mode:PICK
+2026-03-30 17:22:07, EXEC, v:1, k:fup@ou, mode:FULL, rate:0, size:5
+2026-03-30 17:27:25, EXEC, v:1, k:fup@ou, mode:FULL, size:12, fail:COMP
+2026-03-30 17:32:14, EXEC, v:1, k:fup@ou, mode:FULL, size:12, fail:COMP
+2026-03-30 17:33:13, EXEC, v:1, k:fup@ou, mode:FULL, size:12, fail:COMP
+2026-03-30 17:33:52, EXEC, v:1, k:fup@ou, mode:FULL, size:12, fail:COMP
+2026-03-30 17:35:24, EXEC, v:1, k:fup@ou, mode:FULL, rate:100, size:12
+2026-03-30 17:35:38, MOVE, v:1, k:fup@ou, mode:BACK
+2026-03-30 17:36:03, SELF, v:1, k:fup@ou, self:1, rate:100
+2026-03-30 17:36:16, SELF, v:1, k:fup@ou, self:1, rate:100, refactor:1
+2026-03-30 17:36:21, MOVE, v:1, k:fup@positivo, mode:DOWN
+2026-03-30 17:36:31, MOVE, v:1, k:fup@positivo, mode:PICK
+2026-03-30 17:36:33, EXEC, v:1, k:fup@positivo, mode:FULL, rate:0, size:5
+2026-03-30 17:40:38, EXEC, v:1, k:fup@positivo, mode:FULL, rate:60, size:11
+2026-03-30 17:40:55, EXEC, v:1, k:fup@positivo, mode:FULL, rate:100
+2026-03-30 17:42:25, MOVE, v:1, k:fup@positivo, mode:BACK
+2026-03-30 17:45:34, SELF, v:1, k:fup@positivo, self:1, rate:100
+2026-03-30 17:47:26, MOVE, v:1, k:fup@multiplo, mode:DOWN
+2026-03-30 17:47:30, MOVE, v:1, k:fup@multiplo, mode:PICK
+2026-03-30 17:47:38, EXEC, v:1, k:fup@multiplo, mode:FULL, rate:0, size:5
+2026-03-30 17:58:24, EXEC, v:1, k:fup@multiplo, mode:FULL, rate:100, size:11
+2026-03-30 17:59:26, MOVE, v:1, k:fup@multiplo, mode:BACK
+2026-03-30 17:59:58, SELF, v:1, k:fup@multiplo, self:1, rate:100, concept:1
+2026-03-30 18:01:30, SELF, v:1, k:fup@multiplo, self:1, rate:100, concept:1, refactor:1
+2026-03-30 18:02:26, MOVE, v:1, k:fup@calc, mode:DOWN
+2026-03-30 18:02:34, MOVE, v:1, k:fup@calc, mode:PICK
+2026-03-30 18:02:36, EXEC, v:1, k:fup@calc, mode:FULL, rate:0, size:5
+2026-03-30 18:11:16, EXEC, v:1, k:fup@calc, mode:FULL, rate:0, size:8
+2026-03-30 18:19:18, EXEC, v:1, k:fup@calc, mode:FULL, rate:22, size:19
+2026-03-30 18:21:07, EXEC, v:1, k:fup@calc, mode:FULL, rate:0, size:19
+2026-03-30 18:21:20, EXEC, v:1, k:fup@calc, mode:FULL, rate:22, size:18
+2026-03-30 18:22:52, EXEC, v:1, k:fup@calc, mode:FULL, rate:22, size:18
+2026-03-30 18:24:30, EXEC, v:1, k:fup@calc, mode:FULL, rate:100, size:18
+2026-03-30 18:24:43, MOVE, v:1, k:fup@calc, mode:BACK
+2026-03-30 18:24:52, SELF, v:1, k:fup@calc, self:1, rate:100, refactor:1

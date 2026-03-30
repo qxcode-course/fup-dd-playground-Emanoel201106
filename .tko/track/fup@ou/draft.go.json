@@ -1,0 +1,34 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-30_17-22-07",
+            "content": "@@ -41,136 +41,35 @@\n     \n-var num int%0A    fmt.Scan(&num)%0A    if num = 3 %7C%7C 5%7B%0A        fmt.Println(%22SIM%22)%0A    %7D else %7B%0A        fmt.Println(%22NAO%22)%0A    %7D%0A    \n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-30_17-27-25",
+            "content": "@@ -85,16 +85,14 @@\n m = \n-(\n 3 %7C%7C 5\n-)\n %7B%0A  \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-30_17-32-14",
+            "content": "@@ -80,17 +80,16 @@\n if num =\n-=\n  (3 %7C%7C 5\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-30_17-33-13",
+            "content": "@@ -49,12 +49,11 @@\n num \n-bool\n+int\n %0A   \n@@ -86,14 +86,16 @@\n  == \n+(\n 3 %7C%7C 5\n+)\n %7B%0A  \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-30_17-33-52",
+            "content": "@@ -45,19 +45,20 @@\n var num \n-int\n+bool\n %0A    fmt\n@@ -87,23 +87,16 @@\n  == 3 %7C%7C\n- num ==\n  5%7B%0A    \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-03-30_17-35-24",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var num int\n    fmt.Scan(&num)\n    if num == 3 || num == 5{\n        fmt.Println(\"SIM\")\n    } else {\n        fmt.Println(\"NAO\")\n    }\n    \n}\n",
+            "lines": "12"
+        }
+    ]
+}

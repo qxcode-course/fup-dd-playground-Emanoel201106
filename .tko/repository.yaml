@@ -13,23 +13,27 @@ sources:
   quests: null
   tasks: null
 expanded:
-- fup@base
-- fup@games
+- fup@if1
 tasks:
   sandbox@user_001: '{rate:100}'
-  fup@tres: '{self:1, rate:100, study:20, friend:Nao, guided:1}'
+  fup@tres: '{self:1, rate:100, study:20, friend:Nao}'
   fup@resto: '{self:1, rate:100, study:20, friend:Nao}'
   fup@media: '{self:1, rate:100, concept:1, refactor:1}'
   fup@sobrou: '{self:1, rate:100, friend:Nao, refactor:1}'
   fup@segundos: '{self:1, rate:100, concept:1, refactor:1}'
   fup@celsius: '{self:1, rate:100, refactor:1}'
   fup@pintando: '{self:1, rate:100, refactor:1}'
+  fup@abs: '{self:1, rate:100, refactor:1}'
+  fup@max: '{self:1, rate:100, refactor:1}'
+  fup@ou: '{self:1, rate:100, refactor:1}'
+  fup@positivo: '{self:1, rate:100}'
+  fup@multiplo: '{self:1, rate:100, concept:1, refactor:1}'
+  fup@calc: '{self:1, rate:100, refactor:1}'
 flags:
   panel: 3
   inbox: 0
-  show_panel: 0
-  tasks: 0
+  show_panel: 1
   task_graph_mode: 0
   show_time: 0
 lang: go
-selected: fup@resto
+selected: fup@calc
