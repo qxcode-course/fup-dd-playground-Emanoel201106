@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-31_03-11-11",
+            "content": "@@ -41,138 +41,35 @@\n     \n-var wifi, login, admin bool%0A    fmt.Scan(&wifi, &login, &admin)%0A    if !wifi%7B%0A        fmt.Println(%22you must connect to wifi%22)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-31_03-16-33",
+            "content": "@@ -167,191 +167,8 @@\n i%22)%0A\n-    %7D else if !login %7B%0A        fmt.Println(%22you need to login first%22)%0A    %7D else if !admin %7B%0A        fmt.Println(%22you must to login as admin%22)%0A    %7D else%7B%0A        fmt.Println(%22done%22)%0A\n     \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-03-31_03-18-54",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var wifi, login, admin bool\n    fmt.Scan(&wifi, &login, &admin)\n    if !wifi{\n        fmt.Println(\"you must connect to wifi\")\n    } else if !login {\n        fmt.Println(\"you need to login first\")\n    } else if !admin {\n        fmt.Println(\"you must to login as admin\")\n    } else{\n        fmt.Println(\"done\")\n    }\n}\n",
+            "lines": "15"
+        }
+    ]
+}
