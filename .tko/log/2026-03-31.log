@@ -14,3 +14,38 @@
 2026-03-31 03:18:54, EXEC, v:1, k:fup@guarda, mode:FULL, rate:100, size:15
 2026-03-31 03:19:09, MOVE, v:1, k:fup@guarda, mode:BACK
 2026-03-31 03:21:25, SELF, v:1, k:fup@guarda, self:1, rate:100
+2026-03-31 16:45:18, MOVE, v:1, k:fup@quantos, mode:DOWN
+2026-03-31 16:45:21, MOVE, v:1, k:fup@quantos, mode:PICK
+2026-03-31 16:45:24, EXEC, v:1, k:fup@quantos, mode:FULL, rate:0, size:5
+2026-03-31 16:50:33, EXEC, v:1, k:fup@quantos, mode:FULL, rate:87, size:16
+2026-03-31 16:52:25, EXEC, v:1, k:fup@quantos, mode:FULL, rate:87, size:18
+2026-03-31 16:52:33, EXEC, v:1, k:fup@quantos, mode:FULL, rate:87, size:20
+2026-03-31 16:53:02, EXEC, v:1, k:fup@quantos, mode:FULL, rate:100, size:20
+2026-03-31 16:58:08, EXEC, v:1, k:fup@quantos, mode:FULL, rate:87, size:17
+2026-03-31 16:59:43, EXEC, v:1, k:fup@quantos, mode:FULL, rate:87, size:15
+2026-03-31 17:00:30, EXEC, v:1, k:fup@quantos, mode:FULL, rate:100, size:15
+2026-03-31 17:01:11, EXEC, v:1, k:fup@quantos, mode:FULL, rate:62, size:15
+2026-03-31 17:02:19, EXEC, v:1, k:fup@quantos, mode:FULL, rate:100, size:15
+2026-03-31 17:02:31, EXEC, v:1, k:fup@quantos, mode:FULL, rate:100, size:15
+2026-03-31 17:03:09, MOVE, v:1, k:fup@quantos, mode:BACK
+2026-03-31 17:03:27, SELF, v:1, k:fup@quantos, self:1, rate:100, refactor:1
+2026-03-31 17:03:47, SELF, v:1, k:fup@quantos, self:1, rate:100, study:20, refactor:1
+2026-03-31 17:04:07, MOVE, v:1, k:fup@impar, mode:DOWN
+2026-03-31 17:04:34, MOVE, v:1, k:fup@impar, mode:PICK
+2026-03-31 17:04:36, EXEC, v:1, k:fup@impar, mode:FULL, rate:0, size:5
+2026-03-31 17:13:16, MOVE, v:1, k:fup@impar, mode:BACK
+2026-03-31 17:15:19, MOVE, v:1, k:fup@impar, mode:PICK
+2026-03-31 17:15:21, EXEC, v:1, k:fup@impar, mode:FULL, rate:0
+2026-03-31 17:30:11, EXEC, v:1, k:fup@impar, mode:FULL, rate:35, size:9
+2026-03-31 17:32:07, EXEC, v:1, k:fup@impar, mode:FULL, rate:42, size:11
+2026-03-31 17:32:13, EXEC, v:1, k:fup@impar, mode:FULL, rate:42
+2026-03-31 17:32:22, EXEC, v:1, k:fup@impar, mode:FULL, rate:78, size:11
+2026-03-31 17:38:21, EXEC, v:1, k:fup@impar, mode:FULL, rate:100, size:13
+2026-03-31 17:42:24, MOVE, v:1, k:fup@impar, mode:BACK
+2026-03-31 17:43:12, MOVE, v:1, k:fup@impar, mode:PICK
+2026-03-31 17:43:13, EXEC, v:1, k:fup@impar, mode:FULL, rate:100
+2026-03-31 17:43:14, MOVE, v:1, k:fup@impar, mode:BACK
+2026-03-31 17:43:33, SELF, v:1, k:fup@impar, self:1, rate:100, study:20, refactor:1
+2026-03-31 17:44:06, MOVE, v:1, k:fup@impar, mode:PICK
+2026-03-31 17:44:08, EXEC, v:1, k:fup@impar, mode:FULL, rate:100, size:13
+2026-03-31 17:47:32, MOVE, v:1, k:fup@impar, mode:BACK

@@ -1,0 +1,34 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-31_17-04-36",
+            "content": "@@ -41,117 +41,35 @@\n     \n-var P, D1, D2 int%0A    fmt.Scan(&P, &D1, &D2)%0A    if P == 0 && (D1 + D2)%252 == 0%7B%0A        fmt.Println(%220%22)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-31_17-30-11",
+            "content": "@@ -146,75 +146,8 @@\n 0%22)%0A\n-    %7D else if P == 1 && (D1 + D2)%252 == 0%7B%0A        fmt.Println(%221%22)%0A\n     \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-03-31_17-32-07",
+            "content": "@@ -152,16 +152,46 @@\n   %7D else\n+ if P == 1 && (D1 + D2)%252 == 0\n %7B%0A      \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-31_17-32-22",
+            "content": "@@ -59,13 +59,8 @@\n int%0A\n-    %0A\n     \n@@ -90,39 +90,30 @@\n     \n-soma := D1 + D2 + P%0A    if soma\n+if P == 0 && (D1 + D2)\n %252 =\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-03-31_17-38-21",
+            "content": "@@ -106,16 +106,20 @@\n  D1 + D2\n+ + P\n %0A    if \n@@ -128,17 +128,17 @@\n ma%252 == \n-P\n+0\n %7B%0A      \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-03-31_17-44-08",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var P, D1, D2 int\n    \n    fmt.Scan(&P, &D1, &D2)\n    soma := D1 + D2\n    if soma%2 == P{\n        fmt.Println(\"0\")\n    } else{\n        fmt.Println(\"1\")\n    }\n}\n",
+            "lines": "13"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "patches": [
+        {
+            "label": "2026-03-31_16-45-24",
+            "content": "@@ -41,318 +41,35 @@\n     \n-var num1, num2, num3 int%0A    fmt.Scan(&num1, &num2, &num3)%0A    if num1 == num2 && num2 == num3%7B%0A        fmt.Println(%223%22)    %0A    %7D else if num1 != num2 && num2 == num3%7B%0A        fmt.Println(%222%22)%0A    %7D else if num1 == num2 && num2 != num3%7B%0A        fmt.Println(%222%22)%0A    %7D else %7B%0A        fmt.Println(%220%22)%0A    %7D%0A    \n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-03-31_16-50-33",
+            "content": "@@ -315,102 +315,32 @@\n lse \n-if num1 != num2 && num2 != num3 %7B%0A        fmt.Println(%220%22)%0A    %7D else %7B%0A        fmt.Println(%222\n+%7B%0A        fmt.Println(%220\n %22)%0A \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-03-31_16-52-25",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -33,17 +33,20 @@\n ain() %7B%0A\n-%09\n+    \n var num1\n@@ -62,17 +62,20 @@\n um3 int%0A\n-%09\n+    \n fmt.Scan\n@@ -96,17 +96,20 @@\n  &num3)%0A\n-%09\n+    \n if num1 \n@@ -123,37 +123,42 @@\n  && num2 == num3\n- \n %7B%0A\n-%09%09\n+        \n fmt.Println(%223%22)\n@@ -157,18 +157,25 @@\n tln(%223%22)\n-%0A%09\n+    %0A    \n %7D else i\n@@ -200,29 +200,34 @@\n num2 == num3\n- \n %7B%0A\n-%09%09\n+        \n fmt.Println(\n@@ -223,33 +223,36 @@\n mt.Println(%222%22)%0A\n-%09\n+    \n %7D else if num1 =\n@@ -265,37 +265,42 @@\n  && num2 != num3\n- \n %7B%0A\n-%09%09\n+        \n fmt.Println(%222%22)\n@@ -300,17 +300,20 @@\n ln(%222%22)%0A\n-%09\n+    \n %7D else i\n@@ -345,18 +345,24 @@\n  num3 %7B%0A\n-%09%09\n+        \n fmt.Prin\n@@ -370,17 +370,20 @@\n ln(%220%22)%0A\n-%09\n+    \n %7D else %7B\n@@ -387,10 +387,16 @@\n e %7B%0A\n-%09%09\n+        \n fmt.\n@@ -412,10 +412,17 @@\n 2%22)%0A\n-%09%7D%0A\n+    %7D%0A    \n %0A%7D%0A\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-03-31_16-52-33",
+            "content": "@@ -284,23 +284,23 @@\n if num1 \n-=\n+!\n = num\n-3\n+2\n  && num2\n@@ -317,33 +317,33 @@\n %0A%09%09fmt.Println(%22\n-2\n+0\n %22)%0A%09%7D else %7B%0A%09%09f\n@@ -350,22 +350,22 @@\n mt.Println(%22\n-0\n+2\n %22)%0A%09%7D%0A%0A%7D%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-03-31_16-53-02",
+            "content": "@@ -61,20 +61,16 @@\n um3 int%0A\n-    \n %09fmt.Sca\n@@ -92,24 +92,17 @@\n  &num3)%0A\n-        \n+%09\n if num1 \n@@ -129,29 +129,10 @@\n um3 \n-&& num1 == num3%7B%0A    \n+%7B%0A\n %09%09fm\n@@ -146,24 +146,17 @@\n ln(%223%22)%0A\n-        \n+%09\n %7D else i\n@@ -190,37 +190,12 @@\n um3 \n-&& num1 != num3%7B%0A            \n+%7B%0A%09%09\n fmt.\n@@ -203,32 +203,25 @@\n rintln(%222%22)%0A\n-        \n+%09\n %7D else if nu\n@@ -251,37 +251,73 @@\n um3 \n-&&\n+%7B%0A%09%09fmt.Println(%222%22)%0A%09%7D else if\n  num1 \n-!\n+=\n = num3\n-%7B%0A            \n+ && num2 != num3 %7B%0A%09%09\n fmt.\n@@ -329,24 +329,17 @@\n ln(%222%22)%0A\n-        \n+%09\n %7D else %7B\n@@ -343,20 +343,10 @@\n e %7B%0A\n-            \n+%09%09\n fmt.\n@@ -362,17 +362,10 @@\n 0%22)%0A\n-    %09%7D%0A    \n+%09%7D%0A%0A\n %7D%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-03-31_16-58-08",
+            "content": "@@ -191,33 +191,33 @@\n  %7D else if num1 \n-=\n+!\n = num2 && num2 !\n@@ -219,25 +219,86 @@\n um2 \n-!= num3 %7C%7C\n+== num3 && num1 != num3%7B%0A            fmt.Println(%222%22)%0A        %7D else if\n  num1 \n-!\n+=\n = nu\n@@ -304,25 +304,41 @@\n um2 && num2 \n-=\n+!= num3 && num1 !\n = num3%7B%0A    \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-03-31_16-59-43",
+            "content": "@@ -253,40 +253,8 @@\n 2 ==\n- num3 %7C%7C num1 == num3 && num2 !=\n  num\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-31_17-00-30",
+            "content": "@@ -193,16 +193,32 @@\n  else if\n+ num1 == num2 &&\n  num2 !=\n@@ -238,18 +238,52 @@\n  != num2\n-%7C%7C\n+ && num2 == num3 %7C%7C num1 == num3 && \n num2 != \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-31_17-01-11",
+            "content": "@@ -197,25 +197,26 @@\n e if num\n-1 =\n+2 !\n = num\n-2\n+3 \n %7C%7C num1 \n@@ -226,44 +226,10 @@\n num2\n- && num2 == num3 %7C%7C num1 == num3 && \n+%7C%7C\n num2\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-31_17-02-19",
+            "content": "@@ -208,16 +208,33 @@\n = num2%7C%7C\n+ num1 != num2 && \n num2 == \n@@ -240,32 +240,48 @@\n  num3 %7C%7C num1 ==\n+ num3 && num2 !=\n  num3%7B%0A         \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-03-31_17-02-31",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar num1, num2, num3 int\n    \tfmt.Scan(&num1, &num2, &num3)\n        if num1 == num2 && num2 == num3 && num1 == num3{\n    \t\tfmt.Println(\"3\")\n        } else if num1 == num2||num2 == num3 || num1 == num3{\n            fmt.Println(\"2\")\n        } else {\n            fmt.Println(\"0\")\n    \t}\n    }\n",
+            "lines": "15"
+        }
+    ]
+}
