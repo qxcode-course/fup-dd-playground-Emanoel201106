@@ -1,0 +1,6 @@
+2026-04-03 17:50:05, MOVE, v:1, k:fup@impar, mode:PICK
+2026-04-03 17:50:36, EXEC, v:1, k:fup@impar, mode:FULL, rate:100
+2026-04-03 17:54:29, MOVE, v:1, k:fup@impar, mode:BACK
+2026-04-03 17:54:36, MOVE, v:1, k:fup@round, mode:DOWN
+2026-04-03 17:54:40, MOVE, v:1, k:fup@round, mode:PICK
+2026-04-03 17:54:42, EXEC, v:1, k:fup@round, mode:FULL, rate:0, size:5
