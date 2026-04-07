@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-07_15-10-51",
+            "content": "@@ -41,295 +41,35 @@\n     \n-var jog1, jog2 string %0A   fmt.Scan(&jog1, &jog2)%0A    if jog1 == jog2 %7B%0A        fmt.Println(%22empate%22)%0A    %7D else if (jog1 == %22P%22 && jog2 == 'R') %7C%7C (jog1 == %22R%22 && jog2 == 'T') %7C%7C (jog1 == %22T%22 && jog2 == 'P')%7B%0A        fmt.Println(%22jog1%22)%0A    %7D else %7B%0A        fmt.Println(%22jog2%22)%0A    %7D%0A    \n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-07_15-21-39",
+            "content": "@@ -176,19 +176,19 @@\n jog2 == \n-%22R%22\n+'R'\n ) %7C%7C (jo\n@@ -208,19 +208,19 @@\n jog2 == \n-%22T%22\n+'T'\n ) %7C%7C (jo\n@@ -240,19 +240,19 @@\n jog2 == \n-%22P%22\n+'P'\n )%7B%0A     \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-07_15-22-23",
+            "content": "@@ -209,17 +209,17 @@\n og2 == %22\n-S\n+T\n %22) %7C%7C (j\n@@ -226,17 +226,17 @@\n og1 == %22\n-S\n+T\n %22 && jog\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-07_15-23-13",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var jog1, jog2 string \n   fmt.Scan(&jog1, &jog2)\n    if jog1 == jog2 {\n        fmt.Println(\"empate\")\n    } else if (jog1 == \"P\" && jog2 == \"R\") || (jog1 == \"R\" && jog2 == \"S\") || (jog1 == \"S\" && jog2 == \"P\"){\n        fmt.Println(\"jog1\")\n    } else {\n        fmt.Println(\"jog2\")\n    }\n    \n}\n",
+            "lines": "14"
+        }
+    ]
+}

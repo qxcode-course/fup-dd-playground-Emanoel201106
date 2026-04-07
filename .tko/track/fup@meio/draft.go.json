@@ -2,8 +2,13 @@
     "patches": [
         {
             "label": "2026-04-07_17-08-17",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -41,307 +41,35 @@\n     \n-var esq1, esq2, esq3 int%0A    fmt.Scan(&esq1, &esq2, &esq3)%0A    if (esq1 %3E esq2 && esq1 %3C esq3) %7C%7C (esq1 %3C esq2 && esq1 %3E esq3)%7B%0A        fmt.Println(esq1)%0A    %7D else if (esq2 %3E esq1 && esq2 %3C esq3) %7C%7C (esq2 %3C esq1 && esq2 %3E esq3)%7B%0A        fmt.Println(esq2)%0A    %7D else %7B%0A        fmt.Println(esq3)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-04-07_14-59-32",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var esq1, esq2, esq3 int\n    fmt.Scan(&esq1, &esq2, &esq3)\n    if (esq1 > esq2 && esq1 < esq3) || (esq1 < esq2 && esq1 > esq3){\n        fmt.Println(esq1)\n    } else if (esq2 > esq1 && esq2 < esq3) || (esq2 < esq1 && esq2 > esq3){\n        fmt.Println(esq2)\n    } else {\n        fmt.Println(esq3)\n    }\n}\n",
+            "lines": "13"
         }
     ]
 }
