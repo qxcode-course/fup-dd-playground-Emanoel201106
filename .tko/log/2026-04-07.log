@@ -1,0 +1,4 @@
+2026-04-07 00:01:20, EXEC, v:1, k:fup@round, mode:FULL, rate:100, size:37
+2026-04-07 00:05:28, EXEC, v:1, k:fup@round, mode:FULL, rate:100, size:38
+2026-04-07 00:05:46, MOVE, v:1, k:fup@round, mode:BACK
+2026-04-07 00:06:14, SELF, v:1, k:fup@round, self:1, rate:100

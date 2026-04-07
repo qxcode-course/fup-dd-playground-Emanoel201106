@@ -2,8 +2,53 @@
     "patches": [
         {
             "label": "2026-04-03_17-54-42",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -23,198 +23,53 @@\n mt%22%0A\n-%0Afunc int ceil(float64 num)%7B%0A%0A%7D%0A%0Afunc int floor(float64 num)%7B%0A%0A%7D%0A%0Afunc int round(float64 num)%7B%0A%0A%7D%0A%0Afunc main() %7B%0A    var num int%0A    var num2 float64 = 2.6%0A    num = num2%0A    fmt.Println(num\n+func main() %7B%0A    fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-04-06_23-07-30",
+            "content": "@@ -20,16 +20,112 @@\n  %22fmt%22%0A%0A\n+func int ceil(float64 num)%7B%0A%0A%7D%0A%0Afunc int floor(float64 num)%7B%0A%0A%7D%0A%0Afunc int round(float64 num)%7B%0A%0A%7D\n %0A%0Afunc m\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-04-06_23-07-44",
+            "content": "@@ -24,151 +24,101 @@\n t%22%0A%0A\n+%0A%0A\n func \n-int ceil(float64 num)%7B%0A    var resultado int = num %0A%7D%0A%0Afunc int floor(float64 num)%7B%0A%0A%7D%0A%0Afunc int round(float64 num)%7B%0A%0A%7D%0A%0Afunc main() %7B%0A    \n+main() %7B%0A    var num int%0A    var num2 float64 = 2.6%0A    num = num2%0A    fmt.Println(num)\n %0A%7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-06_23-20-06",
+            "content": "@@ -22,116 +22,66 @@\n fmt%22\n-%0Aimport %22math%22\n %0A%0Afunc \n+int \n ceil(\n-num \n float64\n-) int%7B%0A    resto := math.Mod(num, 1)%0A    return\n+ num)%7B%0A    var resultado\n  int\n-((\n+ = \n num \n-- resto) + 1) \n %0A%7D%0A%0A\n@@ -89,91 +89,32 @@\n unc \n+int \n floor(\n-num \n float64\n-) int%7B%0A    resto := math.Mod(num, 1)%0A    return int((num - resto))\n+ num)%7B%0A\n %0A%7D%0A%0A\n@@ -122,222 +122,53 @@\n unc \n+int \n round(\n-num \n float64\n-) int%7B%0A    resto := math.Mod(num, 1)%0A    if resto %3E= 0.5 %7B%0A        return ceil(num)%0A    %7D else %7B%0A        return floor(num)%0A    %7D%0A%7D%0A%0Afunc main() %7B%0A    var num float64%0A    fmt.Scan(&num)%0A    ceil(num)\n+ num)%7B%0A%0A%7D%0A%0Afunc main() %7B%0A    \n %0A%7D%0A\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-06_23-51-04",
+            "content": "@@ -418,207 +418,35 @@\n     \n-var opera%C3%A7%C3%A3o string%0A    fmt.Scan(&num, &opera%C3%A7%C3%A3o)%0A    if opera%C3%A7%C3%A3o == %22c%22 %7B%0A        ceil(num)%0A    %7D else if opera%C3%A7%C3%A3o == %22f%22 %7B%0A        floor(num)%0A    %7D else if opera%C3%A7%C3%A3o == %22r%22 %7B%0A        round(num)%0A    %7D\n+fmt.Scan(&num)%0A    ceil(num)\n %0A%7D%0A\n",
+            "lines": "28"
+        },
+        {
+            "label": "2026-04-06_23-56-25",
+            "content": "@@ -619,27 +619,6 @@\n   %7D%0A\n-    fmt.Println(num)%0A\n %7D%0A\n",
+            "lines": "35"
+        },
+        {
+            "label": "2026-04-06_23-56-53",
+            "content": "@@ -402,47 +402,43 @@\n var \n-opera%C3%A7%C3%A3o string%0A    var num float64%0A   \n+num float64%0A    var opera%C3%A7%C3%A3o string\n %0A   \n@@ -447,16 +447,22 @@\n mt.Scan(\n+&num, \n &opera%C3%A7%C3%A3\n@@ -466,14 +466,8 @@\n a%C3%A7%C3%A3o\n-, &num\n )%0A  \n",
+            "lines": "36"
+        },
+        {
+            "label": "2026-04-06_23-57-59",
+            "content": "@@ -501,28 +501,16 @@\n         \n-fmt.Println(\n ceil(num\n@@ -506,25 +506,24 @@\n    ceil(num)\n-)\n %0A    %7D else \n@@ -551,28 +551,16 @@\n         \n-fmt.Println(\n floor(nu\n@@ -557,25 +557,24 @@\n   floor(num)\n-)\n %0A    %7D else \n@@ -606,20 +606,8 @@\n     \n-fmt.Println(\n roun\n@@ -612,17 +612,16 @@\n und(num)\n-)\n %0A    %7D%0A \n@@ -623,11 +623,27 @@\n   %7D%0A    \n+fmt.Println(num)\n %0A%7D%0A\n",
+            "lines": "37"
+        },
+        {
+            "label": "2026-04-07_00-01-20",
+            "content": "@@ -472,30 +472,8 @@\n um)%0A\n-    var resultado int%0A\n     \n@@ -501,28 +501,28 @@\n         \n-resultado = \n+fmt.Println(\n ceil(num\n@@ -514,32 +514,33 @@\n rintln(ceil(num)\n+)\n %0A    %7D else if o\n@@ -564,28 +564,28 @@\n         \n-resultado = \n+fmt.Println(\n floor(nu\n@@ -582,24 +582,25 @@\n n(floor(num)\n+)\n %0A    %7D else \n@@ -632,20 +632,20 @@\n     \n-resultado = \n+fmt.Println(\n roun\n@@ -646,24 +646,25 @@\n n(round(num)\n+)\n %0A    %7D%0A    f\n@@ -666,29 +666,7 @@\n     \n-fmt.Println(resultado)\n %0A%7D%0A\n",
+            "lines": "37"
+        },
+        {
+            "label": "2026-04-07_00-05-28",
+            "content": "package main\nimport \"fmt\"\nimport \"math\"\n\nfunc ceil(num float64) int{\n    resto := math.Mod(num, 1)\n    return int((num - resto) + 1) \n}\n\nfunc floor(num float64) int{\n    resto := math.Mod(num, 1)\n    return int((num - resto))\n}\n\nfunc round(num float64) int{\n    resto := math.Mod(num, 1)\n    if resto >= 0.5 {\n        return ceil(num)\n    } else {\n        return floor(num)\n    }\n}\n\nfunc main() {\n    var opera\u00e7\u00e3o string\n    var num float64\n   \n    fmt.Scan(&opera\u00e7\u00e3o, &num)\n    var resultado int\n    if opera\u00e7\u00e3o == \"c\" {\n        resultado = ceil(num)\n    } else if opera\u00e7\u00e3o == \"f\" {\n        resultado = floor(num)\n    } else if opera\u00e7\u00e3o == \"r\" {\n        resultado = round(num)\n    }\n    fmt.Println(resultado)\n}\n",
+            "lines": "38"
         }
     ]
 }
