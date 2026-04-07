@@ -15,8 +15,9 @@ sources:
   quests: null
   tasks: null
 expanded:
-- fup@if1
 - fup@base
+- fup@for1
+- fup@if1
 flags:
   inbox: all
   panel: skills
@@ -24,4 +25,4 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@mumia
+selected: fup@meio
