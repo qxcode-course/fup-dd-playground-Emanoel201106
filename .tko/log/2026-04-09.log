@@ -1,0 +1,33 @@
+2026-04-09 16:08:28, MOVE, v:1, k:fup@meio, mode:PICK
+2026-04-09 16:08:29, EXEC, v:1, k:fup@meio, mode:FULL, rate:0
+2026-04-09 16:08:45, MOVE, v:1, k:fup@meio, mode:BACK
+2026-04-09 16:08:52, MOVE, v:1, k:fup@mumia, mode:PICK
+2026-04-09 16:08:53, EXEC, v:1, k:fup@mumia, mode:FULL, rate:100
+2026-04-09 16:08:55, MOVE, v:1, k:fup@mumia, mode:BACK
+2026-04-09 16:09:01, SELF, v:1, k:fup@mumia, self:1, rate:100, refactor:1
+2026-04-09 16:09:06, MOVE, v:1, k:fup@meio, mode:PICK
+2026-04-09 16:09:17, EXEC, v:1, k:fup@meio, mode:FULL, rate:0
+2026-04-09 16:09:17, MOVE, v:1, k:fup@meio, mode:EDIT
+2026-04-09 16:08:53, MOVE, v:1, k:fup@mumia, mode:EDIT
+2026-04-09 16:13:06, MOVE, v:1, k:fup@meio, mode:EDIT
+2026-04-09 16:15:10, EXEC, v:1, k:fup@meio, mode:FULL, rate:100, size:14
+2026-04-09 16:15:13, MOVE, v:1, k:fup@meio, mode:BACK
+2026-04-09 16:15:20, SELF, v:1, k:fup@meio, self:1, rate:100
+2026-04-09 16:15:26, MOVE, v:1, k:fup@jokenpo, mode:DOWN
+2026-04-09 16:15:36, MOVE, v:1, k:fup@jokenpo, mode:PICK
+2026-04-09 16:15:38, EXEC, v:1, k:fup@jokenpo, mode:FULL, rate:0, size:5
+2026-04-09 16:15:08, MOVE, v:1, k:fup@meio, mode:EDIT
+2026-04-09 16:15:10, MOVE, v:1, k:fup@meio, mode:EDIT
+2026-04-09 16:15:26, MOVE, v:1, k:fup@jokenpo, mode:EDIT
+2026-04-09 16:15:26, MOVE, v:1, k:fup@jokenpo, mode:EDIT
+2026-04-09 16:18:04, MOVE, v:1, k:fup@jokenpo, mode:EDIT
+2026-04-09 16:15:38, MOVE, v:1, k:fup@jokenpo, mode:EDIT
+2026-04-09 16:17:18, MOVE, v:1, k:fup@quantos, mode:EDIT
+2026-04-09 16:21:49, EXEC, v:1, k:fup@jokenpo, mode:FULL, rate:0, size:12
+2026-04-09 16:22:06, EXEC, v:1, k:fup@jokenpo, mode:FULL, rate:62, size:11
+2026-04-09 16:22:55, EXEC, v:1, k:fup@jokenpo, mode:FULL, rate:100, size:13
+2026-04-09 16:22:58, MOVE, v:1, k:fup@jokenpo, mode:BACK
+2026-04-09 16:23:03, SELF, v:1, k:fup@jokenpo, self:1, rate:100
+2026-04-09 16:22:53, MOVE, v:1, k:fup@jokenpo, mode:EDIT
+2026-04-09 16:22:55, MOVE, v:1, k:fup@jokenpo, mode:EDIT
+2026-04-09 16:23:29, SELF, v:1, k:fup@jokenpo, self:1, rate:100, study:20
