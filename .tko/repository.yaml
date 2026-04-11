@@ -15,14 +15,15 @@ sources:
   quests: null
   tasks: null
 expanded:
+- fup@base
 - fup@for1
 - fup@if1
-- fup@base
+- fup@if2
 flags:
   inbox: all
   panel: skills
-  show_panel: 'false'
+  show_panel: 'true'
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@jokenpo
+selected: fup@semana
