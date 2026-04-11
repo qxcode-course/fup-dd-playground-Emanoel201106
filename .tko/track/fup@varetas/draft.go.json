@@ -1,0 +1,39 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-11_03-51-21",
+            "content": "@@ -41,228 +41,35 @@\n     \n-var vare1, vare2, vare3 int%0A    fmt.Scan(&vare1, &vare2, &vare3)%0A    if vare1 %3C vare2 + vare3 %7C%7C vare2 %3C vare1 + vare3 %7C%7C vare3 %3C vare1 + vare2 %7B%0A       fmt.Println(%22True%22) %0A    %7D else %7B%0A        fmt.Println(%22False%22)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-11_03-57-33",
+            "content": "@@ -226,83 +226,8 @@\n lse \n-if vare1 %3E vare2 + vare3 %7C%7C vare2 %3E vare1 + vare3 %7C%7C vare3 %3E vare1 + vare2 \n %7B%0A  \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-11_03-58-40",
+            "content": "@@ -127,26 +127,26 @@\n re2 + vare3 \n-&&\n+%7C%7C\n  vare2 %3C var\n@@ -152,26 +152,26 @@\n re1 + vare3 \n-&&\n+%7C%7C\n  vare3 %3C var\n@@ -243,26 +243,26 @@\n re2 + vare3 \n-&&\n+%7C%7C\n  vare2 %3E var\n@@ -276,10 +276,10 @@\n re3 \n-&&\n+%7C%7C\n  var\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-11_03-59-40",
+            "content": "@@ -332,241 +332,8 @@\n e%22)%0A\n-    %7D else if vare1 %3C vare2 + vare3 %7C%7C vare2 %3C vare1 + vare3 %7C%7C vare3 %3C vare1 + vare2 %7B%0A       fmt.Println(%22True%22) %0A    %7D else if vare1 %3E vare2 + vare3 %7C%7C vare2 %3E vare1 + vare3 %7C%7C vare3 %3E vare1 + vare2 %7B%0A        fmt.Println(%22False%22)%0A\n     \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-11_04-02-51",
+            "content": "@@ -565,275 +565,8 @@\n e%22)%0A\n-    %7D else if vare1 %3E vare2 + vare3 && vare2 %3C vare1 + vare3 && vare3 %3C vare1 + vare2 %7C%7C vare2 %3E vare1 + vare3 && vare1 %3C vare2 + vare3 && vare3 %3C vare1 + vare2 %7C%7C vare3 %3E vare1 + vare2 && vare1 %3C vare2 + vare3 && vare2 %3C vare1 + vare3 %7B%0A        fmt.Println(%22False%22)%0A\n     \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-11_04-09-49",
+            "content": "@@ -222,16 +222,591 @@\n  %7D else \n+if vare1 %3E vare2 + vare3 && vare2 %3E vare1 + vare3 && vare3 %3E vare1 + vare2 %7B%0A        fmt.Println(%22False%22)%0A    %7D else if vare1 %3C vare2 + vare3 %7C%7C vare2 %3C vare1 + vare3 %7C%7C vare3 %3C vare1 + vare2 %7B%0A       fmt.Println(%22True%22) %0A    %7D else if vare1 %3E vare2 + vare3 %7C%7C vare2 %3E vare1 + vare3 %7C%7C vare3 %3E vare1 + vare2 %7B%0A        fmt.Println(%22False%22)%0A    %7D else if vare1 %3E vare2 + vare3 && vare2 %3C vare1 + vare3 && vare3 %3C vare1 + vare2 %7C%7C vare2 %3E vare1 + vare3 && vare1 %3C vare2 + vare3 && vare3 %3C vare1 + vare2 %7C%7C vare3 %3E vare1 + vare2 && vare1 %3C vare2 + vare3 && vare2 %3C vare1 + vare3 \n %7B%0A      \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-11_04-11-37",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var vare1, vare2, vare3 int\n    fmt.Scan(&vare1, &vare2, &vare3)\n    if vare1 < vare2 + vare3 && vare2 < vare1 + vare3 && vare3 < vare1 + vare2 {\n       fmt.Println(\"True\") \n    } else {\n        fmt.Println(\"False\")\n    }\n}\n",
+            "lines": "11"
+        }
+    ]
+}

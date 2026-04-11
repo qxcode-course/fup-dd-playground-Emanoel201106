@@ -2,8 +2,28 @@
     "patches": [
         {
             "label": "2026-04-11_02-04-22",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -37,278 +37,8 @@\n ) %7B%0A\n-    var dia, hora int%0A    fmt.Scan(&dia, &hora)%0A    if dia %3E 1 && hora %3E= 8 && hora %3C=11 && hora %3E= 14 && hora %3C=17 %7B%0A        fmt.Println(%22SIM%22)%0A    %7D else if dia == 7 && hora %3E= 8 && hora %3C= 11 %7B%0A        fmt.Println(%22SIM%22)%0A    %7D else %7B%0A        fmt.Println(%22NAO%22)%0A    %7D%0A\n     \n",
             "lines": "5"
+        },
+        {
+            "label": "2026-04-11_03-45-39",
+            "content": "@@ -303,10 +303,43 @@\n )%0A    %7D%0A\n+    fmt.Println(%22Hello, World!%22)%0A\n %7D%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-11_03-45-47",
+            "content": "@@ -126,19 +126,8 @@\n =11 \n-%7C%7C dia %3E 1 \n && h\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-11_03-47-02",
+            "content": "@@ -126,19 +126,8 @@\n =11 \n-&& dia %3C 7 \n %7C%7C d\n@@ -164,18 +164,8 @@\n =17 \n-&& dia %3C7 \n %7B%0A  \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-11_03-48-25",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var dia, hora int\n    fmt.Scan(&dia, &hora)\n    if dia > 1 && hora >= 8 && hora <=11 && dia < 7 || dia > 1 && hora >= 14 && hora <=17 && dia <7 {\n        fmt.Println(\"SIM\")\n    } else if dia == 7 && hora >= 8 && hora <= 11 {\n        fmt.Println(\"SIM\")\n    } else {\n        fmt.Println(\"NAO\")\n    }\n}\n",
+            "lines": "13"
         }
     ]
 }
