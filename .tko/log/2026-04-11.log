@@ -124,3 +124,61 @@
 2026-04-11 04:43:10, MOVE, v:1, k:fup@bhaskara, mode:PICK
 2026-04-11 04:43:11, EXEC, v:1, k:fup@bhaskara, mode:FULL, rate:100
 2026-04-11 04:43:13, MOVE, v:1, k:fup@bhaskara, mode:BACK
+2026-04-11 23:07:06, MOVE, v:1, k:fup@cortada, mode:DOWN
+2026-04-11 23:07:08, MOVE, v:1, k:fup@cortada, mode:PICK
+2026-04-11 23:07:25, EXEC, v:1, k:fup@cortada, mode:FULL, rate:0, size:5
+2026-04-11 23:07:06, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-11 23:07:06, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-11 23:07:06, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-11 23:07:24, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-11 23:16:39, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-11 23:17:00, EXEC, v:1, k:fup@cortada, mode:FULL, rate:12, size:9
+2026-04-11 23:18:17, EXEC, v:1, k:fup@cortada, mode:FULL, rate:33, size:13
+2026-04-11 23:18:16, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-11 23:21:40, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-11 23:21:49, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-11 23:29:35, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-11 23:32:22, EXEC, v:1, k:fup@cortada, mode:FULL, rate:39, size:12
+2026-04-11 23:32:55, EXEC, v:1, k:fup@cortada, mode:FULL, rate:39, size:12
+2026-04-11 23:33:50, EXEC, v:1, k:fup@cortada, mode:FULL, rate:39, size:16
+2026-04-11 23:35:00, EXEC, v:1, k:fup@cortada, mode:FULL, rate:39, size:16
+2026-04-11 23:36:28, EXEC, v:1, k:fup@cortada, mode:FULL, rate:39, size:18
+2026-04-11 23:36:27, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-11 23:36:28, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-11 23:37:21, EXEC, v:1, k:fup@cortada, mode:FULL, rate:45, size:19
+2026-04-11 23:37:54, EXEC, v:1, k:fup@cortada, mode:FULL, rate:39, size:18
+2026-04-11 23:38:04, EXEC, v:1, k:fup@cortada, mode:FULL, rate:45, size:19
+2026-04-11 23:39:49, EXEC, v:1, k:fup@cortada, mode:FULL, size:19, fail:COMP
+2026-04-11 23:39:55, EXEC, v:1, k:fup@cortada, mode:FULL, rate:45, size:19
+2026-04-11 23:40:53, EXEC, v:1, k:fup@cortada, mode:FULL, rate:39, size:18
+2026-04-11 23:41:22, EXEC, v:1, k:fup@cortada, mode:FULL, rate:15, size:18
+2026-04-11 23:41:20, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-11 23:41:21, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-11 23:43:29, EXEC, v:1, k:fup@cortada, mode:FULL, rate:33, size:18
+2026-04-11 23:43:45, EXEC, v:1, k:fup@cortada, mode:FULL, rate:15, size:18
+2026-04-11 23:44:36, EXEC, v:1, k:fup@cortada, mode:FULL, rate:100, size:18
+2026-04-11 23:46:10, MOVE, v:1, k:fup@cortada, mode:BACK
+2026-04-11 23:46:18, SELF, v:1, k:fup@cortada, self:1, rate:100
+2026-04-11 23:44:35, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-11 23:44:36, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-11 23:48:24, SELF, v:1, k:fup@cortada, self:1, rate:100, refactor:1
+2026-04-11 23:48:26, MOVE, v:1, k:fup@cortada, mode:PICK
+2026-04-11 23:48:27, EXEC, v:1, k:fup@cortada, mode:FULL, rate:100
+2026-04-11 23:48:28, MOVE, v:1, k:fup@cortada, mode:BACK
+2026-04-11 23:48:31, MOVE, v:1, k:fup@monica, mode:DOWN
+2026-04-11 23:48:44, MOVE, v:1, k:fup@monica, mode:PICK
+2026-04-11 23:48:47, EXEC, v:1, k:fup@monica, mode:FULL, rate:0, size:5
+2026-04-11 23:48:26, MOVE, v:1, k:fup@cortada, mode:EDIT
+2026-04-11 23:48:31, MOVE, v:1, k:fup@monica, mode:EDIT
+2026-04-11 23:48:31, MOVE, v:1, k:fup@monica, mode:EDIT
+2026-04-11 23:48:46, MOVE, v:1, k:fup@monica, mode:EDIT
+2026-04-11 23:51:40, MOVE, v:1, k:fup@monica, mode:EDIT
+2026-04-11 23:52:09, EXEC, v:1, k:fup@monica, mode:FULL, rate:0, size:7
+2026-04-11 23:52:49, EXEC, v:1, k:fup@monica, mode:FULL, rate:62, size:8
+2026-04-11 23:56:27, EXEC, v:1, k:fup@monica, mode:FULL, rate:87, size:14
+2026-04-11 23:56:25, MOVE, v:1, k:fup@monica, mode:EDIT
+2026-04-11 23:56:27, MOVE, v:1, k:fup@monica, mode:EDIT
+2026-04-11 23:57:04, EXEC, v:1, k:fup@monica, mode:FULL, rate:75, size:14
+2026-04-11 23:57:21, EXEC, v:1, k:fup@monica, mode:FULL, rate:75, size:14
+2026-04-11 23:59:37, EXEC, v:1, k:fup@monica, mode:FULL, rate:75, size:18
+2026-04-11 23:59:36, MOVE, v:1, k:fup@monica, mode:EDIT

@@ -1,0 +1,49 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-12_00-17-02",
+            "content": "@@ -41,91 +41,35 @@\n     \n-var c, a int%0A    fmt.Scan(&c, &a)%0A    viagens := a / (c -1)%0A    fmt.Println(viagens\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-12_00-30-20",
+            "content": "@@ -98,37 +98,11 @@\n (c -\n- \n 1)%0A\n-    if viagens %3C 1 %7B%0A    \n     \n@@ -117,15 +117,15 @@\n tln(\n-1)%0A    %7D\n+viagens)\n %0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-04-12_00-33-47",
+            "content": "@@ -152,31 +152,6 @@\n   %7D%0A\n-    fmt.Println(viagens)%0A\n %7D%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-04-12_00-34-12",
+            "content": "@@ -151,19 +151,9 @@\n    %7D\n- else%7B%0A    \n+%0A\n     \n@@ -173,16 +173,10 @@\n iagens)%0A\n-    %7D%0A\n %7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-12_00-35-39",
+            "content": "@@ -146,59 +146,8 @@\n (1)%0A\n-    %7D else if viagens %3C 3 %7B%0A        fmt.Println(2)%0A\n     \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-12_00-46-00",
+            "content": "@@ -142,16 +142,67 @@\n ntln(1)%0A\n+    %7D else if viagens %3C 3 %7B%0A        fmt.Println(2)%0A\n     %7D el\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-12_00-46-48",
+            "content": "@@ -109,20 +109,19 @@\n  if \n-a%25(c-1) != 0\n+viagens %3C 1\n  %7B%0A \n@@ -143,18 +143,8 @@\n tln(\n-viagens + \n 1)%0A \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-12_00-50-10",
+            "content": "@@ -110,11 +110,9 @@\n if a\n- %25 \n+%25\n (c-1\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-12_00-53-50",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var c, a int\n    fmt.Scan(&c, &a)\n    viagens := a / (c - 1)\n    if a % (c-1) != 0 {\n        fmt.Println(viagens + 1)\n    } else{\n        fmt.Println(viagens)\n    }\n}\n",
+            "lines": "12"
+        }
+    ]
+}

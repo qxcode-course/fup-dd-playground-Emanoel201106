@@ -1,0 +1,54 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-11_23-48-47",
+            "content": "@@ -41,78 +41,35 @@\n     \n-var m, a, b int%0A    resultado := m - (a + b)%0A    fmt.Println(resultado\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-11_23-52-09",
+            "content": "@@ -57,33 +57,8 @@\n int%0A\n-    fmt.Scan(&m, &a, &b)%0A\n     \n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-04-11_23-52-49",
+            "content": "@@ -82,21 +82,25 @@\n &b)%0A    \n-idade\n+resultado\n  := m - \n@@ -115,174 +115,29 @@\n     \n-if idade %3E a && idade %3E b %7B%0A        fmt.Println(idade)%0A    %7D else if idade %3C a && idade %3C b && a %3E b %7B%0A        fmt.Println(a)%0A    %7D else %7B%0A        fmt.Println(b)%0A    %7D\n+fmt.Println(resultado)\n %0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-04-11_23-56-27",
+            "content": "@@ -248,43 +248,8 @@\n lse \n-if idade %3C a && idade %3C b && a %3C b \n %7B%0A  \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-11_23-57-04",
+            "content": "@@ -277,13 +277,13 @@\n  && \n-b %3E a\n+a %3C b\n  %7B%0A \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-11_23-57-21",
+            "content": "@@ -308,118 +308,8 @@\n (b)%0A\n-    %7D else if a == b %7C%7C idade == a %7B%0A        fmt.Println(a)%0A    %7D else if idade == b %7B%0A        fmt.Println(b)%0A\n     \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-11_23-59-37",
+            "content": "@@ -193,40 +193,26 @@\n  && \n-a %3E b %7C%7C a == b %7C%7C idade == a %7C%7C\n+idade %3C b && a %3E b\n  %7B%0A \n@@ -279,16 +279,62 @@\n & b %3E a \n+%7B%0A        fmt.Println(b)%0A    %7D else if a == b \n %7C%7C idade\n@@ -337,17 +337,17 @@\n dade == \n-b\n+a\n  %7B%0A     \n@@ -361,21 +361,21 @@\n Println(\n-b\n+a\n )%0A    %7D \n  %0A%7D%0A\n@@ -370,12 +370,60 @@\n )%0A    %7D \n- \n+else if idade == b %7B%0A        fmt.Println(b)%0A    %7D\n %0A%7D%0A\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-12_00-02-31",
+            "content": "@@ -218,16 +218,19 @@\n ade == a\n+ %7C%7C\n  %7B%0A     \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-12_00-03-05",
+            "content": "@@ -265,16 +265,29 @@\n  idade %3C\n+ a && idade %3C\n  b && b \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-12_00-03-25",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var m, a, b int\n    fmt.Scan(&m, &a, &b)\n    idade := m - (a + b)\n    if idade > a && idade > b {\n        fmt.Println(idade)\n    } else if idade < a && a > b || a == b || idade == a {\n        fmt.Println(a)\n    } else if idade < b && b > a || idade == b {\n        fmt.Println(b)\n    }  \n}\n",
+            "lines": "14"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-12_00-12-52",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a, b, c, h, l int\n    fmt.Scan(&a, &b, &c, &h, &l)\n    areaj := h * l\n    if areaj >= a * b || areaj >= a * c || areaj >= b * c   {\n        fmt.Println(\"S\")\n    } else {\n        fmt.Println(\"N\")\n    }\n}\n",
+            "lines": "12"
+        }
+    ]
+}

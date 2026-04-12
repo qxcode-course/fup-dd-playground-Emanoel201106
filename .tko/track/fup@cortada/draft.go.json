@@ -1,0 +1,94 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-11_23-07-25",
+            "content": "@@ -41,86 +41,35 @@\n     \n-var B, T int%0A    fmt.Scan(&B, &T)%0A    if T %3C B %7B%0A        fmt.Println(%221%22)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-11_23-17-00",
+            "content": "@@ -115,93 +115,8 @@\n 1%22)%0A\n-    %7D else if T %3E B %7B%0A        fmt.Println(%222%22)%0A    %7D else %7B%0A        fmt.Println(%220%22)%0A\n     \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-11_23-18-17",
+            "content": "@@ -58,109 +58,123 @@\n     \n-h := 70%0A    area := ((B + T) * h) / 2 %0A    area2 := 70 * 160%0A\n+fmt.Scan(&B, &T)%0A    if T %3C B %7B%0A        fmt.Println(%221%22)%0A    %7D else if T %3E B %7B%0A  \n     \n+  \n fmt.\n-Scan(&B, &T)%0A    if area %3C area2\n+Println(%222%22)%0A    %7D else \n %7B%0A  \n@@ -192,21 +192,21 @@\n rintln(%22\n-1\n+0\n %22)%0A    %7D\n  %0A%7D%0A\n@@ -201,12 +201,11 @@\n %22)%0A    %7D\n- \n %0A%7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-11_23-32-21",
+            "content": "@@ -159,10 +159,8 @@\n rea2\n-/2\n %7B%0A  \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-11_23-32-55",
+            "content": "@@ -194,100 +194,7 @@\n   %7D \n-else if area %3E area2/2 %7B%0A        fmt.Println(%222%22)%0A    %7D else %7B%0A        fmt.Println(%220%22)%0A    %7D\n %0A%7D%0A\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-11_23-33-50",
+            "content": "@@ -255,28 +255,8 @@\n lse \n-if area == area2 / 2\n %7B%0A  \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-11_23-35-00",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -33,17 +33,20 @@\n ain() %7B%0A\n-%09\n+    \n var B, T\n@@ -54,17 +54,20 @@\n int%0A\n-%09\n+    \n h := 70%0A\n %09are\n@@ -62,17 +62,20 @@\n h := 70%0A\n-%09\n+    \n area := \n@@ -95,15 +95,19 @@\n  / 2\n-%0A%09\n+ %0A    \n area\n-t\n+2\n  := \n@@ -115,17 +115,20 @@\n 0 * 160%0A\n-%09\n+    \n fmt.Scan\n@@ -136,17 +136,20 @@\n &B, &T)%0A\n-%09\n+    \n if area \n@@ -150,37 +150,37 @@\n  area %3C area\n-t - area %7B%0A%09%09\n+2/2%7B%0A        \n fmt.Println(\n@@ -184,17 +184,20 @@\n ln(%221%22)%0A\n-%09\n+    \n %7D else i\n@@ -205,37 +205,38 @@\n  area %3E area\n-t - area %7B%0A%09%09\n+2/2 %7B%0A        \n fmt.Println(\n@@ -240,17 +240,20 @@\n ln(%222%22)%0A\n-%09\n+    \n %7D else i\n@@ -270,21 +270,23 @@\n area\n-t - area %7B%0A%09%09\n+2 / 2%7B%0A        \n fmt.\n@@ -302,9 +302,12 @@\n 0%22)%0A\n-%09\n+    \n %7D%0A%7D%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-11_23-36-28",
+            "content": "@@ -108,34 +108,8 @@\n 160%0A\n-    arear := area - areat%0A\n %09fmt\n@@ -133,25 +133,32 @@\n  area %3C area\n-r\n+t - area\n  %7B%0A%09%09fmt.Pri\n@@ -185,25 +185,32 @@\n  area %3E area\n-r\n+t - area\n  %7B%0A%09%09fmt.Pri\n@@ -242,17 +242,24 @@\n  == area\n-r\n+t - area\n  %7B%0A%09%09fmt\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-11_23-37-21",
+            "content": "@@ -104,16 +104,42 @@\n 0 * 160%0A\n+    arear := area - areat%0A\n %09fmt.Sca\n@@ -159,32 +159,25 @@\n  area %3C area\n-t - area\n+r\n  %7B%0A%09%09fmt.Pri\n@@ -204,32 +204,25 @@\n  area %3E area\n-t - area\n+r\n  %7B%0A%09%09fmt.Pri\n@@ -258,16 +258,9 @@\n area\n-t - area\n+r\n  %7B%0A%09\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-11_23-37-54",
+            "content": "@@ -108,34 +108,8 @@\n 160%0A\n-    arear := area - areat%0A\n %09fmt\n@@ -133,25 +133,32 @@\n  area %3C area\n-r\n+t - area\n  %7B%0A%09%09fmt.Pri\n@@ -185,25 +185,32 @@\n  area %3E area\n-r\n+t - area\n  %7B%0A%09%09fmt.Pri\n@@ -242,17 +242,24 @@\n  == area\n-r\n+t - area\n  %7B%0A%09%09fmt\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-11_23-38-04",
+            "content": "@@ -248,16 +248,17 @@\n f area =\n+=\n  arear %7B\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-11_23-39-49",
+            "content": "@@ -248,17 +248,16 @@\n f area =\n-=\n  arear %7B\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-11_23-39-55",
+            "content": "@@ -104,16 +104,42 @@\n 0 * 160%0A\n+    arear := area - areat%0A\n %09fmt.Sca\n@@ -159,32 +159,26 @@\n  area %3C area\n-t - area\n+r \n %7B%0A%09%09fmt.Prin\n@@ -204,32 +204,26 @@\n  area %3E area\n-t - area\n+r \n %7B%0A%09%09fmt.Prin\n@@ -258,16 +258,10 @@\n area\n-t - area\n+r \n %7B%0A%09%09\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-11_23-40-53",
+            "content": "@@ -62,29 +62,8 @@\n  70%0A\n-    fmt.Scan(&B, &T)%0A\n %09are\n@@ -104,16 +104,34 @@\n 0 * 160%0A\n+%09fmt.Scan(&B, &T)%0A\n %09if area\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-11_23-41-22",
+            "content": "@@ -133,13 +133,27 @@\n %09if \n-T %3C B\n+area %3C areat - area\n %7B%0A%09%09\n@@ -184,13 +184,27 @@\n  if \n-T %3E B\n+area %3E areat - area\n %7B%0A%09%09\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-11_23-43-29",
+            "content": "@@ -133,27 +133,13 @@\n %09if \n-area %3C areat - area\n+T %3C B\n %7B%0A%09%09\n@@ -170,27 +170,13 @@\n  if \n-area %3E areat - area\n+T %3E B\n %7B%0A%09%09\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-11_23-43-45",
+            "content": "@@ -138,9 +138,9 @@\n rea \n-%3E\n+%3C\n  are\n@@ -177,33 +177,33 @@\n %09%7D else if area \n-%3C\n+%3E\n  areat - area%7B%0A%09\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-11_23-44-36",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar B, T int\n\th := 70\n    fmt.Scan(&B, &T)\n\tarea := ((B + T) * h) / 2\n\tareat := 70 * 160\n\tif area > areat - area{\n\t\tfmt.Println(\"1\")\n\t} else if area < areat - area{\n\t\tfmt.Println(\"2\")\n\t} else if area == areat - area{\n\t\tfmt.Println(\"0\")\n\t}\n}\n",
+            "lines": "18"
+        }
+    ]
+}
