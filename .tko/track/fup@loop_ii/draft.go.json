@@ -192,8 +192,13 @@
         },
         {
             "label": "2026-04-13_00-09-13",
-            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar a, b int\n\tfmt.Scan(&a, &b)\n    fmt.Print(\"[ \")\n\tfor ; a < b; a++ {\n\t\tfmt.Printf(\"%d \", a)\n\n\t\t\n\t}\n\tfmt.Println(\"]\")\n}\n\n\n",
+            "content": "@@ -129,16 +129,20 @@\n %25d %22, a)\n+%0A%0A%09%09\n %0A%09%7D%0A%09fmt\n",
             "lines": "17"
+        },
+        {
+            "label": "2026-04-13_16-34-32",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar a, b int\n\tfmt.Scan(&a, &b)\n    fmt.Print(\"[ \")\n\tfor ; a < b; a++ {\n\t\tfmt.Printf(\"%d \", a)\n\t}\n\tfmt.Println(\"]\")\n}\n\n\n",
+            "lines": "15"
         }
     ]
 }

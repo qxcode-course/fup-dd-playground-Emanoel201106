@@ -1,0 +1,79 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-13_16-49-26",
+            "content": "@@ -23,22 +23,8 @@\n mt%22%0A\n-import %22math%22%0A\n func\n@@ -41,157 +41,35 @@\n     \n-var x1, y1, x2, y2 float64%0A    fmt.Scan(&x1, &y1, &x2, &y2)%0A    distancia := math.Sqrt(math.Pow(x2 - x1)+math.Pow(y2 - y1))%0A    fmt.Println(distancia\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-13_16-55-58",
+            "content": "@@ -151,17 +151,16 @@\n Pow(\n-(\n x2 - x1)\n )+ma\n@@ -155,17 +155,16 @@\n x2 - x1)\n-)\n +math.Po\n@@ -165,17 +165,16 @@\n ath.Pow(\n-(\n y2 - y1)\n@@ -174,17 +174,16 @@\n 2 - y1))\n-)\n %0A    fmt\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_16-56-38",
+            "content": "@@ -151,14 +151,19 @@\n Pow(\n+(\n x2\n-) + \n+ - x1))+\n math\n@@ -171,12 +171,19 @@\n Pow(\n+(y2 - \n y1))\n+)\n %0A   \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_16-57-37",
+            "content": "@@ -142,26 +142,32 @@\n qrt(\n-(x2 - x1) + (y2 - \n+math.Pow(x2) + math.Pow(\n y1))\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_16-59-01",
+            "content": "@@ -178,21 +178,11 @@\n rint\n-f(%22&.2f %5Cn%22, \n+ln(\n dist\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-00-12",
+            "content": "@@ -181,17 +181,19 @@\n tf(%22&.2f\n-d\n+ %5Cn\n %22, dista\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-00-25",
+            "content": "@@ -181,12 +181,13 @@\n tf(%22\n-%25\n+&\n .2f\n+d\n %22, d\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-00-40",
+            "content": "@@ -19,16 +19,30 @@\n t %22fmt%22%0A\n+import %22math%22%0A\n func mai\n@@ -128,16 +128,26 @@\n ncia := \n+math.Sqrt(\n (x2 - x1\n@@ -159,16 +159,17 @@\n y2 - y1)\n+)\n %0A    fmt\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-01-06",
+            "content": "@@ -23,22 +23,8 @@\n mt%22%0A\n-import %22math%22%0A\n func\n@@ -118,18 +118,8 @@\n  := \n-math.Sqrt(\n (x2 \n@@ -135,17 +135,16 @@\n y2 - y1)\n-)\n %0A    fmt\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-04-13_17-01-49",
+            "content": "@@ -142,16 +142,8 @@\n qrt(\n-math.Pow\n (x2 \n@@ -185,11 +185,8 @@\n %25.2f\n- %5Cn\n %22, d\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-02-50",
+            "content": "@@ -151,17 +151,16 @@\n Pow(\n-(\n x2 - x1)\n , 2)\n@@ -159,24 +159,11 @@\n  x1)\n-, 2) + math.Pow(\n+ + \n (y2 \n@@ -171,12 +171,8 @@\n  y1)\n-, 2)\n )%0A  \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-03-51",
+            "content": "@@ -210,17 +210,16 @@\n %22%25.2f %5Cn\n- \n %22, dista\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-04-03",
+            "content": "@@ -207,16 +207,20 @@\n tf(%22%25.2f\n+ %5Cn \n %22, dista\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-04-13",
+            "content": "@@ -211,10 +211,8 @@\n %25.2f\n-%5Cn\n %22, d\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-13_17-04-20",
+            "content": "package main\nimport \"fmt\"\nimport \"math\"\nfunc main() {\n    var x1, y1, x2, y2 float64\n    fmt.Scan(&x1, &y1, &x2, &y2)\n    distancia := math.Sqrt(math.Pow((x2 - x1), 2) + math.Pow((y2 - y1), 2))\n    fmt.Printf(\"%.2f\\n\", distancia)\n}\n",
+            "lines": "9"
+        }
+    ]
+}

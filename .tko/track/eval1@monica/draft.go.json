@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-13_17-10-52",
+            "content": "@@ -41,120 +41,35 @@\n     \n-var m, a, b int%0A    fmt.Scan(&m, &a, &b)%0A    c := m - (a + b)%0A    if c %3C a && c %3Cb %7B%0A        fmt.Println(c)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-13_17-13-52",
+            "content": "@@ -112,17 +112,17 @@\n f c \n-%3E\n+%3C\n  a && c \n %3E b \n@@ -121,10 +121,9 @@\n & c \n-%3E \n+%3C\n b %7B%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-04-13_17-14-09",
+            "content": "@@ -150,62 +150,8 @@\n (c)%0A\n-    %7D else if a %3E b && a %3E c %7B%0A        fmt.Println(a)%0A\n     \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-04-13_17-14-44",
+            "content": "@@ -204,44 +204,8 @@\n (a)%0A\n-    %7D else %7B%0A        fmt.Println(b)%0A\n     \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-13_17-15-00",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var m, a, b int\n    fmt.Scan(&m, &a, &b)\n    c := m - (a + b)\n    if c > a && c > b {\n        fmt.Println(c)\n    } else if a > b && a > c {\n        fmt.Println(a)\n    } else {\n        fmt.Println(b)\n    }\n}\n",
+            "lines": "14"
+        }
+    ]
+}
