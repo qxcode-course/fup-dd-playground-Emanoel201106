@@ -22,14 +22,13 @@ sources:
   quests: null
   tasks: null
 expanded:
-- eval1@teste-1
-- fup@if1
-- fup@base
+- sandbox@sandbox
+- fup@list
 flags:
-  inbox: inbox
+  inbox: all
   panel: skills
-  show_panel: 'true'
+  show_panel: 'false'
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: eval1@pares
+selected: fup@vet_i
