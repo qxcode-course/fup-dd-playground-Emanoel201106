@@ -6,8 +6,8 @@ func main() {
 	var a, b int
 	fmt.Scan(&a, &b)
     fmt.Print("[ ")
-	for ; a < b; a++ {
-		fmt.Printf("%d ", a)
+	for i := a ; i > b; i-- {
+		fmt.Printf("%d ", i)
 	}
 	fmt.Println("]")
 }

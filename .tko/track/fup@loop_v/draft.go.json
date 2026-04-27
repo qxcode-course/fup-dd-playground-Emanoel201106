@@ -1,0 +1,94 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-26_23-54-08",
+            "content": "@@ -107,60 +107,8 @@\n     \n-if a %25 2 != 0 %7B%0A            fmt.Println(a)%0A        %7D\n %0A   \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-26_23-58-14",
+            "content": "@@ -135,87 +135,22 @@\n     \n-continue%0A            fmt.Println(a)%0A        %7D else if a == b%7B%0A            break\n+fmt.Println(a)\n %0A   \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-04-27_00-00-43",
+            "content": "@@ -140,16 +140,43 @@\n ontinue%0A\n+            fmt.Println(a)%0A\n         \n@@ -221,39 +221,16 @@\n       %7D%0A\n-        fmt.Println(a)%0A\n     %7D%0A%7D%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-27_00-01-04",
+            "content": "@@ -211,16 +211,18 @@\n mt.Print\n+ln\n (a)%0A    \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-27_00-01-14",
+            "content": "@@ -135,20 +135,16 @@\n     \n-fmt.Print(a)\n+continue\n %0A   \n@@ -202,16 +202,28 @@\n         \n+fmt.Print(a)\n %0A    %7D%0A%7D\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-27_00-01-44",
+            "content": "@@ -75,28 +75,8 @@\n &b)%0A\n-    fmt.Print(%22%5B %22)%0A\n     \n@@ -144,40 +144,11 @@\n rint\n-f(%22%25d %22, a)%0A            continue\n+(a)\n %0A   \n@@ -210,24 +210,8 @@\n     \n-fmt.Println(%22%5D%22)\n %0A   \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-27_00-03-21",
+            "content": "@@ -247,26 +247,24 @@\n       %7D%0A    \n-%7D%0A\n     fmt.Prin\n@@ -272,10 +272,16 @@\n ln(%22%5D%22)%0A\n+    %7D%0A\n %7D%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-27_00-03-36",
+            "content": "@@ -184,16 +184,24 @@\n         \n+continue\n %0A       \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-27_00-03-45",
+            "content": "@@ -155,35 +155,41 @@\n     \n-continue%0A \n+fmt.Printf(%22%25d %22, a)%0A\n     \n-   %7D%0A\n         \n fmt.\n@@ -188,28 +188,16 @@\n     \n-fmt.Print(a)\n %0A       \n  if \n@@ -196,15 +196,23 @@\n     \n+ %7D else\n  if a \n-%3E\n+==\n  b%7B%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-27_00-08-23",
+            "content": "@@ -191,17 +191,9 @@\n rint\n-f(%22%25d %22, \n+(\n a)%0A \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-27_00-08-48",
+            "content": "@@ -162,32 +162,61 @@\n tinue%0A        %7D%0A\n+        fmt.Printf(%22%25d %22, a)%0A\n         if a %3E b\n@@ -249,42 +249,8 @@\n   %7D%0A\n-            fmt.Printf(%22%25d %22, a)%0A%0A\n     \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-27_00-09-13",
+            "content": "@@ -103,25 +103,19 @@\n for \n-i := a\n ; \n-i\n+a\n  %3C= b; \n-i\n+a\n ++ %7B\n@@ -126,17 +126,17 @@\n      if \n-i\n+a\n  %25 2 != \n@@ -181,17 +181,17 @@\n      if \n-i\n+a\n  %3E b%7B%0A  \n@@ -220,24 +220,28 @@\n   %7D%0A        \n+    \n fmt.Printf(%22\n@@ -246,17 +246,17 @@\n (%22%25d %22, \n-i\n+a\n )%0A%0A    %7D\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-27_00-10-15",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -71,17 +71,16 @@\n &a, &b)%0A\n-%0A\n     fmt.\n@@ -91,17 +91,16 @@\n t(%22%5B %22)%0A\n-%0A\n     for \n@@ -111,16 +111,22 @@\n  a; \n+i %3C= b\n ; i++ %7B%0A\n %0A   \n@@ -121,17 +121,16 @@\n ; i++ %7B%0A\n-%0A\n         \n@@ -138,11 +138,16 @@\n f i \n-%3E b\n+%25 2 != 0\n  %7B%0A \n@@ -161,13 +161,16 @@\n     \n-break\n+continue\n %0A   \n@@ -168,33 +168,32 @@\n tinue%0A        %7D%0A\n-%0A\n         if i%252 =\n@@ -192,16 +192,12 @@\n if i\n-%252 == 0 \n+ %3E b\n %7B%0A  \n@@ -202,32 +202,29 @@\n             \n-continue\n+break\n %0A        %7D%0A%0A\n@@ -218,25 +218,24 @@\n k%0A        %7D%0A\n-%0A\n         fmt.\n@@ -255,15 +255,15 @@\n  i)%0A\n+%0A\n     %7D%0A\n-%0A\n     \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-27_00-10-32",
+            "content": "@@ -6,16 +6,17 @@\n ge main%0A\n+%0A\n import %22\n@@ -20,16 +20,17 @@\n t %22fmt%22%0A\n+%0A\n func mai\n@@ -73,16 +73,17 @@\n &a, &b)%0A\n+%0A\n     fmt.\n@@ -94,16 +94,17 @@\n t(%22%5B %22)%0A\n+%0A\n     for \n@@ -115,22 +115,16 @@\n  a; \n-i %3C= b\n ; i++ %7B%0A\n     \n@@ -119,16 +119,17 @@\n ; i++ %7B%0A\n+%0A\n         \n@@ -137,16 +137,11 @@\n f i \n-%25 2 != 0\n+%3E b\n  %7B%0A \n@@ -155,16 +155,13 @@\n     \n-continue\n+break\n %0A   \n@@ -159,32 +159,33 @@\n break%0A        %7D%0A\n+%0A\n         if i %3E b\n@@ -180,20 +180,24 @@\n     if i\n- %3E b\n+%252 == 0 \n %7B%0A      \n@@ -194,37 +194,40 @@\n 0 %7B%0A            \n-break\n+continue\n %0A        %7D%0A     \n@@ -217,24 +217,25 @@\n e%0A        %7D%0A\n+%0A\n         fmt.\n@@ -255,15 +255,15 @@\n  i)%0A\n-%0A\n     %7D%0A\n+%0A\n     \n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-04-27_00-11-22",
+            "content": "@@ -138,17 +138,17 @@\n f i %25 2 \n-=\n+!\n = 0 %7B%0A  \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-27_00-11-42",
+            "content": "@@ -107,16 +107,22 @@\n i := a; \n+i %3C= b\n ; i++ %7B%0A\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-27_00-12-00",
+            "content": "@@ -103,13 +103,19 @@\n for \n+i := a\n ; ; \n-a\n+i\n ++ %7B\n@@ -126,17 +126,17 @@\n      if \n-a\n+i\n  %25 2 == \n@@ -181,17 +181,17 @@\n      if \n-a\n+i\n  %3E b%7B%0A  \n@@ -242,17 +242,17 @@\n (%22%25d %22, \n-a\n+i\n )%0A%0A    %7D\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-27_00-13-15",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a, b int\n    fmt.Scan(&a, &b)\n    fmt.Print(\"[ \")\n    for ; ; a++ {\n        if a % 2 == 0 {\n            continue\n        }\n        if a > b{\n            break\n        }\n        fmt.Printf(\"%d \", a)\n\n    }\n    fmt.Println(\"]\")\n}\n",
+            "lines": "18"
+        }
+    ]
+}

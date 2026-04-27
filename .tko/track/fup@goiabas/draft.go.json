@@ -1,0 +1,94 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-26_22-09-15",
+            "content": "@@ -41,184 +41,35 @@\n     \n-var cesta, banana, goiaba, manga int%0A    fmt.Scan(&cesta, &banana, &goiaba, &manga)%0A    total := banana + goiaba + manga%0A    if cesta == total %7B%0A        fmt.Println(cesta)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-26_22-15-30",
+            "content": "@@ -206,9 +206,13 @@\n tln(\n-1\n+cesta\n )%0A  \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-04-26_22-15-49",
+            "content": "@@ -177,25 +177,8 @@\n a ==\n- total %7C%7C cesta %3E\n  tot\n@@ -209,47 +209,8 @@\n (1)%0A\n-    %7D else if cesta %3C total %7B%0A        %0A\n     \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-04-26_22-16-57",
+            "content": "@@ -264,57 +264,8 @@\n     \n-tempo := cesta %25 total%0A        fmt.Println(tempo)\n %0A   \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-04-26_22-18-28",
+            "content": "@@ -273,21 +273,21 @@\n  := \n-to\n+ces\n ta\n-l\n  %25 \n-ces\n+to\n ta\n+l\n %0A   \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-26_22-18-43",
+            "content": "@@ -279,9 +279,9 @@\n tal \n-/\n+%25\n  ces\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-26_22-19-03",
+            "content": "@@ -279,9 +279,9 @@\n tal \n-%25\n+/\n  ces\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-26_22-20-24",
+            "content": "@@ -279,9 +279,9 @@\n tal \n-/\n+%25\n  ces\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-26_22-22-25",
+            "content": "@@ -295,125 +295,26 @@\n     \n-if tempo == 0%7B%0A            fmt.Println(tempo)%0A        %7D else if tempo != 0 %7B%0A            fmt.Println(tempo)%0A        %7D\n+fmt.Println(tempo)\n %0A   \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-04-26_22-30-29",
+            "content": "@@ -300,24 +300,16 @@\n f tempo \n-%25 cesta \n == 0%7B%0A  \n@@ -365,16 +365,8 @@\n mpo \n-%25 cesta \n != 0\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-26_22-32-27",
+            "content": "@@ -291,17 +291,16 @@\n         \n- \n if tempo\n@@ -312,13 +312,12 @@\n sta \n-!\n+=\n = 0\n- \n %7B%0A  \n@@ -330,15 +330,26 @@\n     \n+fmt.Println(\n tempo\n-++\n+)\n %0A   \n@@ -354,17 +354,50 @@\n        %7D\n-%0A\n+ else if tempo %25 cesta != 0 %7B%0A    \n         \n@@ -411,20 +411,30 @@\n ntln(tempo)%0A\n+        %7D%0A\n     %7D%0A%7D%0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-04-26_22-37-38",
+            "content": "@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -121,17 +121,16 @@\n &manga)%0A\n-%0A\n     tota\n@@ -158,17 +158,16 @@\n + manga%0A\n-%0A\n     if c\n@@ -175,10 +175,27 @@\n sta \n-%3E\n =\n+= total %7C%7C cesta %3E\n  tot\n@@ -233,16 +233,33 @@\n  %7D else \n+if cesta %3C total \n %7B%0A      \n@@ -283,17 +283,17 @@\n / cesta%0A\n-%0A\n+ \n         \n@@ -300,13 +300,15 @@\n if t\n-otal%25\n+empo %25 \n cest\n@@ -346,17 +346,16 @@\n       %7D%0A\n-%0A\n         \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-26_22-44-45",
+            "content": "@@ -19,16 +19,17 @@\n t %22fmt%22%0A\n+%0A\n func mai\n@@ -178,27 +178,10 @@\n sta \n-== total %7C%7C cesta \n %3E\n+=\n  tot\n@@ -218,16 +218,17 @@\n   %7D else\n+ \n %7B%0A      \n@@ -252,17 +252,17 @@\n / cesta%0A\n- \n+%0A\n         \n@@ -269,15 +269,13 @@\n if t\n-empo %25 \n+otal%25\n cest\n@@ -303,16 +303,16 @@\n tempo++%0A\n-\n         \n@@ -313,16 +313,17 @@\n       %7D%0A\n+%0A\n         \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-04-26_22-45-21",
+            "content": "@@ -177,16 +177,34 @@\n sta \n-%3E\n+=\n = total\n+ %7C%7C cesta %3E total \n %7B%0A  \n@@ -267,17 +267,16 @@\n / cesta%0A\n-%0A\n         \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-26_22-47-15",
+            "content": "@@ -216,17 +216,16 @@\n   %7D else\n- \n %7B%0A      \n@@ -262,17 +262,20 @@\n     \n+ \n if t\n-otal%25\n+empo %25 \n cest\n@@ -313,17 +313,16 @@\n       %7D%0A\n-%0A\n         \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-26_22-47-46",
+            "content": "@@ -216,16 +216,17 @@\n   %7D else\n+ \n %7B%0A      \n@@ -263,20 +263,17 @@\n     \n- \n if t\n-empo %25 \n+otal%25\n cest\n@@ -311,16 +311,17 @@\n       %7D%0A\n+%0A\n         \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-04-26_22-48-16",
+            "content": "@@ -263,20 +263,20 @@\n     if t\n-otal\n+empo\n  %25 cesta\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-26_22-48-46",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var cesta, banana, goiaba, manga int\n    fmt.Scan(&cesta, &banana, &goiaba, &manga)\n\n    total := banana + goiaba + manga\n\n    if cesta >= total{\n        fmt.Println(1)\n    } else{\n        tempo := total / cesta\n\n         if total % cesta != 0 {\n            tempo++\n        }\n        fmt.Println(tempo)\n    }\n}\n",
+            "lines": "19"
+        }
+    ]
+}
