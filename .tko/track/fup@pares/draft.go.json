@@ -22,8 +22,93 @@
         },
         {
             "label": "2026-04-27_00-30-35",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -37,25 +37,8 @@\n ) %7B%0A\n-    var a, b int%0A\n     \n",
             "lines": "5"
+        },
+        {
+            "label": "2026-04-28_16-50-44",
+            "content": "@@ -62,62 +62,31 @@\n fmt.\n-Scan(&a, &b)%0A    if a %3E b %7B%0A        fmt.Println()%0A    %7D\n+Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "6"
+        },
+        {
+            "label": "2026-04-28_16-52-06",
+            "content": "@@ -110,101 +110,9 @@\n tln(\n-%22invalido%22)%0A    %7D%0A    for ; a %3C b; a++ %7B%0A        if a %25 2 ==0%7B%0A            continue%0A        %7D\n+)\n %0A   \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-28_16-54-02",
+            "content": "@@ -204,35 +204,8 @@\n   %7D%0A\n-        fmt.Println(a + b)%0A\n     \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-28_16-54-30",
+            "content": "@@ -134,16 +134,21 @@\n   for ; \n+a %3C b\n ; a++ %7B%0A\n@@ -220,16 +220,21 @@\n Println(\n+a + b\n )%0A    %7D%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-28_16-54-59",
+            "content": "@@ -199,55 +199,8 @@\n   %7D%0A\n-        if a %3C b %7B%0A            break%0A        %7D%0A\n     \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-28_16-55-59",
+            "content": "@@ -138,13 +138,8 @@\n r ; \n-a %3C b\n ; a+\n@@ -191,24 +191,71 @@\n e%0A        %7D%0A\n+        if a %3C b %7B%0A            break%0A        %7D%0A\n         fmt.\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-28_16-56-28",
+            "content": "@@ -220,17 +220,16 @@\n Println(\n-a\n )%0A    %7D%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-28_16-58-38",
+            "content": "@@ -168,11 +168,10 @@\n %25 2 \n-!= \n+==\n 0%7B%0A \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-28_16-59-18",
+            "content": "@@ -137,17 +137,16 @@\n or ; a %3C\n-=\n  b; a++ \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-28_17-00-28",
+            "content": "@@ -192,24 +192,30 @@\n ontinue%0A    \n+    %7D%0A\n         fmt.\n@@ -229,27 +229,8 @@\n (a)%0A\n-        %7D%0A        %0A\n     \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-28_17-02-18",
+            "content": "@@ -187,43 +187,43 @@\n     \n-fmt.Println(a)%0A            continue\n+continue%0A            fmt.Println(a)\n %0A   \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-28_17-02-36",
+            "content": "@@ -171,16 +171,43 @@\n 2 != 0%7B%0A\n+            fmt.Println(a)%0A\n         \n@@ -233,35 +233,21 @@\n   %7D%0A        \n-fmt.Println(a)\n %0A    %7D%0A%7D%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-28_17-03-00",
+            "content": "@@ -49,14 +49,8 @@\n a, b\n-, soma\n  int\n@@ -187,17 +187,16 @@\n     \n-soma += a\n+continue\n %0A   \n@@ -226,11 +226,8 @@\n tln(\n-som\n a)%0A \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-28_17-10-42",
+            "content": "@@ -209,26 +209,24 @@\n       %7D%0A    \n-%7D%0A\n     fmt.Prin\n@@ -235,10 +235,16 @@\n n(soma)%0A\n+    %7D%0A\n %7D%0A\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-28_17-10-56",
+            "content": "@@ -128,23 +128,8 @@\n o%22)%0A\n-        return%0A\n     \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-04-28_17-11-18",
+            "content": "@@ -186,17 +186,17 @@\n f a %25 2 \n-=\n+!\n = 0%7B%0A   \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-28_17-12-07",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a, b, soma int\n    fmt.Scan(&a, &b)\n    if a > b {\n        fmt.Println(\"invalido\")\n        return\n    }\n    for ; a <= b; a++ {\n        if a % 2 == 0{\n            soma += a\n        }\n    }\n    fmt.Println(soma)\n}\n",
+            "lines": "16"
         }
     ]
 }

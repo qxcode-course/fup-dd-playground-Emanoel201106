@@ -8,7 +8,7 @@ func main() {
         return
     }
     for ; a <= b; a++ {
-        if a % 2 == 0{
+        if a % 2 == 0 {
             soma += a
         }
     }

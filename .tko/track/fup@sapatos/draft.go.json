@@ -1,0 +1,64 @@
+{
+    "patches": [
+        {
+            "label": "2026-04-28_17-20-18",
+            "content": "@@ -41,93 +41,35 @@\n     \n-var a, b int%0A    fmt.Scan(&a, &b)%0A    if a %3E b %7B%0A        fmt.Println(%22invalido%22)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-04-28_17-36-17",
+            "content": "@@ -122,23 +122,8 @@\n o%22)%0A\n-        return%0A\n     \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-04-28_17-36-27",
+            "content": "@@ -49,14 +49,8 @@\n a, b\n-, soma\n  int\n@@ -143,167 +143,6 @@\n   %7D%0A\n-    for ; a %3C= b; a++ %7B%0A        if a / 2 == 0 %7B%0A            soma += a%0A        %7D else if a / 3 == 0 %7B%0A            soma += a%0A        %7D%0A    %7D%0A    fmt.Println(soma)%0A\n %7D%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-04-28_17-39-08",
+            "content": "@@ -224,25 +224,21 @@\n        %7D\n-%0A        \n+ else\n  if a / \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-28_17-39-26",
+            "content": "@@ -182,17 +182,17 @@\n    if a \n-%25\n+/\n  2 == 0 \n@@ -243,9 +243,9 @@\n f a \n-%25\n+/\n  3 =\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-28_17-39-48",
+            "content": "@@ -182,17 +182,17 @@\n    if a \n-/\n+%25\n  2 == 0 \n@@ -243,9 +243,9 @@\n f a \n-/\n+%25\n  3 =\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-28_17-40-11",
+            "content": "@@ -228,13 +228,17 @@\n    %7D\n- else\n+%0A        \n  if \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-04-28_17-40-39",
+            "content": "@@ -186,17 +186,17 @@\n f a / 2 \n-!\n+=\n = 0 %7B%0A  \n@@ -243,9 +243,9 @@\n / 3 \n-!\n+=\n = 0 \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-28_17-40-57",
+            "content": "@@ -177,16 +177,116 @@\n         \n+if a / 2 != 0 %7B%0A            soma += a%0A        %7D else if a / 3 != 0 %7B%0A            soma += a%0A        %7D\n %0A    %7D%0A \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-04-28_17-54-52",
+            "content": "@@ -181,55 +181,8 @@\n     \n-if a / 2 == 0 %7B%0A            soma += a%0A        %7D\n %0A   \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-04-28_17-58-30",
+            "content": "@@ -186,9 +186,9 @@\n f a \n-%25\n+/\n  2 =\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-04-28_18-17-52",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var a, b, soma int\n    fmt.Scan(&a, &b)\n    if a > b {\n        fmt.Println(\"invalido\")\n        return\n    }\n    for ; a <= b; a++ {\n        if a % 2 == 0 {\n            soma += a\n        }\n    }\n    fmt.Println(soma)\n}\n",
+            "lines": "16"
+        }
+    ]
+}
