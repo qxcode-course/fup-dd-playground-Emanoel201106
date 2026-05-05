@@ -3,8 +3,8 @@ import "fmt"
 func main() {
     var idade, qtd int
     fmt.Scan(&idade, &qtd)
-    for ; idade < qtd; idade += 2 {
-        
+    for i := 0; i < qtd; i++ {
         fmt.Println(idade)
+        idade += 2
     }
 }

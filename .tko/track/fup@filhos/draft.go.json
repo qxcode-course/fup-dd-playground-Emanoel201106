@@ -42,7 +42,52 @@
         },
         {
             "label": "2026-05-05_17-18-31",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var idade, qtd int\n    fmt.Scan(&idade, &qtd)\n    for ; idade < qtd; idade += 2 {\n        \n        fmt.Println(idade)\n    }\n}\n",
+            "content": "@@ -103,9 +103,9 @@\n ade \n-%3E\n+%3C\n  qtd\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-05-05_17-21-58",
+            "content": "@@ -103,9 +103,9 @@\n ade \n-%3C\n+%3E\n  qtd\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-05-05_17-22-10",
+            "content": "@@ -131,20 +131,8 @@\n     \n-qtd += idade\n %0A   \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-05-05_17-23-45",
+            "content": "@@ -127,16 +127,28 @@\n         \n+qtd += idade\n %0A       \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-05-05_17-23-54",
+            "content": "@@ -131,36 +131,13 @@\n     \n-qtd += idade%0A        %0A    %7D%0A\n+%0A    \n     \n@@ -155,10 +155,16 @@\n (idade)%0A\n+    %7D%0A\n %7D%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-05-05_17-24-47",
+            "content": "@@ -127,21 +127,44 @@\n         \n-%0A    \n+qtd += idade%0A        %0A    %7D%0A\n     fmt.\n@@ -178,16 +178,10 @@\n (idade)%0A\n-    %7D%0A\n %7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-05-05_17-24-55",
+            "content": "@@ -115,12 +115,24 @@\n dade\n-++ %7B\n+ += 2 %7B%0A        \n %0A   \n@@ -159,27 +159,8 @@\n de)%0A\n-        idade += 2%0A\n     \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-05-05_17-30-23",
+            "content": "@@ -56,16 +56,20 @@\n qtd int%0A\n+    \n fmt.Scan\n@@ -87,22 +87,23 @@\n td)%0A\n-%0Afor i := 0; i\n+    for ; idade\n  %3C q\n@@ -111,13 +111,21 @@\n d; i\n+dade\n ++ %7B%0A\n+    \n     \n@@ -143,16 +143,20 @@\n (idade)%0A\n+    \n     idad\n@@ -162,12 +162,16 @@\n de += 2%0A\n+    \n %7D%0A%7D%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-05-05_17-36-24",
+            "content": "@@ -56,20 +56,16 @@\n qtd int%0A\n-    \n fmt.Scan\n@@ -79,20 +79,17 @@\n , &qtd)%0A\n-    \n+%0A\n for i :=\n@@ -111,20 +111,16 @@\n + %7B%0A    \n-  \n-  \n fmt.Prin\n@@ -130,20 +130,16 @@\n (idade)%0A\n-    \n     idad\n@@ -145,16 +145,12 @@\n de += 2%0A\n-    \n %7D%0A%7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-05-05_17-41-00",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var idade, qtd int\n    fmt.Scan(&idade, &qtd)\n    for i := 0; i < qtd; i++ {\n        fmt.Println(idade)\n        idade += 2\n    }\n}\n",
             "lines": "10"
         }
     ]

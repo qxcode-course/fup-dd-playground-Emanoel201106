@@ -1,0 +1,104 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-05_17-43-50",
+            "content": "@@ -41,107 +41,35 @@\n     \n-var pedra int%0A    fmt.Scan(&pedra)%0A    for i := 0; i %3C pedra; i++ %7B%0A        fmt.Println(pedra)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-05_17-59-12",
+            "content": "@@ -122,16 +122,18 @@\n mt.Print\n+ln\n (pedra)%0A\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-05-05_17-59-43",
+            "content": "@@ -126,18 +126,9 @@\n rint\n-f(%22%25d%5Cn%22, \n+(\n pedr\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-05-05_18-00-12",
+            "content": "@@ -122,17 +122,26 @@\n mt.Print\n-(\n+f(%22%25d%5Cn%22, \n pedra)%0A \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-05-05_18-00-26",
+            "content": "@@ -123,17 +123,21 @@\n t.Print(\n-i\n+pedra\n )%0A    %7D%0A\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-05-05_18-00-47",
+            "content": "@@ -96,10 +96,13 @@\n i %3C \n-10\n+pedra\n ; i+\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-05-05_18-01-00",
+            "content": "@@ -91,17 +91,16 @@\n = 0; i %3C\n-=\n  10; i++\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-05-05_18-01-07",
+            "content": "@@ -76,22 +76,8 @@\n ra)%0A\n-    ceu := 10%0A\n     \n@@ -97,11 +97,10 @@\n  %3C= \n-ceu\n+10\n ; i+\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-05-05_18-03-27",
+            "content": "@@ -55,28 +55,8 @@\n int%0A\n-    fmt.Print(%22%5B %22)%0A\n     \n@@ -149,27 +149,6 @@\n   %7D%0A\n-    fmt.Println(%22%5D%22)%0A\n %7D%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-05-05_18-07-29",
+            "content": "@@ -159,17 +159,9 @@\n rint\n-f(%22%25d %22, \n+(\n i)%0A \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-05-05_18-07-51",
+            "content": "@@ -92,16 +92,30 @@\n &pedra)%0A\n+    ceu := 10%0A\n     for \n@@ -128,16 +128,14 @@\n ; i \n-!= pedra\n+%3C= ceu\n ; i+\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-05-05_18-11-09",
+            "content": "@@ -96,22 +96,8 @@\n ra)%0A\n-    ceu := 10%0A\n     \n@@ -114,14 +114,16 @@\n ; i \n-%3C= ceu\n+!= pedra\n ; i+\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-05-05_18-12-15",
+            "content": "@@ -150,58 +150,28 @@\n     \n-pedra =! i%7B%0A            fmt.Print(pedra)%0A        %7D\n+fmt.Printf(%22%25d %22, i)\n %0A   \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-05-05_18-16-06",
+            "content": "@@ -150,19 +150,16 @@\n     \n-if \n pedra \n-!\n =\n+!\n  i%7B%0A\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-05_18-18-31",
+            "content": "@@ -153,18 +153,18 @@\n  if \n-i != \n pedra\n+ != i\n %7B%0A  \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-05_18-19-13",
+            "content": "@@ -151,17 +151,17 @@\n    if i \n-=\n+!\n = pedra%7B\n@@ -177,16 +177,24 @@\n     \n-continue\n+fmt.Print(pedra)\n %0A   \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-05_18-22-48",
+            "content": "@@ -196,29 +196,8 @@\n   %7D%0A\n-        fmt.Print(i)%0A\n     \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-05_18-23-04",
+            "content": "@@ -186,41 +186,8 @@\n nue%0A\n-        %7D %0A        if i == ceu%7B%0A%0A\n     \n@@ -213,15 +213,9 @@\n rint\n-f(%22%25d %22\n+(\n i)%0A \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-05_18-24-06",
+            "content": "@@ -253,10 +253,8 @@\n %25d %22\n-, \n i)%0A \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-05_18-24-15",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var pedra int\n    fmt.Print(\"[ \")\n    fmt.Scan(&pedra)\n    ceu := 10\n    for i := 0; i <= ceu; i++ {\n        if i == pedra{\n            continue\n        } \n        if i == ceu{\n\n        }\n        fmt.Printf(\"%d \", i)\n    }\n    fmt.Println(\"]\")\n}\n",
+            "lines": "18"
+        }
+    ]
+}
