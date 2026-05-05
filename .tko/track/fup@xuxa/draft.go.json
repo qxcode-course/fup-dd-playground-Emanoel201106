@@ -1,0 +1,74 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-04_17-37-55",
+            "content": "@@ -23,82 +23,21 @@\n mt%22%0A\n-//import %22strings%22%0Afunc main() %7B%0A    var frase string%0A    fmt.Scan(&frase)\n+func main() %7B\n %0A   \n@@ -53,13 +53,23 @@\n tln(\n-frase\n+%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-04_17-45-29",
+            "content": "@@ -70,10 +70,8 @@\n ase \n-%5B%5D\n stri\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-05-04_17-47-25",
+            "content": "@@ -60,30 +60,26 @@\n     \n+var \n frase \n-:= make(\n %5B%5Dstring\n , 10\n@@ -78,15 +78,8 @@\n ring\n-, 100) \n %0A   \n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-05-04_17-50-02",
+            "content": "@@ -132,11 +132,8 @@\n rase\n-%5B0%5D\n )%0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-05-04_17-50-26",
+            "content": "@@ -60,26 +60,30 @@\n     \n-var \n frase \n+:= make(\n %5B%5Dstring\n  %0A  \n@@ -78,16 +78,22 @@\n %5B%5Dstring\n+, 100)\n  %0A    fm\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-05-04_17-53-14",
+            "content": "@@ -118,12 +118,15 @@\n ln(frase\n+%5B0%5D\n )%0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-05-04_17-53-25",
+            "content": "@@ -56,31 +56,8 @@\n ) %7B%0A\n-    var entrada string%0A\n     \n@@ -94,50 +94,13 @@\n an(&\n-entrada)%0A    frase = append(frase, entrada\n+frase\n )%0A  \n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-05-04_17-56-37",
+            "content": "@@ -177,18 +177,13 @@\n tln(\n-len(\n frase)\n-)\n %0A%7D%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-05-04_17-57-37",
+            "content": "@@ -60,60 +60,107 @@\n     \n-frase := make(%5B%5Dstring, 0, 100) %0A    fmt.Scan(&frase\n+var entrada string%0A    var frase %5B%5Dstring %0A    fmt.Scan(&entrada)%0A    frase = append(frase, entrada\n )%0A  \n@@ -177,16 +177,18 @@\n tln(\n+len(\n frase\n-%5B0%5D\n+)\n )%0A%7D%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-05-04_18-00-17",
+            "content": "@@ -131,12 +131,15 @@\n ln(frase\n+%5B0%5D\n )%0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-05-04_18-00-23",
+            "content": "@@ -60,26 +60,39 @@\n     \n-var \n frase \n-%5B%5Dstring\n+:= make(%5B%5Dstring, 0, 100)\n  %0A  \n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-05-04_18-11-43",
+            "content": "@@ -92,11 +92,8 @@\n Scan\n-ner\n (&fr\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-05-04_18-11-49",
+            "content": "@@ -88,16 +88,19 @@\n fmt.Scan\n+ner\n (&frase)\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-05-04_18-12-28",
+            "content": "package main\nimport \"fmt\"\n//import \"strings\"\nfunc main() {\n    var frase []string \n    fmt.Scan(&frase)\n    fmt.Println(frase)\n}\n",
+            "lines": "8"
+        }
+    ]
+}

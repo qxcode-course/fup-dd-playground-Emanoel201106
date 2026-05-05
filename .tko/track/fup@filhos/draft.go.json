@@ -1,0 +1,49 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-05_17-06-05",
+            "content": "@@ -41,122 +41,35 @@\n     \n-var idade, qtd int%0A    fmt.Scan(&idade, &qtd)%0A    for ; idade %3C= qtd; idade = +2 %7B%0A        fmt.Println(idade)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-05_17-09-47",
+            "content": "@@ -116,10 +116,13 @@\n dade\n-++\n+ = +2\n  %7B%0A \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-05-05_17-10-18",
+            "content": "@@ -116,13 +116,10 @@\n dade\n- += 2\n+++\n  %7B%0A \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-05-05_17-10-37",
+            "content": "@@ -100,16 +100,17 @@\n  idade %3C\n+=\n  qtd; id\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-05-05_17-14-50",
+            "content": "@@ -95,17 +95,8 @@\n for \n-idade = 0\n ; id\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-05-05_17-17-13",
+            "content": "@@ -91,16 +91,25 @@\n     for \n+idade = 0\n ; idade \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-05-05_17-17-19",
+            "content": "@@ -104,23 +104,8 @@\n de %3C\n- qtd %7C%7C idade %3E\n  qtd\n@@ -123,17 +123,8 @@\n 2 %7B%0A\n-        %0A\n     \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-05-05_17-18-22",
+            "content": "@@ -100,16 +100,31 @@\n  idade %3C\n+ qtd %7C%7C idade %3E\n  qtd; id\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-05-05_17-18-31",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var idade, qtd int\n    fmt.Scan(&idade, &qtd)\n    for ; idade < qtd; idade += 2 {\n        \n        fmt.Println(idade)\n    }\n}\n",
+            "lines": "10"
+        }
+    ]
+}

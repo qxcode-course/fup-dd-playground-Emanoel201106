@@ -5,12 +5,13 @@ func main() {
     fmt.Scan(&a, &b)
     if a > b {
         fmt.Println("invalido")
-        return
+        return    
     }
     for ; a <= b; a++ {
-        if a % 2 == 0 {
+        if a % 2 == 0 && a % 3 == 0 {
             soma += a
-        }
+        } 
     }
+    
     fmt.Println(soma)
 }
