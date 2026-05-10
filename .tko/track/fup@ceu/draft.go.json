@@ -97,8 +97,48 @@
         },
         {
             "label": "2026-05-05_18-24-15",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var pedra int\n    fmt.Print(\"[ \")\n    fmt.Scan(&pedra)\n    ceu := 10\n    for i := 0; i <= ceu; i++ {\n        if i == pedra{\n            continue\n        } \n        if i == ceu{\n\n        }\n        fmt.Printf(\"%d \", i)\n    }\n    fmt.Println(\"]\")\n}\n",
+            "content": "@@ -214,28 +214,16 @@\n == ceu%7B%0A\n-            \n %0A       \n",
             "lines": "18"
+        },
+        {
+            "label": "2026-05-10_15-42-08",
+            "content": "@@ -10,38 +10,21 @@\n ain%0A\n-%0A\n import \n-(%0A%09\n %22fmt%22%0A\n-%09%22strconv%22%0A)%0A\n func\n@@ -96,17 +96,19 @@\n ra)%0A    \n-n\n+ceu\n  := 10%0A \n@@ -127,17 +127,19 @@\n 0; i %3C= \n-n\n+ceu\n ; i++ %7B%0A\n@@ -213,72 +213,25 @@\n  == \n-n%7B%0A            ceu := strconv.Itoa(n)%0A            fmt.Print(ceu)\n+ceu%7B%0A            \n %0A   \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-10_15-48-01",
+            "content": "@@ -264,32 +264,8 @@\n (n)%0A\n-            ceu = %22ceu%22%0A\n     \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-10_15-52-05",
+            "content": "@@ -140,16 +140,17 @@\n = 0; i %3C\n+=\n  n; i++ \n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-05-10_15-52-19",
+            "content": "@@ -140,17 +140,16 @@\n = 0; i %3C\n-=\n  n; i++ \n@@ -310,37 +310,16 @@\n nt(ceu)%0A\n-            continue%0A\n         \n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-05-10_15-52-45",
+            "content": "@@ -394,15 +394,14 @@\n rintln(%22\n- \n %5D%22)%0A%7D%0A\n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-05-10_15-53-03",
+            "content": "@@ -394,14 +394,15 @@\n rintln(%22\n+ \n %5D%22)%0A%7D%0A\n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-05-10_15-53-13",
+            "content": "@@ -282,17 +282,16 @@\n u = %22ceu\n- \n %22%0A      \n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-05-10_15-53-26",
+            "content": "package main\n\nimport (\n\t\"fmt\"\n\t\"strconv\"\n)\nfunc main() {\n    var pedra int\n    fmt.Print(\"[ \")\n    fmt.Scan(&pedra)\n    n := 10\n    for i := 0; i <= n; i++ {\n        if i == pedra{\n            continue\n        } \n        if i == n{\n            ceu := strconv.Itoa(n)\n            ceu = \"ceu \"\n            fmt.Print(ceu)\n            continue\n        }\n        fmt.Printf(\"%d \", i)\n    }\n    fmt.Println(\"]\")\n}\n",
+            "lines": "25"
         }
     ]
 }

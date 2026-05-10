@@ -1,16 +1,23 @@
 package main
-import "fmt"
+
+import (
+	"fmt"
+	"strconv"
+)
 func main() {
     var pedra int
     fmt.Print("[ ")
     fmt.Scan(&pedra)
-    ceu := 10
-    for i := 0; i <= ceu; i++ {
+    n := 10
+    for i := 0; i <= n; i++ {
         if i == pedra{
             continue
         } 
-        if i == ceu{
-            
+        if i == n{
+            ceu := strconv.Itoa(n)
+            ceu = "ceu "
+            fmt.Print(ceu)
+            continue
         }
         fmt.Printf("%d ", i)
     }

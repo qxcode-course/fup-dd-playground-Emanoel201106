@@ -1,0 +1,89 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-10_16-29-21",
+            "content": "@@ -41,119 +41,35 @@\n     \n-var inicio, fim int%0A    fmt.Scan(&inicio, &fim)%0A    for i := inicio; i %3C fim; i++ %7B%0A        fmt.Println(i)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-10_16-34-27",
+            "content": "@@ -109,17 +109,16 @@\n cio; i %3C\n-=\n  fim; i+\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-05-10_16-34-44",
+            "content": "@@ -10,38 +10,21 @@\n ain%0A\n-%0A\n import \n-(%0A%09\n %22fmt%22%0A\n-%09%22strconv%22%0A)%0A\n func\n@@ -134,60 +134,22 @@\n     \n-if i / 3 == 0 %7B%0A            strconv.Itoa()%0A        %7D\n+fmt.Println(i)\n %0A   \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-05-10_16-40-00",
+            "content": "@@ -178,15 +178,8 @@\n     \n- zig :=\n  str\n@@ -192,60 +192,8 @@\n toa(\n-i)%0A            zig = %22zig%22%0A            fmt.Print(zig\n )%0A  \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-10_16-40-56",
+            "content": "@@ -243,18 +243,16 @@\n mt.Print\n-ln\n (zig)%0A  \n@@ -262,62 +262,8 @@\n    %7D\n- else if i / 5 == 0%7B%0A%0A        %7D%0A        fmt.Println(i)\n %0A   \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-10_16-42-05",
+            "content": "@@ -143,31 +143,8 @@\n + %7B%0A\n-        fmt.Println(i)%0A\n     \n@@ -281,24 +281,25 @@\n 5 == 0%7B%0A\n+%0A\n         \n     zag \n@@ -294,53 +294,32 @@\n     \n+%7D%0A\n     \n-zag := strconv.Itoa(i)%0A        %7D%0A        \n+    fmt.Println(i)\n %0A   \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-10_16-44-37",
+            "content": "@@ -343,61 +343,8 @@\n (i)%0A\n-            zag = %22zag%22%0A            fmt.Println(zag)%0A\n     \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-10_16-45-01",
+            "content": "@@ -139,16 +139,39 @@\n ; i++ %7B%0A\n+        fmt.Println(i)%0A\n         \n@@ -405,153 +405,8 @@\n    %7D\n- else if i / 3 == 0 && i / 5 == 0%7B%0A            zigzag := strconv.Itoa(i)%0A            zigzag = %22zigzag%22%0A            fmt.Println(zigzag)%0A        %7D \n %0A   \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-10_16-54-54",
+            "content": "@@ -256,32 +256,29 @@\n g)%0A        %7D\n-%0A       \n+ else\n  if i / 5 ==\n@@ -378,24 +378,21 @@\n        %7D\n-%0A       \n+ else\n  if i / \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-10_16-55-21",
+            "content": "@@ -255,35 +255,8 @@\n ig)%0A\n-            fmt.Println(i)%0A\n     \n@@ -253,32 +253,32 @@\n (zig)%0A        %7D%0A\n+\n         if i / 5\n@@ -376,35 +376,8 @@\n ag)%0A\n-            fmt.Println(i)%0A\n     \n@@ -483,24 +483,24 @@\n  = %22zigzag%22%0A\n+\n             \n@@ -523,35 +523,8 @@\n ag)%0A\n-            fmt.Println(i)%0A\n     \n",
+            "lines": "28"
+        },
+        {
+            "label": "2026-05-10_16-56-32",
+            "content": "@@ -251,16 +251,43 @@\n ln(zig)%0A\n+            fmt.Println(i)%0A\n         \n@@ -280,32 +280,32 @@\n ln(i)%0A        %7D%0A\n-\n         if i / 5\n@@ -395,24 +395,51 @@\n rintln(zag)%0A\n+            fmt.Println(i)%0A\n         %7D%0A  \n@@ -537,24 +537,24 @@\n  = %22zigzag%22%0A\n-\n             \n@@ -569,24 +569,51 @@\n tln(zigzag)%0A\n+            fmt.Println(i)%0A\n         %7D %0A \n",
+            "lines": "31"
+        },
+        {
+            "label": "2026-05-10_17-01-13",
+            "content": "@@ -144,33 +144,33 @@\n  %7B%0A        if i \n-%25\n+/\n  3 == 0 %7B%0A      \n@@ -274,17 +274,17 @@\n    if i \n-%25\n+/\n  5 == 0%7B\n@@ -395,17 +395,17 @@\n    if i \n-%25\n+/\n  3 == 0 \n@@ -413,9 +413,9 @@\n & i \n-%25\n+/\n  5 =\n",
+            "lines": "28"
+        },
+        {
+            "label": "2026-05-10_17-05-28",
+            "content": "@@ -260,21 +260,24 @@\n        %7D\n- else\n+%0A       \n  if i %25 \n@@ -381,20 +381,24 @@\n        %7D\n-else\n+%0A       \n  if i %25 \n@@ -515,24 +515,24 @@\n tln(zigzag)%0A\n+\n         %7D el\n@@ -533,51 +533,8 @@\n   %7D \n-else %7B%0A            fmt.Println(i)%0A        %7D\n %0A   \n",
+            "lines": "28"
+        },
+        {
+            "label": "2026-05-10_17-06-59",
+            "content": "@@ -162,22 +162,8 @@\n 3 ==\n- 0 && i %25 5 ==\n  0 %7B\n@@ -178,19 +178,16 @@\n      zig\n-zag\n  := strc\n@@ -217,21 +217,15 @@\n  zig\n-zag\n  = %22zig\n-zag\n %22%0A  \n@@ -249,19 +249,16 @@\n ntln(zig\n-zag\n )%0A      \n@@ -394,16 +394,30 @@\n i %25 3 ==\n+ 0 && i %25 5 ==\n  0%7B%0A    \n@@ -419,32 +419,35 @@\n %0A            zig\n+zag\n  := strconv.Itoa\n@@ -457,39 +457,45 @@\n %0A            zig\n+zag\n  = %22zig\n+zag\n %22%0A            fm\n@@ -499,32 +499,35 @@\n  fmt.Println(zig\n+zag\n )%0A        %7D else\n",
+            "lines": "28"
+        },
+        {
+            "label": "2026-05-10_17-08-27",
+            "content": "@@ -18,14 +18,29 @@\n ort \n+(%0A%09\n %22fmt%22%0A\n+%09%22strconv%22%0A)\n %0Afun\n@@ -102,17 +102,16 @@\n , &fim)%0A\n-%0A\n     for \n@@ -139,17 +139,16 @@\n ; i++ %7B%0A\n-%0A\n         \n@@ -147,25 +147,27 @@\n         if i\n-%25\n+ %25 \n 3 == 0 && i%25\n@@ -165,17 +165,19 @@\n = 0 && i\n-%25\n+ %25 \n 5 == 0 %7B\n@@ -169,32 +169,100 @@\n && i %25 5 == 0 %7B%0A\n+            zigzag := strconv.Itoa(i)%0A            zigzag = %22zigzag%22%0A\n             fmt.\n@@ -273,19 +273,16 @@\n tln(\n-%22\n zigzag\n-%22\n )%0A\n-%0A\n     \n@@ -300,17 +300,77 @@\n if i\n-%253\n+ %25 5\n  == 0\n- \n %7B\n+%0A            zag := strconv.Itoa(i)%0A            zag = %22zag%22\n %0A   \n@@ -394,15 +394,12 @@\n tln(\n-%22zig%22)%0A\n+zag)\n %0A   \n@@ -396,33 +396,32 @@\n n(zag)%0A        %7D\n- \n else if i%255 == 0\n@@ -417,17 +417,77 @@\n if i\n-%255\n+ %25 3\n  == 0\n- \n %7B\n+%0A            zig := strconv.Itoa(i)%0A            zig = %22zig%22\n %0A   \n@@ -511,16 +511,13 @@\n tln(\n-%22zag%22\n+zig\n )%0A\n-%0A\n     \n@@ -552,24 +552,24 @@\n .Println(i)%0A\n-\n         %7D%0A  \n@@ -566,16 +566,25 @@\n       %7D%0A\n+        %0A\n     %7D%0A%7D%0A\n",
+            "lines": "28"
+        },
+        {
+            "label": "2026-05-10_17-08-50",
+            "content": "@@ -18,29 +18,14 @@\n ort \n-(%0A%09\n %22fmt%22%0A\n-%09%22strconv%22%0A)\n %0Afun\n@@ -87,16 +87,17 @@\n , &fim)%0A\n+%0A\n     for \n@@ -125,16 +125,17 @@\n ; i++ %7B%0A\n+%0A\n         \n@@ -134,27 +134,25 @@\n         if i\n- %25 \n+%25\n 3 == 0 && i \n@@ -150,19 +150,17 @@\n = 0 && i\n- %25 \n+%25\n 5 == 0 %7B\n@@ -164,76 +164,8 @@\n 0 %7B%0A\n-            zigzag := strconv.Itoa(i)%0A            zigzag = %22zigzag%22%0A\n     \n@@ -188,16 +188,19 @@\n tln(\n+%22\n zigzag\n+%22\n )%0A\n+%0A\n     \n@@ -218,78 +218,18 @@\n if i\n- %25 5\n+%253\n  == 0\n+ \n %7B%0A\n-            zag := strconv.Itoa(i)%0A            zag = %22zag%22%0A\n     \n@@ -252,12 +252,15 @@\n tln(\n-zag)\n+%22zig%22)%0A\n %0A   \n@@ -265,16 +265,17 @@\n        %7D\n+ \n else if \n@@ -279,78 +279,18 @@\n if i\n- %25 3\n+%255\n  == 0\n+ \n %7B%0A\n-            zig := strconv.Itoa(i)%0A            zig = %22zig%22%0A\n     \n@@ -313,13 +313,16 @@\n tln(\n-zig\n+%22zag%22\n )%0A\n+%0A\n     \n@@ -361,16 +361,16 @@\n ntln(i)%0A\n+\n         \n@@ -375,17 +375,8 @@\n   %7D%0A\n-        %0A\n     \n",
+            "lines": "24"
+        },
+        {
+            "label": "2026-05-10_17-09-28",
+            "content": "package main\n\nimport (\n\t\"fmt\"\n\t\"strconv\"\n)\nfunc main() {\n    var inicio, fim int\n    fmt.Scan(&inicio, &fim)\n    for i := inicio; i <= fim; i++ {\n        if i % 3 == 0 && i % 5 == 0 {\n            zigzag := strconv.Itoa(i)\n            zigzag = \"zigzag\"\n            fmt.Println(zigzag)\n        } else if i % 5 == 0{\n            zag := strconv.Itoa(i)\n            zag = \"zag\"\n            fmt.Println(zag)\n        }else if i % 3 == 0{\n            zig := strconv.Itoa(i)\n            zig = \"zig\"\n            fmt.Println(zig)\n        } else {\n            fmt.Println(i)\n        }\n        \n    }\n}\n",
+            "lines": "28"
+        }
+    ]
+}
