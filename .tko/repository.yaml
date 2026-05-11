@@ -22,16 +22,14 @@ sources:
   quests: null
   tasks: null
 expanded:
-- fup@for2
-- fup@if2
-- fup@string
 - sandbox@sandbox
+- fup@for2
 flags:
   inbox: all
-  panel: skills
+  panel: graph
   show_panel: 'true'
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@colorido
-selected_index: 22
+selected: fup@concentra
+selected_index: 11

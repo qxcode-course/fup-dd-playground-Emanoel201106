@@ -1,0 +1,89 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-11_17-37-59",
+            "content": "@@ -41,168 +41,35 @@\n     \n-var salario float64%0A    fmt.Scan(&salario)%0A    if salario %3C= 1000%7B%0A        novosalario := ((20/100) * salario) + salario%0A    %7D else if salario %3E= 1000 && salario\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-11_17-53-44",
+            "content": "@@ -162,41 +162,8 @@\n rio%0A\n-        fmt.Println(novosalario)%0A\n     \n@@ -184,114 +184,25 @@\n rio \n-%3C\n+%3E\n = 1\n-5\n 00\n- %7B%0A        novosalario := ((20/100) * salario) + salario%0A        fmt.Println(novosalario)%0A    %7D%0A    \n+0 && salario\n %0A%7D%0A\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-05-11_17-54-57",
+            "content": "@@ -248,18 +248,18 @@\n io := ((\n-15\n+20\n /100) * \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-11_17-55-17",
+            "content": "@@ -250,15 +250,17 @@\n  := \n+(\n (15/100\n+)\n  * s\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-11_17-55-32",
+            "content": "@@ -131,15 +131,17 @@\n  := \n+(\n (20/100\n+)\n  * s\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-11_17-55-39",
+            "content": "@@ -132,11 +132,14 @@\n := (\n-0.2\n+20/100\n  * s\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-11_17-56-48",
+            "content": "@@ -246,12 +246,14 @@\n := (\n-0.\n 15\n+/100\n  * s\n@@ -291,16 +291,11 @@\n rint\n-f(%22%252.f%22\n+ln(\n novo\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-11_17-57-27",
+            "content": "@@ -296,13 +296,9 @@\n %252.f\n-%5Cn%22, \n+%22\n novo\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-11_17-57-37",
+            "content": "@@ -293,11 +293,11 @@\n f(%22%25\n-f.2\n+2.f\n %5Cn%22,\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-11_17-57-48",
+            "content": "@@ -293,10 +293,11 @@\n f(%22%25\n-2\n f\n+.2\n %5Cn%22,\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-11_17-57-55",
+            "content": "@@ -289,17 +289,16 @@\n rintf(%22%25\n-.\n 2f%5Cn%22, n\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-11_17-58-36",
+            "content": "@@ -173,25 +173,16 @@\n Println(\n-%22%25.2f%5Cn%22,\n novosala\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-11_17-58-57",
+            "content": "@@ -162,33 +162,34 @@\n        fmt.Print\n-f\n+ln\n (%22%25.2f%5Cn%22,novosa\n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-11_17-59-06",
+            "content": "@@ -102,17 +102,16 @@\n  %3C= 1000\n- \n %7B%0A      \n@@ -322,235 +322,8 @@\n io)%0A\n-    %7D else if salario %3C= 2000 %7B%0A        novosalario := (0.1 * salario) + salario%0A        fmt.Printf(%22%25.2f%5Cn%22, novosalario)%0A    %7D else %7B%0A        novosalario := (0.5 * salario) + salario%0A        fmt.Printf(%22%25.2f%5Cn%22, novosalario)%0A\n     \n",
+            "lines": "14"
+        },
+        {
+            "label": "2026-05-11_18-00-00",
+            "content": "@@ -457,25 +457,8 @@\n lse \n-if salario %3E 2000\n %7B%0A  \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-11_18-00-26",
+            "content": "@@ -498,17 +498,16 @@\n o := (0.\n-0\n 5 * sala\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-11_18-01-12",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var salario float64\n    fmt.Scan(&salario)\n    if salario <= 1000 {\n        novosalario := (0.2 * salario) + salario\n        fmt.Printf(\"%.2f\\n\",novosalario)\n    } else if salario <= 1500 {\n        novosalario := (0.15 * salario) + salario\n        fmt.Printf(\"%.2f\\n\", novosalario)\n    } else if salario <= 2000 {\n        novosalario := (0.1 * salario) + salario\n        fmt.Printf(\"%.2f\\n\", novosalario)\n    } else if salario > 2000{\n        novosalario := (0.05 * salario) + salario\n        fmt.Printf(\"%.2f\\n\", novosalario)\n    }\n    \n}\n",
+            "lines": "20"
+        }
+    ]
+}

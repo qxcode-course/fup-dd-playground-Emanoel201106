@@ -1,0 +1,79 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-11_17-02-07",
+            "content": "@@ -41,129 +41,35 @@\n     \n-var n, x, y, s int%0A    var c rune%0A    fmt.Scan(&n, &x, &y, &s, &c)%0A    if c == 'U' %7B%0A        y = (y - s %25 n + n) %25 n%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-11_17-14-25",
+            "content": "@@ -164,28 +164,6 @@\n   %7D%0A\n-    fmt.Println(x, y)%0A\n %7D%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-05-11_17-14-45",
+            "content": "@@ -158,57 +158,8 @@\n %25 n%0A\n-    %7D else if c == 'D' %7B%0A        x = (x + s) %25 n%0A\n     \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-05-11_17-15-42",
+            "content": "@@ -187,22 +187,22 @@\n         \n-y\n+x\n  = (\n-y\n+x\n  + s) %25 \n@@ -212,24 +212,8 @@\n    %7D\n- else if c == ''\n %0A   \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-11_17-16-22",
+            "content": "@@ -227,26 +227,9 @@\n == '\n-L'%7B%0A        %0A    %7D\n+'\n %0A   \n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-11_17-16-33",
+            "content": "@@ -239,31 +239,8 @@\n     \n-x = (x - s %25 n + n) %25 n\n %0A   \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-11_17-17-43",
+            "content": "@@ -263,45 +263,8 @@\n %25 n%0A\n-    %7D else %7B%0A        x = (x + s) %25 n%0A\n     \n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-11_17-18-42",
+            "content": "@@ -48,16 +48,19 @@\n  n, x, y\n+, s\n  int%0A   \n@@ -75,22 +75,8 @@\n une%0A\n-    var s int%0A\n     \n@@ -101,13 +101,13 @@\n y, &\n-c, &s\n+s, &c\n )%0A  \n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-11_17-19-44",
+            "content": "@@ -169,34 +169,8 @@\n %25 n%0A\n-        fmt.Println(x, y)%0A\n     \n@@ -218,34 +218,8 @@\n %25 n%0A\n-        fmt.Println(x, y)%0A\n     \n@@ -274,34 +274,8 @@\n %25 n%0A\n-        fmt.Println(x, y)%0A\n     \n@@ -307,24 +307,26 @@\n  s) %25 n%0A    \n+%7D%0A\n     fmt.Prin\n@@ -339,17 +339,6 @@\n  y)%0A\n-    %7D%0A    %0A\n %7D%0A\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-11_17-20-52",
+            "content": "@@ -157,32 +157,58 @@\n  s %25 n + n) %25 n%0A\n+        fmt.Println(x, y)%0A\n     %7D else if c \n@@ -236,24 +236,50 @@\n (y + s) %25 n%0A\n+        fmt.Println(x, y)%0A\n     %7D else i\n@@ -318,24 +318,50 @@\n  n + n) %25 n%0A\n+        fmt.Println(x, y)%0A\n     %7D else %7B\n@@ -389,18 +389,16 @@\n %25 n%0A    \n-%7D%0A\n     fmt.\n@@ -411,10 +411,21 @@\n n(x, y)%0A\n+    %7D%0A    %0A\n %7D%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-11_17-24-58",
+            "content": "@@ -123,28 +123,21 @@\n     \n-switch c %7B%0Acase\n+if c ==\n  'U'\n-:\n+ %7B\n %0A   \n@@ -173,17 +173,28 @@\n     \n-case\n+%7D else if c ==\n  'D'\n-:\n+ %7B\n %0A   \n@@ -222,17 +222,27 @@\n     \n-case\n+%7D else if c ==\n  'L'\n-:\n+%7B\n %0A   \n@@ -278,16 +278,16 @@\n     \n-default:\n+%7D else %7B\n %0A   \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-11_17-28-53",
+            "content": "@@ -45,15 +45,15 @@\n var \n-N, X, Y\n+n, x, y\n  int\n@@ -61,17 +61,17 @@\n     var \n-C\n+c\n  rune%0A  \n@@ -76,17 +76,17 @@\n     var \n-S\n+s\n  int%0A   \n@@ -100,44 +100,51 @@\n an(&\n-N, &X, &Y, &C, &S\n+n, &x, &y, &c, &s\n )%0A    \n-if C ==\n+switch c %7B%0Acase\n  'U'\n- %7B\n+:\n %0A   \n@@ -152,56 +152,45 @@\n     \n-Y\n+y\n  = (\n-Y - S %25 N + N\n+y - s %25 n + n\n ) %25 \n-N\n+n\n %0A    \n-%7D else if C ==\n+case\n  'D'\n- %7B\n+:\n %0A   \n@@ -198,47 +198,37 @@\n     \n-Y\n+y\n  = (\n-Y + S\n+y + s\n ) %25 \n-N\n+n\n %0A    \n-%7D else if C ==\n+case\n  'L'\n-%7B\n+:\n %0A   \n@@ -236,44 +236,44 @@\n     \n-X\n+x\n  = (\n-X - S %25 N + N\n+x - s %25 n + n\n ) %25 \n-N\n+n\n %0A    \n-%7D else %7B\n+default:\n %0A   \n@@ -281,23 +281,23 @@\n     \n-X\n+x\n  = (\n-X + S\n+x + s\n ) %25 \n-N\n+n\n %0A   \n@@ -319,12 +319,12 @@\n tln(\n-X, Y\n+x, y\n )%0A%7D%0A\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-11_17-32-28",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -33,17 +33,20 @@\n ain() %7B%0A\n-%09\n+    \n var N, X\n@@ -53,17 +53,20 @@\n , Y int%0A\n-%09\n+    \n var C ru\n@@ -68,17 +68,20 @@\n  C rune%0A\n-%09\n+    \n var S in\n@@ -82,17 +82,20 @@\n r S int%0A\n-%09\n+    \n fmt.Scan\n@@ -115,17 +115,20 @@\n &C, &S)%0A\n-%09\n+    \n if C == \n@@ -129,26 +129,32 @@\n  C == 'U' %7B%0A\n-%09%09\n+        \n Y = (Y - S%25N\n@@ -147,25 +147,27 @@\n   Y = (Y - S\n-%25\n+ %25 \n N + N) %25 N%0A%09\n@@ -161,25 +161,28 @@\n  N + N) %25 N%0A\n-%09\n+    \n %7D else if C \n@@ -190,18 +190,24 @@\n = 'D' %7B%0A\n-%09%09\n+        \n Y = (Y +\n@@ -210,25 +210,28 @@\n (Y + S) %25 N%0A\n-%09\n+    \n %7D else if C \n@@ -236,21 +236,26 @@\n C == 'L'\n- \n %7B%0A\n-%09%09\n+        \n X = (X -\n@@ -256,17 +256,19 @@\n = (X - S\n-%25\n+ %25 \n N + N) %25\n@@ -270,17 +270,20 @@\n  N) %25 N%0A\n-%09\n+    \n %7D else %7B\n@@ -287,10 +287,16 @@\n e %7B%0A\n-%09%09\n+        \n X = \n@@ -311,12 +311,18 @@\n %25 N%0A\n-%09%7D%0A%09\n+    %7D%0A    \n fmt.\n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-11_17-32-38",
+            "content": "@@ -63,14 +63,12 @@\n r C \n-string\n+rune\n %0A%09va\n@@ -118,11 +118,11 @@\n  == \n-%22U%22\n+'U'\n  %7B%0A%09\n@@ -164,11 +164,11 @@\n  == \n-%22D%22\n+'D'\n  %7B%0A%09\n@@ -204,11 +204,11 @@\n  == \n-%22L%22\n+'L'\n  %7B%0A%09\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-11_17-33-34",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar N, X, Y int\n\tvar C string\n\tvar S int\n\tfmt.Scan(&N, &X, &Y, &C, &S)\n\tif C == \"U\" {\n\t\tY = (Y - S%N + N) % N\n\t} else if C == \"D\" {\n\t\tY = (Y + S) % N\n\t} else if C == \"L\" {\n\t\tX = (X - S%N + N) % N\n\t} else {\n\t\tX = (X + S) % N\n\t}\n\tfmt.Println(X, Y)\n}\n",
+            "lines": "20"
+        }
+    ]
+}
