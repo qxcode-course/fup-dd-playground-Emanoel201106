@@ -5,10 +5,7 @@ func main() {
     fmt.Scan(&a, &b)
     fmt.Print("[ ")
     for i := a; i <= b; i++ {
-        for i := b; i > a; i-- {
-            fmt.Printf("%d ", i)
-        }
-        fmt.Printf("%d ",i)
+        fmt.Printf("%d %d ", i, a+b-i)
     }
     fmt.Println("]")
 }

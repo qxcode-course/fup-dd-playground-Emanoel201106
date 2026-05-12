@@ -22,7 +22,7 @@ sources:
   quests: null
   tasks: null
 expanded:
-- sandbox@sandbox
+- fup@if2
 - fup@for2
 flags:
   inbox: all
@@ -31,5 +31,5 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@concentra
-selected_index: 11
+selected: fup@fuga
+selected_index: 22
