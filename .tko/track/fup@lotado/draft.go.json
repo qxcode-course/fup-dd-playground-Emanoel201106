@@ -1,0 +1,109 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-18_17-31-05",
+            "content": "@@ -41,356 +41,35 @@\n     \n-var c, m int%0A    fmt.Scan(&c)%0A    for i := c; i %3C 2 * c; i++ %7B%0A        fmt.Scan(&m)%0A        if m == 0 %7B%0A            fmt.Println(%22vazio%22)%0A        %7D else if m %3C c %7B%0A            fmt.Println(%22ainda cabe%22)%0A        %7D else if m %3E= c %7B%0A            fmt.Println(%22lotado%22)%0A        %7D else if m == c * 2%7B%0A            fmt.Println(%22hora de partir%22)%0A        %7D%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-18_17-50-36",
+            "content": "@@ -125,20 +125,8 @@\n &m)%0A\n-        m++%0A\n     \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-18_17-52-57",
+            "content": "@@ -121,16 +121,28 @@\n can(&m)%0A\n+        m++%0A\n         \n@@ -153,16 +153,16 @@\n  == 0 %7B%0A\n-\n         \n@@ -212,32 +212,16 @@\n m %3C c %7B%0A\n-            m++%0A\n         \n@@ -277,32 +277,16 @@\n  %3E= c %7B%0A\n-            m++%0A\n         \n@@ -307,24 +307,24 @@\n n(%22lotado%22)%0A\n+\n         %7D el\n@@ -345,24 +345,8 @@\n  2%7B%0A\n-            m++%0A\n     \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-18_17-53-22",
+            "content": "@@ -196,24 +196,40 @@\n  if m %3C c %7B%0A\n+            m++%0A\n             \n@@ -263,17 +263,16 @@\n        %7D\n- \n  else if\n@@ -278,16 +278,13 @@\n f m \n-=\n+%3E\n = c \n-* 2\n %7B%0A  \n@@ -297,35 +297,43 @@\n     \n-fmt.Println(%22hora de partir\n+m++%0A            fmt.Println(%22lotado\n %22)%0A \n@@ -343,37 +343,40 @@\n     %7D else if m \n-%3E\n+=\n = c \n+* 2\n %7B%0A            fm\n@@ -373,35 +373,59 @@\n         \n-fmt.Println(%22lotado\n+m++%0A            fmt.Println(%22hora de partir\n %22)%0A     \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-18_17-55-40",
+            "content": "@@ -49,19 +49,13 @@\n c, m\n-, soma\n  int%0A\n+\n     \n@@ -125,26 +125,8 @@\n &m)%0A\n-        soma += m%0A\n     \n@@ -128,28 +128,25 @@\n %0A        if \n-soma\n+m\n  == 0 %7B%0A    \n@@ -192,20 +192,17 @@\n else if \n-soma\n+m\n  %3C c %7B%0A \n@@ -257,20 +257,17 @@\n else if \n-soma\n+m\n  == c * \n@@ -333,12 +333,9 @@\n  if \n-soma\n+m\n  %3E= \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-18_17-57-52",
+            "content": "@@ -282,71 +282,8 @@\n   %7D \n-else if soma %3E= c %7B%0A            fmt.Println(%22lotado%22)%0A        %7D\n  els\n@@ -354,16 +354,79 @@\n       %7D \n+else if soma %3E= c %7B%0A            fmt.Println(%22lotado%22)%0A        %7D\n %0A    %7D%0A%7D\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-18_18-01-40",
+            "content": "@@ -278,16 +278,79 @@\n       %7D \n+else if soma %3E= c %7B%0A            fmt.Println(%22lotado%22)%0A        %7D\n  else if\n@@ -421,71 +421,8 @@\n   %7D \n-else if soma %3E= c %7B%0A            fmt.Println(%22lotado%22)%0A        %7D\n %0A   \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-18_18-01-47",
+            "content": "@@ -86,17 +86,17 @@\n or i := \n-0\n+c\n ; i %3C 2 \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-18_18-03-29",
+            "content": "@@ -376,24 +376,8 @@\n = c \n- && soma %3C c * 2\n %7B%0A  \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-18_18-04-31",
+            "content": "@@ -348,26 +348,8 @@\n r%22)%0A\n-            break%0A\n     \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-18_18-05-11",
+            "content": "@@ -86,17 +86,17 @@\n or i := \n-c\n+0\n ; i %3C 2 \n@@ -356,16 +356,21 @@\n         \n+break\n %0A       \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-18_18-05-33",
+            "content": "@@ -86,17 +86,17 @@\n or i := \n-0\n+c\n ; i %3C 2 \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-18_18-05-47",
+            "content": "@@ -360,13 +360,8 @@\n     \n-break\n %0A   \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-18_18-09-20",
+            "content": "@@ -80,16 +80,39 @@\n %0A    for\n+ i := 0; i %3C 2 * c; i++\n  %7B%0A     \n@@ -282,87 +282,8 @@\n   %7D \n-else if soma %3E= c  && soma %3C c * 2%7B%0A            fmt.Println(%22lotado%22)%0A        %7D\n  els\n@@ -372,16 +372,95 @@\n       %7D \n+else if soma %3E= c  && soma %3C c * 2%7B%0A            fmt.Println(%22lotado%22)%0A        %7D\n %0A    %7D%0A%7D\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-18_18-12-55",
+            "content": "@@ -272,16 +272,33 @@\n oma %3E= c\n+  && soma %3C c * 2\n %7B%0A      \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-18_18-13-15",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -33,17 +33,20 @@\n ain() %7B%0A\n-%09\n+    \n var c, m\n@@ -56,18 +56,20 @@\n oma int%0A\n-%0A%09\n+    \n fmt.Scan\n@@ -77,18 +77,26 @@\n &c)%0A\n-%0A%09\n+    \n for %7B%0A\n-%09%09\n+        \n fmt.\n@@ -104,19 +104,24 @@\n can(&m)%0A\n-%0A%09%09\n+        \n soma += \n@@ -122,19 +122,24 @@\n ma += m%0A\n-%0A%09%09\n+        \n if soma \n@@ -145,19 +145,28 @@\n  == 0 %7B%0A\n-%09%09%09\n+            \n fmt.Prin\n@@ -174,26 +174,32 @@\n ln(%22vazio%22)%0A\n-%09%09\n+        \n %7D else if so\n@@ -203,27 +203,36 @@\n  soma %3C c %7B%0A\n-%09%09%09\n+            \n fmt.Println(\n@@ -245,18 +245,24 @@\n  cabe%22)%0A\n-%09%09\n+        \n %7D else i\n@@ -272,18 +272,26 @@\n oma \n-=\n+%3E\n = c\n- \n %7B%0A\n-%09%09%09\n+            \n fmt.\n@@ -308,18 +308,24 @@\n otado%22)%0A\n-%09%09\n+        \n %7D else i\n@@ -339,16 +339,26 @@\n == c\n-*2 %7B%0A%09%09%09\n+ * 2%7B%0A            \n fmt.\n@@ -387,22 +387,41 @@\n r%22)%0A\n-%09%09%09break%0A%09%09%7D%0A%09\n+            break%0A        %7D %0A    \n %7D%0A%7D%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-18_18-13-30",
+            "content": "@@ -6,16 +6,17 @@\n ge main%0A\n+%0A\n import %22\n@@ -20,16 +20,17 @@\n t %22fmt%22%0A\n+%0A\n func mai\n@@ -35,20 +35,17 @@\n ain() %7B%0A\n-    \n+%09\n var c, m\n@@ -55,20 +55,18 @@\n oma int%0A\n-    \n+%0A%09\n fmt.Scan\n@@ -74,49 +74,18 @@\n &c)%0A\n-    for i := 0; i %3C 2 * c; i++ %7B%0A        \n+%0A%09for %7B%0A%09%09\n fmt.\n@@ -93,24 +93,19 @@\n can(&m)%0A\n-        \n+%0A%09%09\n soma += \n@@ -106,24 +106,19 @@\n ma += m%0A\n-        \n+%0A%09%09\n if soma \n@@ -124,28 +124,19 @@\n  == 0 %7B%0A\n-            \n+%09%09%09\n fmt.Prin\n@@ -148,24 +148,18 @@\n vazio%22)%0A\n-        \n+%09%09\n %7D else i\n@@ -171,28 +171,19 @@\n a %3C c %7B%0A\n-            \n+%09%09%09\n fmt.Prin\n@@ -200,26 +200,19 @@\n  cabe%22)%0A\n-        %7D \n+%09%09%7D\n  else if\n@@ -226,81 +226,37 @@\n = c \n-* 2%7B%0A            fmt.Println(%22hora de partir%22)%0A            break%0A        \n+%7B%0A%09%09%09fmt.Println(%22lotado%22)%0A%09%09\n %7D el\n@@ -270,79 +270,64 @@\n oma \n-%3E= c  && soma %3C c * 2%7B%0A            fmt.Println(%22lotado%22)%0A        %7D%0A    \n+== c*2 %7B%0A%09%09%09fmt.Println(%22hora de partir%22)%0A%09%09%09break%0A%09%09%7D%0A%09\n %7D%0A%7D%0A\n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-18_18-13-37",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -33,17 +33,20 @@\n ain() %7B%0A\n-%09\n+    \n var c, m\n@@ -56,18 +56,20 @@\n oma int%0A\n-%0A%09\n+    \n fmt.Scan\n@@ -77,18 +77,49 @@\n &c)%0A\n-%0A%09for %7B%0A%09%09\n+    for i := 0; i %3C 2 * c; i++ %7B%0A        \n fmt.\n@@ -127,19 +127,24 @@\n can(&m)%0A\n-%0A%09%09\n+        \n soma += \n@@ -145,19 +145,24 @@\n ma += m%0A\n-%0A%09%09\n+        \n if soma \n@@ -168,19 +168,28 @@\n  == 0 %7B%0A\n-%09%09%09\n+            \n fmt.Prin\n@@ -197,26 +197,32 @@\n ln(%22vazio%22)%0A\n-%09%09\n+        \n %7D else if so\n@@ -230,19 +230,28 @@\n a %3C c %7B%0A\n-%09%09%09\n+            \n fmt.Prin\n@@ -268,19 +268,26 @@\n  cabe%22)%0A\n-%09%09%7D\n+        %7D \n  else if\n@@ -296,127 +296,172 @@\n oma \n-%3E\n+=\n = c \n-&& soma %3C c*2 %7B%0A%09%09%09fmt.Println(%22lotado%22)%0A%09%09%7D else if soma %3E= c*2 %7B%0A%09%09%09fmt.Println(%22hora de partir%22)%0A%09%09%09break%0A%09%09%7D%0A%09\n+* 2%7B%0A            fmt.Println(%22hora de partir%22)%0A            break%0A        %7D else if soma %3E= c  && soma %3C c * 2%7B%0A            fmt.Println(%22lotado%22)%0A        %7D%0A    \n %7D%0A%7D%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-18_18-14-42",
+            "content": "@@ -6,16 +6,17 @@\n ge main%0A\n+%0A\n import %22\n@@ -20,16 +20,17 @@\n t %22fmt%22%0A\n+%0A\n func mai\n@@ -35,20 +35,17 @@\n ain() %7B%0A\n-    \n+%09\n var c, m\n@@ -55,20 +55,18 @@\n oma int%0A\n-    \n+%0A%09\n fmt.Scan\n@@ -74,25 +74,18 @@\n &c)%0A\n-    \n+%0A%09\n for\n+ \n %7B%0A\n-        \n+%09%09\n fmt.\n@@ -93,24 +93,19 @@\n can(&m)%0A\n-        \n+%0A%09%09\n soma += \n@@ -106,24 +106,19 @@\n ma += m%0A\n-        \n+%0A%09%09\n if soma \n@@ -124,28 +124,19 @@\n  == 0 %7B%0A\n-            \n+%09%09%09\n fmt.Prin\n@@ -144,32 +144,26 @@\n ln(%22vazio%22)%0A\n-        \n+%09%09\n %7D else if so\n@@ -171,28 +171,19 @@\n a %3C c %7B%0A\n-            \n+%09%09%09\n fmt.Prin\n@@ -200,24 +200,18 @@\n  cabe%22)%0A\n-        \n+%09%09\n %7D else i\n@@ -222,17 +222,16 @@\n ma %3E= c \n- \n && soma \n@@ -233,34 +233,24 @@\n soma %3C c\n- * 2%7B%0A            \n+*2 %7B%0A%09%09%09\n fmt.Prin\n@@ -263,24 +263,18 @@\n otado%22)%0A\n-        \n+%09%09\n %7D else i\n@@ -284,30 +284,20 @@\n oma \n-== c * 2%7B%0A            \n+%3E= c*2 %7B%0A%09%09%09\n fmt.\n@@ -326,41 +326,22 @@\n r%22)%0A\n-            break%0A        %7D %0A    \n+%09%09%09break%0A%09%09%7D%0A%09\n %7D%0A%7D%0A\n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-18_18-15-01",
+            "content": "@@ -343,25 +343,25 @@\n lse if soma \n-%3E\n+=\n = c * 2%7B%0A   \n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-18_18-15-49",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var c, m, soma int\n    fmt.Scan(&c)\n    for{\n        fmt.Scan(&m)\n        soma += m\n        if soma == 0 {\n            fmt.Println(\"vazio\")\n        } else if soma < c {\n            fmt.Println(\"ainda cabe\")\n        } else if soma >= c  && soma < c * 2{\n            fmt.Println(\"lotado\")\n        } else if soma >= c * 2{\n            fmt.Println(\"hora de partir\")\n            break\n        } \n    }\n}\n",
+            "lines": "20"
+        }
+    ]
+}
