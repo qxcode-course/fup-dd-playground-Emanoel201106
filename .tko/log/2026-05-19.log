@@ -1,0 +1,68 @@
+2026-05-19 16:30:55, MOVE, v:1, k:fup@lotado, mode:PICK
+2026-05-19 16:31:18, EXEC, v:1, k:fup@lotado, mode:FULL, rate:100
+2026-05-19 16:31:19, MOVE, v:1, k:fup@lotado, mode:BACK
+2026-05-19 16:31:22, MOVE, v:1, k:fup@spok, mode:DOWN
+2026-05-19 16:31:18, MOVE, v:1, k:fup@lotado, mode:EDIT
+2026-05-19 16:31:22, MOVE, v:1, k:fup@spok, mode:EDIT
+2026-05-19 16:31:22, MOVE, v:1, k:fup@spok, mode:EDIT
+2026-05-19 16:31:22, MOVE, v:1, k:fup@spok, mode:EDIT
+2026-05-19 16:39:50, MOVE, v:1, k:fup@spok, mode:PICK
+2026-05-19 16:39:51, EXEC, v:1, k:fup@spok, mode:FULL, rate:0, size:5
+2026-05-19 16:39:51, MOVE, v:1, k:fup@spok, mode:EDIT
+2026-05-19 16:44:14, MOVE, v:1, k:fup@spok, mode:EDIT
+2026-05-19 16:54:48, MOVE, v:1, k:fup@spok, mode:EDIT
+2026-05-19 16:57:40, EXEC, v:1, k:fup@spok, mode:FULL, rate:100, size:23
+2026-05-19 16:57:39, MOVE, v:1, k:fup@spok, mode:EDIT
+2026-05-19 16:57:40, MOVE, v:1, k:fup@spok, mode:EDIT
+2026-05-19 17:00:51, MOVE, v:1, k:fup@spok, mode:BACK
+2026-05-19 17:01:01, SELF, v:1, k:fup@spok, self:1, rate:100, concept:1, refactor:1
+2026-05-19 17:01:07, MOVE, v:1, k:fup@sapinho, mode:DOWN
+2026-05-19 17:01:08, MOVE, v:1, k:fup@sapinho, mode:PICK
+2026-05-19 17:01:09, EXEC, v:1, k:fup@sapinho, mode:FULL, rate:0, size:5
+2026-05-19 17:01:07, MOVE, v:1, k:fup@sapinho, mode:EDIT
+2026-05-19 17:01:07, MOVE, v:1, k:fup@sapinho, mode:EDIT
+2026-05-19 17:04:48, MOVE, v:1, k:fup@sapinho, mode:EDIT
+2026-05-19 17:01:09, MOVE, v:1, k:fup@sapinho, mode:EDIT
+2026-05-19 17:08:03, EXEC, v:1, k:fup@sapinho, mode:FULL, rate:0, size:9
+2026-05-19 17:09:42, MOVE, v:1, k:fup@sapinho, mode:EDIT
+2026-05-19 17:08:02, MOVE, v:1, k:fup@sapinho, mode:EDIT
+2026-05-19 17:11:22, EXEC, v:1, k:fup@sapinho, mode:FULL, rate:0, size:16
+2026-05-19 17:11:59, EXEC, v:1, k:fup@sapinho, mode:FULL, rate:0, size:17
+2026-05-19 17:13:02, EXEC, v:1, k:fup@sapinho, mode:FULL, rate:0, size:19
+2026-05-19 17:13:33, EXEC, v:1, k:fup@sapinho, mode:FULL, rate:20, size:19
+2026-05-19 17:13:58, EXEC, v:1, k:fup@sapinho, mode:FULL, rate:20, size:19
+2026-05-19 17:14:13, EXEC, v:1, k:fup@sapinho, mode:FULL, rate:0, size:19
+2026-05-19 17:14:25, EXEC, v:1, k:fup@sapinho, mode:FULL, rate:100, size:19
+2026-05-19 17:14:29, MOVE, v:1, k:fup@sapinho, mode:BACK
+2026-05-19 17:14:41, SELF, v:1, k:fup@sapinho, self:1, rate:100, concept:1, refactor:1
+2026-05-19 17:14:45, MOVE, v:1, k:fup@fatores, mode:DOWN
+2026-05-19 17:14:46, MOVE, v:1, k:fup@fatores, mode:PICK
+2026-05-19 17:14:48, EXEC, v:1, k:fup@fatores, mode:FULL, rate:0, size:5
+2026-05-19 17:14:24, MOVE, v:1, k:fup@sapinho, mode:EDIT
+2026-05-19 17:14:25, MOVE, v:1, k:fup@sapinho, mode:EDIT
+2026-05-19 17:14:45, MOVE, v:1, k:fup@fatores, mode:EDIT
+2026-05-19 17:14:45, MOVE, v:1, k:fup@fatores, mode:EDIT
+2026-05-19 17:14:45, MOVE, v:1, k:fup@fatores, mode:EDIT
+2026-05-19 17:14:48, MOVE, v:1, k:fup@fatores, mode:EDIT
+2026-05-19 17:16:50, MOVE, v:1, k:fup@fatores, mode:BACK
+2026-05-19 17:22:03, MOVE, v:1, k:fup@fatores, mode:PICK
+2026-05-19 17:22:04, EXEC, v:1, k:fup@fatores, mode:FULL, rate:0
+2026-05-19 17:22:04, MOVE, v:1, k:fup@fatores, mode:EDIT
+2026-05-19 17:22:35, MOVE, v:1, k:fup@fatores, mode:EDIT
+2026-05-19 17:28:40, EXEC, v:1, k:fup@fatores, mode:FULL, rate:0, size:20
+2026-05-19 17:29:50, EXEC, v:1, k:fup@fatores, mode:FULL, rate:20, size:23
+2026-05-19 17:29:42, MOVE, v:1, k:fup@fatores, mode:EDIT
+2026-05-19 17:29:50, MOVE, v:1, k:fup@fatores, mode:EDIT
+2026-05-19 17:30:48, EXEC, v:1, k:fup@fatores, mode:FULL, rate:100, size:23
+2026-05-19 17:30:47, MOVE, v:1, k:fup@fatores, mode:EDIT
+2026-05-19 17:30:48, MOVE, v:1, k:fup@fatores, mode:EDIT
+2026-05-19 17:37:24, MOVE, v:1, k:fup@fatores, mode:BACK
+2026-05-19 17:37:38, SELF, v:1, k:fup@fatores, self:1, rate:100, concept:1, refactor:1
+2026-05-19 17:39:49, MOVE, v:1, k:fup@vet_i, mode:PICK
+2026-05-19 17:39:50, EXEC, v:1, k:fup@vet_i, mode:FULL, rate:100
+2026-05-19 17:39:50, MOVE, v:1, k:fup@vet_i, mode:EDIT
+2026-05-19 17:44:01, MOVE, v:1, k:fup@vet_i, mode:BACK
+2026-05-19 18:02:51, MOVE, v:1, k:fup@fuga, mode:PICK
+2026-05-19 18:02:52, EXEC, v:1, k:fup@fuga, mode:FULL, rate:0
+2026-05-19 18:02:59, MOVE, v:1, k:fup@fuga, mode:BACK
+2026-05-19 18:02:52, MOVE, v:1, k:fup@fuga, mode:EDIT

@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-19_17-14-48",
+            "content": "@@ -41,336 +41,35 @@\n     \n-var n int%0A    fmt.Scan(&n)%0A    fator := 2%0A    contagem := 0%0A    for n != 1 %7B%0A        if n %25 fator == 0%7B%0A            n = n / fator%0A            contagem++%0A        %7D else %7B%0A            if contagem %3C 0 %7B%0A                fmt.Printf(%22%25d %25d%5Cn%22, fator, contagem)%0A            %7D%0A            fator++%0A            contagem = 0%0A        %7D%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-19_17-28-40",
+            "content": "@@ -371,81 +371,6 @@\n   %7D%0A\n-    if contagem %3E 0 %7B%0A        fmt.Printf(%22%25d %25d%5Cn%22, fator, contagem)%0A    %7D%0A\n %7D%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-19_17-29-50",
+            "content": "@@ -223,33 +223,33 @@\n     if contagem \n-%3E\n+%3C\n  0 %7B%0A           \n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-19_17-30-48",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n int\n    fmt.Scan(&n)\n    fator := 2\n    contagem := 0\n    for n != 1 {\n        if n % fator == 0{\n            n = n / fator\n            contagem++\n        } else {\n            if contagem > 0 {\n                fmt.Printf(\"%d %d\\n\", fator, contagem)\n            }\n            fator++\n            contagem = 0\n        }\n    }\n    if contagem > 0 {\n        fmt.Printf(\"%d %d\\n\", fator, contagem)\n    }\n}\n",
+            "lines": "23"
+        }
+    ]
+}
