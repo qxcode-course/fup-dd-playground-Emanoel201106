@@ -1,0 +1,44 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-24_19-29-26",
+            "content": "@@ -41,259 +41,35 @@\n     \n-var dias int%0A    fmt.Scan(&dias)%0A    var kcal %5B%5Dint = make(%5B%5Dint, dias)%0A    for i := range kcal %7B%0A        fmt.Scan(kcal%5Bi%5D)%0A    %7D%0A    soma := 0%0A    for _, valor := range kcal %7B%0A        soma += valor%0A    %7D%0A    media := soma / dias%0A    fmt.Println(media\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-24_19-39-44",
+            "content": "@@ -152,17 +152,16 @@\n mt.Scan(\n-&\n kcal%5Bi%5D)\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-24_19-41-24",
+            "content": "@@ -285,21 +285,11 @@\n rint\n-f(%22%25d.0 %5Cn%22, \n+ln(\n medi\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-24_19-42-15",
+            "content": "@@ -288,16 +288,19 @@\n tf(%22%25d.0\n+ %5Cn\n %22, media\n@@ -305,26 +305,6 @@\n ia)%0A\n-    fmt.Println(%22%22)%0A\n %7D%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-24_19-42-46",
+            "content": "@@ -292,10 +292,8 @@\n %25d.0\n-%5Cn\n %22, m\n@@ -298,10 +298,30 @@\n  media)%0A\n+    fmt.Println(%22%22)%0A\n %7D%0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-24_19-43-25",
+            "content": "@@ -74,22 +74,8 @@\n as)%0A\n-    soma := 0%0A\n     \n@@ -162,24 +162,26 @@\n cal%5Bi%5D)%0A    \n+%7D%0A\n     soma += \n@@ -181,29 +181,73 @@\n oma \n-+= kcal%5Bi%5D%0A    %7D\n+:= 0%0A    for _, valor := range kcal %7B%0A        soma += valor\n %0A    \n+%7D\n %0A   \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-24_19-45-26",
+            "content": "@@ -228,37 +228,19 @@\n  := \n-float64(\n soma\n-)\n  / \n-float64(\n dias\n-)\n %0A   \n@@ -257,11 +257,11 @@\n f(%22%25\n-.1f\n+d.0\n %5Cn%22,\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-24_19-47-00",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var dias int\n    fmt.Scan(&dias)\n    soma := 0\n    var kcal []int = make([]int, dias)\n    for i := range kcal {\n        fmt.Scan(&kcal[i])\n        soma += kcal[i]\n    }\n    \n    media := float64(soma) / float64(dias)\n    fmt.Printf(\"%.1f\\n\", media)\n}\n",
+            "lines": "15"
+        }
+    ]
+}

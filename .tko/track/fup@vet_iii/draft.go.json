@@ -1,0 +1,69 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-24_18-32-52",
+            "content": "@@ -29,356 +29,46 @@\n nc m\n-ostrar_vetor(n %5B%5Dint, sep string) %7B%0A    for i, valor := range n %7B%0A        if i != 0 %7B%0A            fmt.Println(sep)%0A        %7D%0A        fmt.Printf(%22%25d%22, valor)%0A    %7D%0A    fmt.Println(%22%22)%0A%7D%0Afunc main() %7B%0A    var qtd int%0A    fmt.Scan(&qtd)%0A    %0A    var n %5B%5Dint = make(%5B%5Dint, qtd)%0A    for i := range n%7B%0A        fmt.Scan(&n%5Bi%5D)%0A    %7D%0A    mostrar_vetor(n, %22\n+ain() %7B%0A    fmt.Println(%22Hello, World!\n %22)%0A%7D\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-24_18-34-53",
+            "content": "@@ -192,16 +192,31 @@\n   %7D%0A    \n+fmt.Println(%22%22)\n %0A%7D%0Afunc \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-24_18-35-30",
+            "content": "@@ -132,16 +132,18 @@\n mt.Print\n+ln\n (sep)%0A  \n@@ -196,23 +196,8 @@\n     \n-fmt.Println(%22%22)\n %0A%7D%0Af\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-24_18-38-15",
+            "content": "@@ -170,18 +170,16 @@\n intf(%22%25d\n-, \n %22, valor\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-24_18-38-27",
+            "content": "@@ -359,66 +359,26 @@\n     \n-fmt.Print(%22%5B%22)%0A    mostrar_vetor(n, %22%22)%0A    fmt.Println(%22%5D\n+mostrar_vetor(n, %22\n %22)%0A%7D\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-24_18-39-15",
+            "content": "@@ -188,16 +188,36 @@\n )%0A    %7D%0A\n+    fmt.Println(%22%22)%0A\n %7D%0Afunc m\n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-05-24_18-39-44",
+            "content": "@@ -391,12 +391,15 @@\n Println(\n+%22%5D%22\n )%0A%7D%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-24_18-45-59",
+            "content": "@@ -375,10 +375,28 @@\n (n, %22%22)%0A\n+    fmt.Println()%0A\n %7D%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-24_18-46-07",
+            "content": "@@ -165,17 +165,26 @@\n mt.Print\n-(\n+f(%22%25d, %22, \n valor)%0A \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-24_18-47-43",
+            "content": "@@ -136,18 +136,9 @@\n rint\n-f(%22%25d, %22, \n+(\n sep)\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-24_18-48-17",
+            "content": "@@ -136,17 +136,17 @@\n rintf(%22%25\n-s\n+d\n , %22, sep\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-24_18-48-25",
+            "content": "@@ -379,27 +379,6 @@\n %22%22)%0A\n-    fmt.Println(%22%5D%22)%0A\n %7D%0A\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-05-24_18-48-42",
+            "content": "package main\nimport \"fmt\"\nfunc mostrar_vetor(n []int, sep string) {\n    for i, valor := range n {\n        if i != 0 {\n            fmt.Printf(\"%s, \", sep)\n        }\n        fmt.Print(valor)\n    }\n}\nfunc main() {\n    var qtd int\n    fmt.Scan(&qtd)\n    \n    var n []int = make([]int, qtd)\n    for i := range n{\n        fmt.Scan(&n[i])\n    }\n    fmt.Print(\"[\")\n    mostrar_vetor(n, \"\")\n    fmt.Println(\"]\")\n}\n",
+            "lines": "22"
+        }
+    ]
+}

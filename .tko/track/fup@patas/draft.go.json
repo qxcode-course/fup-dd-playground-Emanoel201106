@@ -1,0 +1,59 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-24_21-40-44",
+            "content": "@@ -41,363 +41,35 @@\n     \n-var chico, cebolinha, qtd int%0A    fmt.Scan(&chico, &cebolinha, &qtd)%0A    animais := make(%5B%5Dstring, qtd)%0A    patas := 0%0A    for i := range animais %7B%0A        fmt.Scan(&animais%5Bi%5D)%0A        if animais%5Bi%5D == %22v%22 && animais%5Bi%5D == %22c%22 %7B%0A            patas += 4%0A        %7D else if animais%5Bi%5D == %22g%22 %7B%0A            patas += 2%0A        %7D%0A        fmt.Println(patas)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-24_21-57-56",
+            "content": "@@ -243,16 +243,38 @@\n %5D == %22v%22\n+ && animais%5Bi%5D == %22c%22 \n %7B%0A      \n@@ -364,76 +364,13 @@\n    %7D\n- else if animais%5Bi%5D == %22c%22 %7B%0A            patas += 4%0A        %7D%0A    %7D%0A\n+%0A    \n     \n@@ -388,10 +388,16 @@\n (patas)%0A\n+    %7D%0A\n %7D%0A\n",
+            "lines": "17"
+        },
+        {
+            "label": "2026-05-24_21-58-47",
+            "content": "@@ -247,29 +247,8 @@\n  %22v%22\n- && animais%5Bi%5D == %22c%22\n %7B%0A  \n@@ -339,16 +339,76 @@\n       %7D \n+else if animais%5Bi%5D == %22c%22 %7B%0A            patas += 4%0A        %7D\n %0A    %7D%0A \n@@ -429,11 +429,10 @@\n (patas)%0A\n-%0A\n %7D%0A\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-05-24_21-59-32",
+            "content": "@@ -244,16 +244,36 @@\n  == %22v%22 \n+&& animais%5Bi%5D == %22c%22\n %7B%0A      \n@@ -364,68 +364,8 @@\n   %7D \n-else if animais%5Bi%5D == %22c%22 %7B%0A            patas += 4%0A        %7D\n %0A   \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-05-24_21-59-43",
+            "content": "@@ -434,70 +434,7 @@\n as)%0A\n-    if chico == cebolinha %7B%0A        fmt.Println(%22empate%22)%0A    %7D\n %0A%7D%0A\n",
+            "lines": "20"
+        },
+        {
+            "label": "2026-05-24_22-00-57",
+            "content": "@@ -447,17 +447,10 @@\n ico \n-- patas %3C\n+==\n  ceb\n@@ -483,19 +483,14 @@\n ln(%22\n-Chico Bento\n+empate\n %22)%0A \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-24_22-05-53",
+            "content": "@@ -504,126 +504,8 @@\n o%22)%0A\n-    %7D else if cebolinha - patas %3C chico %7B%0A        fmt.Println(%22Cebolinha%22)%0A    %7D else %7B%0A        fmt.Println(%22empate%22)%0A\n     \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-05-24_22-06-46",
+            "content": "@@ -434,237 +434,32 @@\n as)%0A\n-%0A     distChico := chico - patas%0A    if distChico %3C 0 %7B%0A        distChico = -distChico%0A    %7D%0A%0A    distCebolinha := cebolinha - patas%0A    if distCebolinha %3C 0 %7B%0A        distCebolinha = -distCebolinha%0A    %7D%0A    if distChico %3C distC\n+    if chico - patas %3C c\n ebol\n@@ -514,21 +514,17 @@\n else if \n-distC\n+c\n ebolinha\n@@ -528,15 +528,19 @@\n nha \n-%3C distC\n+- patas %3C c\n hico\n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-05-24_22-11-27",
+            "content": "@@ -156,17 +156,16 @@\n as := 0%0A\n-%0A\n     for \n@@ -431,24 +431,25 @@\n patas)%0A%0A    \n+ \n distChico :=\n@@ -471,53 +471,175 @@\n     \n-%0A    distCebolinha := cebolinha - patas%0A    %0A\n+if distChico %3C 0 %7B%0A        distChico = -distChico%0A    %7D%0A%0A    distCebolinha := cebolinha - patas%0A    if distCebolinha %3C 0 %7B%0A        distCebolinha = -distCebolinha%0A    %7D\n %0A   \n",
+            "lines": "36"
+        },
+        {
+            "label": "2026-05-24_22-12-28",
+            "content": "@@ -471,179 +471,53 @@\n     \n-if distChico %3C 0 %7B%0A        distChico = -distChico%0A    %7D%0A    distCebolinha := cebolinha - patas%0A    if distCebolinha %3C 0 %7B%0A        distCebolinha = -distCebolinha%0A    %7D%0A    \n+%0A    distCebolinha := cebolinha - patas%0A    %0A\n %0A   \n",
+            "lines": "33"
+        },
+        {
+            "label": "2026-05-24_22-13-20",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var chico, cebolinha, qtd int\n    fmt.Scan(&chico, &cebolinha, &qtd)\n    animais := make([]string, qtd)\n    patas := 0\n\n    for i := range animais {\n        fmt.Scan(&animais[i])\n        if animais[i] == \"v\" {\n            patas += 4\n        } else if animais[i] == \"g\" {\n            patas += 2\n        } else if animais[i] == \"c\" {\n            patas += 4\n        }\n    }\n    fmt.Println(patas)\n\n    distChico := chico - patas\n    if distChico < 0 {\n        distChico = -distChico\n    }\n    distCebolinha := cebolinha - patas\n    if distCebolinha < 0 {\n        distCebolinha = -distCebolinha\n    }\n    \n    if distChico < distCebolinha {\n        fmt.Println(\"Chico Bento\")\n    } else if distCebolinha < distChico {\n        fmt.Println(\"Cebolinha\")\n    } else {\n        fmt.Println(\"empate\")\n    }\n}\n",
+            "lines": "37"
+        }
+    ]
+}

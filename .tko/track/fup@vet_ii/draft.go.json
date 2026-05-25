@@ -1,0 +1,89 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-24_17-33-22",
+            "content": "@@ -41,57 +41,35 @@\n     \n-var qtd int%0A    var n %5B%5Dint%0A    fmt.Scan(&qtd, &n\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-24_18-07-36",
+            "content": "@@ -68,27 +68,8 @@\n %5Dint\n- = make(%5B%5Dint, qtd)\n %0A   \n@@ -92,50 +92,6 @@\n &n)%0A\n-    fmt.Print(%22%5B %22, n)%0A    fmt.Println(%22%5D%22)%0A\n %7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-05-24_18-10-06",
+            "content": "@@ -121,18 +121,40 @@\n t.Print(\n+%22%5B %22, \n n)%0A    \n+fmt.Println(%22%5D%22)\n %0A%7D%0A\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-05-24_18-10-29",
+            "content": "@@ -73,17 +73,16 @@\n = make(%5B\n- \n %5Dint, qt\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-05-24_18-10-39",
+            "content": "@@ -73,16 +73,17 @@\n = make(%5B\n+ \n %5Dint, qt\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-05-24_18-10-50",
+            "content": "@@ -132,54 +132,7 @@\n     \n-for i := range n%7B%0A        fmt.Scan(&n%5Bi%5D)%0A    %7D\n %0A%7D%0A\n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-05-24_18-12-08",
+            "content": "@@ -158,21 +158,20 @@\n     fmt.\n-Print\n+Scan\n (&n%5Bi%5D)%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-05-24_18-12-28",
+            "content": "@@ -102,16 +102,19 @@\n an(&qtd,\n+ &n\n )%0A    fm\n@@ -158,20 +158,21 @@\n     fmt.\n-Scan\n+Print\n (&n%5Bi%5D)%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-05-24_18-21-54",
+            "content": "@@ -101,16 +101,34 @@\n can(&qtd\n+,)%0A    fmt.Print(n\n )%0A    fo\n@@ -177,25 +177,6 @@\n   %7D%0A\n-    fmt.Println(n)%0A\n %7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-05-24_18-24-45",
+            "content": "@@ -53,27 +53,8 @@\n int%0A\n-    fmt.Scan(&qtd)%0A\n     \n@@ -84,16 +84,35 @@\n t, qtd)%0A\n+    fmt.Scan(&qtd)%0A\n     for \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-05-24_18-25-41",
+            "content": "@@ -172,18 +172,11 @@\n rint\n-f(%22 %25d %22, \n+ln(\n n)%0A%7D\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-05-24_18-26-11",
+            "content": "@@ -171,16 +171,17 @@\n Printf(%22\n+ \n %25d %22, n)\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-05-24_18-26-27",
+            "content": "@@ -173,16 +173,17 @@\n intf(%22%25d\n+ \n %22, n)%0A%7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-05-24_18-26-32",
+            "content": "@@ -159,41 +159,8 @@\n   %7D%0A\n-    for _, valor := range n%7B%0A    \n     \n@@ -180,19 +180,9 @@\n d%22, \n-valor)%0A    %7D\n+n)\n %0A%7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-05-24_18-28-55",
+            "content": "@@ -159,27 +159,8 @@\n   %7D%0A\n-    fmt.Print(%22%5B%22)%0A\n     \n@@ -206,17 +206,16 @@\n intf(%22%25d\n- \n %22, valor\n@@ -226,27 +226,6 @@\n   %7D%0A\n-    fmt.Println(%22%5D%22)%0A\n %7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-05-24_18-29-33",
+            "content": "@@ -171,17 +171,16 @@\n Print(%22%5B\n- \n %22)%0A    f\n",
+            "lines": "15"
+        },
+        {
+            "label": "2026-05-24_18-29-43",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var qtd int\n    fmt.Scan(&qtd)\n    var n []int = make([]int, qtd)\n    for i := range n{\n        fmt.Scan(&n[i])\n    }\n    fmt.Print(\"[ \")\n    for _, valor := range n{\n        fmt.Printf(\"%d \", valor)\n    }\n    fmt.Println(\"]\")\n}\n",
+            "lines": "15"
+        }
+    ]
+}

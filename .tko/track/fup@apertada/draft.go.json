@@ -1,0 +1,49 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-24_18-54-38",
+            "content": "@@ -41,19 +41,35 @@\n     \n-var n %5B%5Dint%0A\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-24_18-56-47",
+            "content": "@@ -52,41 +52,8 @@\n %5Dint\n- = make(%5B%5Dint, 5)%0A    fmt.Scan(&n)\n+%0A\n %0A%7D%0A\n",
+            "lines": "6"
+        },
+        {
+            "label": "2026-05-24_18-57-57",
+            "content": "@@ -87,25 +87,6 @@\n &n)%0A\n-    fmt.Println(n)%0A\n %7D%0A\n",
+            "lines": "6"
+        },
+        {
+            "label": "2026-05-24_18-58-36",
+            "content": "@@ -48,16 +48,33 @@\n  n %5B%5Dint\n+ = make(%5B%5Dint, 5)\n %0A    fmt\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-05-24_18-58-52",
+            "content": "@@ -52,25 +52,8 @@\n %5Dint\n- = make(%5B%5Dint, 5)\n %0A   \n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-05-24_18-59-12",
+            "content": "@@ -75,60 +75,19 @@\n    f\n-or i := range n %7B%0A        fmt.Scan(&n%5Bi%5D)%0A    %7D%0A    \n+mt.Scan(&n)\n %0A   \n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-05-24_19-17-43",
+            "content": "@@ -123,117 +123,8 @@\n   %7D%0A\n-    menor := n%5B0%5D%0A    for _, valor := range n %7B%0A        if menor %3C valor %7B%0A        menor = valor%0A    %7D%0A    %7D%0A\n     \n@@ -144,13 +144,9 @@\n tln(\n-menor\n+n\n )%0A%7D%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-05-24_19-22-35",
+            "content": "@@ -188,9 +188,9 @@\n nor \n-%3E\n+%3C\n  val\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-05-24_19-22-49",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n []int = make([]int, 5)\n    for i := range n {\n        fmt.Scan(&n[i])\n    }\n    menor := n[0]\n    for _, valor := range n {\n        if menor > valor {\n        menor = valor\n    }\n    }\n    \n    fmt.Println(menor)\n}\n",
+            "lines": "16"
+        }
+    ]
+}
