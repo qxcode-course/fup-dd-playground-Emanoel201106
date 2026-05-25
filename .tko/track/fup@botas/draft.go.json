@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-05-25_17-34-55",
+            "content": "@@ -23,858 +23,53 @@\n mt%22%0A\n-%0Atype Bota struct %7B%0A    tam int%0A    pe string%0A%7D%0A%0Afunc gerarPar(bota Bota) Bota %7B%0A    par := Bota%7Btam: bota.tam%7D%0A    if bota.pe == %22D%22%7B%0A        par.pe = %22E%22%0A    %7D else %7B%0A        par.pe = %22D%22%0A    %7D%0A    return par%0A%7D%0Afunc procurarBota(lista %5B%5DBota, bota Bota) (bool, int) %7B%0A%09for i, elem := range lista %7B%0A%09%09if elem == bota %7B%0A%09%09%09return true, i%0A%09%09%7D%0A%09%7D%0A%09return false, 0%0A%7D%0A%0Afunc main() %7B%0A%09qtd := 0%0A%09fmt.Scan(&qtd)%0A%09botas := make(%5B%5DBota, qtd)%0A%09for i := range botas %7B%0A%09%09fmt.Scan(&botas%5Bi%5D.tam, &botas%5Bi%5D.pe)%0A%09%7D%0A%09descasados := make(%5B%5DBota, 0)%0A%09cont_pares := 0%0A%09for _, elem := range botas %7B%0A%09%09par := gerarPar(elem)%0A%09%09encontrei, onde := procurarBota(descasados, par)%0A%09%09if !encontrei %7B%0A%09%09%09descasados = append(descasados, elem)%0A%09%09%7D else %7B%0A%09%09%09cont_pares += 1%0A%09%09%09descasados%5Bonde%5D.tam = 0%0A%09%09%09// slices.Delete(descasados, onde, onde + 1)%0A%09%09%7D%0A%09%7D%0A%09fmt.Println(cont_pares)%0A%7D%0A \n+func main() %7B%0A    fmt.Println(%22Hello, World!%22)%0A%7D\n %0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-05-25_18-21-10",
+            "content": "package main\nimport \"fmt\"\n\ntype Bota struct {\n    tam int\n    pe string\n}\n\nfunc gerarPar(bota Bota) Bota {\n    par := Bota{tam: bota.tam}\n    if bota.pe == \"D\"{\n        par.pe = \"E\"\n    } else {\n        par.pe = \"D\"\n    }\n    return par\n}\nfunc procurarBota(lista []Bota, bota Bota) (bool, int) {\n\tfor i, elem := range lista {\n\t\tif elem == bota {\n\t\t\treturn true, i\n\t\t}\n\t}\n\treturn false, 0\n}\n\nfunc main() {\n\tqtd := 0\n\tfmt.Scan(&qtd)\n\tbotas := make([]Bota, qtd)\n\tfor i := range botas {\n\t\tfmt.Scan(&botas[i].tam, &botas[i].pe)\n\t}\n\tdescasados := make([]Bota, 0)\n\tcont_pares := 0\n\tfor _, elem := range botas {\n\t\tpar := gerarPar(elem)\n\t\tencontrei, onde := procurarBota(descasados, par)\n\t\tif !encontrei {\n\t\t\tdescasados = append(descasados, elem)\n\t\t} else {\n\t\t\tcont_pares += 1\n\t\t\tdescasados[onde].tam = 0\n\t\t\t// slices.Delete(descasados, onde, onde + 1)\n\t\t}\n\t}\n\tfmt.Println(cont_pares)\n}\n \n",
+            "lines": "49"
+        }
+    ]
+}

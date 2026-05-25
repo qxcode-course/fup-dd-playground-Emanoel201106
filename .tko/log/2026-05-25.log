@@ -1,0 +1,14 @@
+2026-05-25 17:34:45, MOVE, v:1, k:fup@botas, mode:DOWN
+2026-05-25 17:34:46, MOVE, v:1, k:fup@botas, mode:PICK
+2026-05-25 17:34:55, EXEC, v:1, k:fup@botas, mode:FULL, rate:0, size:5
+2026-05-25 17:35:26, MOVE, v:1, k:fup@botas, mode:BACK
+2026-05-25 17:34:45, MOVE, v:1, k:fup@botas, mode:EDIT
+2026-05-25 17:34:45, MOVE, v:1, k:fup@botas, mode:EDIT
+2026-05-25 17:34:55, MOVE, v:1, k:fup@botas, mode:EDIT
+2026-05-25 18:15:57, MOVE, v:1, k:fup@botas, mode:PICK
+2026-05-25 18:16:00, EXEC, v:1, k:fup@botas, mode:FULL, rate:0
+2026-05-25 18:16:00, MOVE, v:1, k:fup@botas, mode:EDIT
+2026-05-25 18:20:41, MOVE, v:1, k:fup@botas, mode:EDIT
+2026-05-25 18:21:10, EXEC, v:1, k:fup@botas, mode:FULL, rate:100, size:49
+2026-05-25 18:21:45, MOVE, v:1, k:fup@botas, mode:BACK
+2026-05-25 18:22:02, SELF, v:1, k:fup@botas, self:1, rate:100

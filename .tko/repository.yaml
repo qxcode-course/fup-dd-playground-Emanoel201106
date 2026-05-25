@@ -27,5 +27,5 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@for_extra
-selected_index: 7
+selected: fup@botas
+selected_index: 29
