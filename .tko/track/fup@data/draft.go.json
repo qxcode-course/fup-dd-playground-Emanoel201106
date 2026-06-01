@@ -1,0 +1,34 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-01_17-28-14",
+            "content": "@@ -41,149 +41,35 @@\n     \n-var hora, minuto, dia, mes, ano int%0A    fmt.Scan(&hora, &minuto, &dia, &mes, &ano)%0A    fmt.Println(hora, %22:%22, minuto, dia, %22/%22, mes, %22/%22, ano\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-06-01_17-36-58",
+            "content": "@@ -137,31 +137,20 @@\n rint\n-f(%22%25d:%25d %25d/%25d/%25d%22,hora\n+ln(hora, %22:%22\n , mi\n@@ -156,24 +156,34 @@\n inuto, dia, \n-mes\n+%22/%22, mes, %22/%22\n , ano)%0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-06-01_17-38-20",
+            "content": "@@ -141,30 +141,20 @@\n f(%22%25\n-02\n d:%25\n-02\n d %25\n-02\n d/%25\n-02\n d/%25\n-02\n d%22,h\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-06-01_17-39-59",
+            "content": "@@ -193,12 +193,8 @@\n  ano\n-%25100\n )%0A%7D%0A\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-06-01_17-40-58",
+            "content": "@@ -164,10 +164,8 @@\n %2502d\n-%5Cn\n %22,ho\n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-06-01_17-41-05",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var hora, minuto, dia, mes, ano int\n    fmt.Scan(&hora, &minuto, &dia, &mes, &ano)\n    fmt.Printf(\"%02d:%02d %02d/%02d/%02d\\n\",hora, minuto, dia, mes, ano%100)\n}\n",
+            "lines": "7"
+        }
+    ]
+}

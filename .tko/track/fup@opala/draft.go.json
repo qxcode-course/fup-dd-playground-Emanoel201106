@@ -1,0 +1,34 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-01_17-41-16",
+            "content": "@@ -41,215 +41,35 @@\n     \n-var velocidade, tempo, consumo int%0A    fmt.Scan(&velocidade, &tempo, &consumo)%0A%0A    tempoh := tempo / 60%0A    distancia := velocidade * tempoh%0A    desempenho := distancia / consumo%0A%0A    fmt.Println(desempenho\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-06-01_17-50-44",
+            "content": "@@ -197,24 +197,16 @@\n enho := \n-float64(\n distanci\n@@ -210,28 +210,18 @@\n ncia\n-)\n  / \n-float64(\n consumo\n-)\n %0A%0A  \n@@ -235,18 +235,11 @@\n rint\n-f(%22%25.2f%22, \n+ln(\n dese\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-06-01_17-51-34",
+            "content": "@@ -260,10 +260,8 @@\n %25.2f\n-%5Cn\n %22, d\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-06-01_17-51-41",
+            "content": "@@ -72,15 +72,11 @@\n umo \n-float64\n+int\n %0A   \n@@ -197,16 +197,24 @@\n enho := \n+float64(\n distanci\n@@ -218,18 +218,28 @@\n ncia\n+)\n  / \n+float64(\n consumo\n+)\n %0A%0A  \n@@ -256,16 +256,18 @@\n tf(%22%25.2f\n+%5Cn\n %22, desem\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-06-01_17-52-16",
+            "content": "@@ -246,10 +246,8 @@\n %25.2f\n-%5Cn\n %22, d\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-06-01_17-52-27",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var velocidade, tempo, consumo float64\n    fmt.Scan(&velocidade, &tempo, &consumo)\n\n    tempoh := tempo / 60\n    distancia := velocidade * tempoh\n    desempenho := distancia / consumo\n\n    fmt.Printf(\"%.2f\\n\", desempenho)\n}\n",
+            "lines": "12"
+        }
+    ]
+}

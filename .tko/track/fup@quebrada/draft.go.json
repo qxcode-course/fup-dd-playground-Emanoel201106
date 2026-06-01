@@ -1,0 +1,54 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-01_16-57-14",
+            "content": "@@ -41,98 +41,35 @@\n     \n-var n1, n2 int%0A    fmt.Scan(&n1, &n2)%0A    resultadoi := n1 / n2%0A    fmt.Println(resultadoi\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-06-01_17-03-11",
+            "content": "@@ -75,17 +75,16 @@\n 1, &n2)%0A\n-%0A\n     resu\n@@ -105,34 +105,8 @@\n  n2%0A\n-    resto := n1 %25 n2%0A    %0A\n     \n@@ -131,15 +131,8 @@\n adoi\n-, resto\n )%0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-06-01_17-04-03",
+            "content": "@@ -145,25 +145,11 @@\n rint\n-f(%22%25d %5Cn %25d %5Cn%22, \n+ln(\n resu\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-06-01_17-04-48",
+            "content": "@@ -150,13 +150,15 @@\n (%22%25d\n+ \n %5Cn %25d\n+ \n %5Cn%22,\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-06-01_17-04-56",
+            "content": "@@ -148,16 +148,17 @@\n tf(%22%25d%5Cn\n+ \n %25d%5Cn%22, r\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-06-01_17-05-00",
+            "content": "@@ -131,29 +131,8 @@\n     \n-resultadof := n1 / n2\n %0A   \n@@ -156,14 +156,8 @@\n %25d%5Cn\n-%252.f%5Cn\n %22, r\n@@ -176,20 +176,8 @@\n esto\n-, resultadof\n )%0A%7D%0A\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-06-01_17-06-31",
+            "content": "@@ -145,27 +145,15 @@\n  := \n-float64(resultadoi)\n+n1 / n2\n %0A   \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-06-01_17-07-45",
+            "content": "@@ -190,10 +190,10 @@\n d%5Cn%25\n-.\n 2\n+.\n f%5Cn%22\n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-06-01_17-08-22",
+            "content": "@@ -153,24 +153,18 @@\n t64(\n-n1) / float64(n2\n+resultadoi\n )%0A  \n",
+            "lines": "11"
+        },
+        {
+            "label": "2026-06-01_17-11-11",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n1, n2 int\n    fmt.Scan(&n1, &n2)\n\n    resultadoi := n1 / n2\n    resto := n1 % n2\n    resultadof := float64(n1) / float64(n2)\n    fmt.Printf(\"%d\\n%d\\n%.2f\\n\", resultadoi, resto, resultadof)\n}\n",
+            "lines": "11"
+        }
+    ]
+}

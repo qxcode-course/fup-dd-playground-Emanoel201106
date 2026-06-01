@@ -18,8 +18,7 @@ sources:
   type: git
   writeable: false
   quests: null
-expanded:
-- fup@list
+expanded: []
 flags:
   inbox: all
   panel: skills
@@ -27,5 +26,5 @@ flags:
   task_graph_mode: executions
   show_time: 'true'
 lang: go
-selected: fup@patas
-selected_index: 14
+selected: fup@for_extra
+selected_index: 7
