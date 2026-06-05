@@ -42,7 +42,12 @@
         },
         {
             "label": "2026-05-24_19-22-49",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n []int = make([]int, 5)\n    for i := range n {\n        fmt.Scan(&n[i])\n    }\n    menor := n[0]\n    for _, valor := range n {\n        if menor > valor {\n        menor = valor\n    }\n    }\n    \n    fmt.Println(menor)\n}\n",
+            "content": "@@ -182,19 +182,19 @@\n  if \n-valor %3C men\n+menor %3E val\n or %7B\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-06-04_22-35-04",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n []int = make([]int, 5)\n    for i := range n {\n        fmt.Scan(&n[i])\n    }\n    menor := n[0]\n    for _, valor := range n {\n        if valor < menor {\n        menor = valor\n    }\n    }\n    \n    fmt.Println(menor)\n}\n",
             "lines": "16"
         }
     ]
