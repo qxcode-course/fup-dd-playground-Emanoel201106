@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-06_21-51-07",
+            "content": "@@ -41,304 +41,35 @@\n     \n-var procurado, n int%0A    fmt.Scan(&procurado, &n)%0A    %0A    //contador := 0%0A    nums := make(%5B%5Dint, n)%0A%0A    for i := range nums %7B%0A        fmt.Scan(&nums%5Bi%5D)%0A    %7D%0A    fmt.Println(nums)%0A    //for _; valor := range nums %7B%0A    //    if valor == procurado %7B%0A    //        contador++%0A    //    %7D%0A    //%7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-06-06_22-25-27",
+            "content": "@@ -92,24 +92,26 @@\n n)%0A    %0A    \n+//\n contador := \n@@ -112,16 +112,16 @@\n or := 0%0A\n-\n     nums\n@@ -207,14 +207,38 @@\n     \n+fmt.Println(nums)%0A    //\n for _\n-,\n+;\n  val\n@@ -256,24 +256,26 @@\n  nums %7B%0A    \n+//\n     if valor\n@@ -290,24 +290,26 @@\n urado %7B%0A    \n+//\n         cont\n@@ -315,24 +315,26 @@\n tador++%0A    \n+//\n     %7D%0A    %7D%0A\n@@ -335,34 +335,10 @@\n     \n-%7D%0A    fmt.Println(contador)\n+//%7D\n %0A%7D%0A\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-06-06_22-26-42",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var procurado, n int\n    fmt.Scan(&procurado, &n)\n    \n    contador := 0\n    nums := make([]int, n)\n\n    for i := range nums {\n        fmt.Scan(&nums[i])\n    }\n    for _, valor := range nums {\n        if valor == procurado {\n            contador++\n        }\n    }\n    fmt.Println(contador)\n}\n",
+            "lines": "19"
+        }
+    ]
+}

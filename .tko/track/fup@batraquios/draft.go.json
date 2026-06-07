@@ -1,0 +1,39 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-06_22-30-31",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -37,411 +37,39 @@\n ) %7B%0A\n-%09var n, m int%0A%09fmt.Scan(&n, &m)%0A%0A%09nums := make(%5B%5Dint, n)%0A%09for i := range nums %7B%0A%09%09fmt.Scan(&nums%5Bi%5D)%0A%09%7D%0A%0A    num := make(%5B%5Dint, m)%0A%09for i := range num %7B%0A%09%09fmt.Scan(&num%5Bi%5D)%0A%09%7D%0A    %0A    encontrou := false%0A    for _, x := range nums %7B%0A        for _, y := range num %7B%0A            if x == y %7B%0A                encontrou = true%0A            %7D%0A        %7D%0A    %7D%0A    if encontrou %7B%0A        fmt.Println(%22sim%22)%0A    %7D \n+    fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-06-06_22-52-13",
+            "content": "@@ -443,46 +443,7 @@\n   %7D \n-else %7B%0A        fmt.Println(%22nao%22)%0A    %7D\n %0A%7D%0A\n",
+            "lines": "30"
+        },
+        {
+            "label": "2026-06-06_22-52-41",
+            "content": "@@ -73,17 +73,16 @@\n )%0A%0A%09nums\n-1\n  := make\n@@ -112,17 +112,16 @@\n nge nums\n-1\n  %7B%0A%09%09fmt\n@@ -131,17 +131,16 @@\n an(&nums\n-1\n %5Bi%5D)%0A%09%7D%0A\n@@ -144,14 +144,15 @@\n %09%7D%0A%0A\n-%09\n+    \n num\n-s2\n  := \n@@ -181,26 +181,24 @@\n := range num\n-s2\n  %7B%0A%09%09fmt.Sca\n@@ -207,18 +207,16 @@\n &num\n-s2\n %5Bi%5D)%0A%09%7D%0A\n %0A%09to\n@@ -215,25 +215,40 @@\n %0A%09%7D%0A\n-%0A%09todos := true%0A%09\n+    %0A    encontrou := false%0A    \n for \n@@ -269,9 +269,8 @@\n nums\n-1\n  %7B%0A \n@@ -280,29 +280,8 @@\n     \n-encontrou := false%0A%09%09\n for \n@@ -301,88 +301,50 @@\n  num\n-s2\n  %7B%0A\n-%09%09%09if x == y %7B%0A%09%09%09%09encontrou = true%0A                break%0A%09%09%09%7D%0A%09%09%7D%0A\n+            if x == y %7B%0A       \n         \n if !\n@@ -343,12 +343,9 @@\n     \n-if !\n+ \n enco\n@@ -350,17 +350,22 @@\n controu \n-%7B\n+= true\n %0A       \n@@ -373,67 +373,53 @@\n     \n-todos = false%0A            break\n+%7D%0A        %7D\n %0A    \n+%7D%0A\n     \n-%7D%0A%09%7D%0A%09if todos %7B%0A%09%09\n+if encontrou %7B%0A        \n fmt.\n@@ -433,17 +433,20 @@\n (%22sim%22)%0A\n-%09\n+    \n %7D else %7B\n@@ -446,18 +446,24 @@\n  else %7B%0A\n-%09%09\n+        \n fmt.Prin\n@@ -473,13 +473,16 @@\n (%22nao%22)%0A\n-%09\n+    \n %7D%0A%7D%0A\n",
+            "lines": "32"
+        },
+        {
+            "label": "2026-06-06_22-59-32",
+            "content": "@@ -222,46 +222,8 @@\n %09%7D%0A%0A\n-    usado := make(%5B%5Dbool, len(nums2))%0A\n %09tod\n@@ -293,17 +293,17 @@\n e%0A%09%09for \n-j\n+_\n , y := r\n@@ -332,54 +332,9 @@\n = y \n-&& !usado%5Bj%5D %7B%0A                usado%5Bj%5D = true\n+%7B\n %0A%09%09%09\n",
+            "lines": "38"
+        },
+        {
+            "label": "2026-06-06_23-03-32",
+            "content": "@@ -39,26 +39,23 @@\n ) %7B%0A\n-    \n+%09\n var n\n+, m\n  int%0A\n-    \n+%09\n fmt.\n@@ -61,23 +61,24 @@\n .Scan(&n\n-)%0A%0A    \n+, &m)%0A%0A%09\n nums1 :=\n@@ -93,20 +93,17 @@\n int, n)%0A\n-    \n+%09\n for i :=\n@@ -117,24 +117,18 @@\n nums1 %7B%0A\n-        \n+%09%09\n fmt.Scan\n@@ -143,51 +143,13 @@\n i%5D)%0A\n-    %7D%0A%0A    var m int%0A    fmt.Scan(&m)%0A%0A    \n+%09%7D%0A%0A%09\n nums\n@@ -168,20 +168,17 @@\n int, m)%0A\n-    \n+%09\n for i :=\n@@ -192,24 +192,18 @@\n nums2 %7B%0A\n-        \n+%09%09\n fmt.Scan\n@@ -214,20 +214,17 @@\n ms2%5Bi%5D)%0A\n-    \n+%09\n %7D%0A%0A    u\n@@ -256,20 +256,17 @@\n nums2))%0A\n-    \n+%09\n todos :=\n@@ -271,21 +271,17 @@\n := true%0A\n-%0A    \n+%09\n for _, x\n@@ -325,25 +325,18 @@\n = false%0A\n-%0A        \n+%09%09\n for j, y\n@@ -353,28 +353,19 @@\n nums2 %7B%0A\n-            \n+%09%09%09\n if x == \n@@ -413,32 +413,20 @@\n  = true%0A\n-                \n+%09%09%09%09\n encontro\n@@ -460,32 +460,16 @@\n eak%0A\n-            %7D%0A        %7D%0A\n+%09%09%09%7D%0A%09%09%7D\n %0A   \n@@ -547,19 +547,12 @@\n   %7D%0A\n-    %7D%0A%0A    \n+%09%7D%0A%09\n if t\n@@ -558,24 +558,18 @@\n todos %7B%0A\n-        \n+%09%09\n fmt.Prin\n@@ -579,20 +579,17 @@\n (%22sim%22)%0A\n-    \n+%09\n %7D else %7B\n@@ -589,24 +589,18 @@\n  else %7B%0A\n-        \n+%09%09\n fmt.Prin\n@@ -610,16 +610,13 @@\n (%22nao%22)%0A\n-    \n+%09\n %7D%0A%7D%0A\n",
+            "lines": "40"
+        },
+        {
+            "label": "2026-06-06_23-08-10",
+            "content": "@@ -35,17 +35,20 @@\n ain() %7B%0A\n-%09\n+    \n var n in\n@@ -45,24 +45,28 @@\n   var n int%0A\n+    \n fmt.Scan(&n)\n@@ -67,16 +67,20 @@\n an(&n)%0A%0A\n+    \n nums1 :=\n@@ -95,16 +95,20 @@\n int, n)%0A\n+    \n for i :=\n@@ -118,24 +118,28 @@\n nge nums1 %7B%0A\n+    \n     fmt.Scan\n@@ -150,19 +150,27 @@\n ms1%5Bi%5D)%0A\n-%7D%0A%0A\n+    %7D%0A%0A    \n var m in\n@@ -171,16 +171,20 @@\n r m int%0A\n+    \n fmt.Scan\n@@ -189,16 +189,20 @@\n an(&m)%0A%0A\n+    \n nums2 :=\n@@ -217,16 +217,20 @@\n int, m)%0A\n+    \n for i :=\n@@ -244,24 +244,28 @@\n nums2 %7B%0A    \n+   \n+ \n fmt.Scan(&nu\n@@ -272,16 +272,20 @@\n ms2%5Bi%5D)%0A\n+    \n %7D%0A%0A    u\n@@ -317,17 +317,20 @@\n nums2))%0A\n-%09\n+    \n todos :=\n@@ -335,17 +335,21 @@\n := true%0A\n-%09\n+%0A    \n for _, x\n@@ -393,18 +393,25 @@\n = false%0A\n-%09%09\n+%0A        \n for j, y\n@@ -428,19 +428,28 @@\n nums2 %7B%0A\n-%09%09%09\n+            \n if x == \n@@ -501,12 +501,24 @@\n rue%0A\n-%09%09%09%09\n+                \n enco\n@@ -556,16 +556,32 @@\n eak%0A\n-%09%09%09%7D%0A%09%09%7D\n+            %7D%0A        %7D%0A\n %0A   \n@@ -659,12 +659,19 @@\n   %7D%0A\n-%09%7D%0A%09\n+    %7D%0A%0A    \n if t\n@@ -677,18 +677,24 @@\n todos %7B%0A\n-%09%09\n+        \n fmt.Prin\n@@ -704,17 +704,20 @@\n (%22sim%22)%0A\n-%09\n+    \n %7D else %7B\n@@ -721,10 +721,16 @@\n e %7B%0A\n-%09%09\n+        \n fmt.\n@@ -748,9 +748,12 @@\n o%22)%0A\n-%09\n+    \n %7D%0A%7D%0A\n",
+            "lines": "47"
+        },
+        {
+            "label": "2026-06-06_23-09-02",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar n int\nfmt.Scan(&n)\n\nnums1 := make([]int, n)\nfor i := range nums1 {\n    fmt.Scan(&nums1[i])\n}\n\nvar m int\nfmt.Scan(&m)\n\nnums2 := make([]int, m)\nfor i := range nums2 {\n    fmt.Scan(&nums2[i])\n}\n\n    usado := make([]bool, len(nums2))\n\ttodos := true\n\tfor _, x := range nums1 {\n        encontrou := false\n\t\tfor j, y := range nums2 {\n\t\t\tif x == y && !usado[j] {\n                usado[j] = true\n\t\t\t\tencontrou = true\n                break\n\t\t\t}\n\t\t}\n        if !encontrou {\n            todos = false\n            break\n        }\n\t}\n\tif todos {\n\t\tfmt.Println(\"sim\")\n\t} else {\n\t\tfmt.Println(\"nao\")\n\t}\n}\n",
+            "lines": "43"
+        }
+    ]
+}

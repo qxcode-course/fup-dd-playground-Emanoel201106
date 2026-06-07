@@ -7,8 +7,33 @@
         },
         {
             "label": "2026-06-04_22-34-09",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var qtd int\n    var sabor, turno string\n    fmt.Scan(&qtd, &sabor, &turno)\n}\n",
+            "content": "@@ -53,321 +53,69 @@\n int%0A\n-%0A    chocolate := 0%0A    limao := 0%0A    manha := 0%0A    tarde := 0%0A%0A    for i := 0; i %3C qtd; i++%7B%0A    var sabor, turno string%0A    fmt.Scan(&sabor, &turno)%0A%0A    if sabor == %22c%22 %7B%0A        chocolate++%0A    %7D else %7B%0A        limao++%0A    %7D%0A    if turno == %22m%22 %7B%0A        manha++%0A    %7D else %7B%0A        tarde++%0A    %7D%0A    %7D%0A    \n+    var sabor, turno string%0A    fmt.Scan(&qtd, &sabor, &turno)\n %0A%7D%0A\n",
             "lines": "7"
+        },
+        {
+            "label": "2026-06-06_19-33-30",
+            "content": "@@ -357,196 +357,8 @@\n   %7D%0A\n-    if chocolate %3E limao %7B%0A        fmt.Println(%22c%22)%0A    %7D else %7B%0A        fmt.Println(%22l%22)%0A    %7D%0A    if manha %3C tarde %7B%0A        fmt.Println(%22m%22)%0A    %7D else %7B%0A        fmt.Println(%22t%22)%0A    %7D%0A\n     \n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-06-06_19-36-20",
+            "content": "@@ -357,19 +357,8 @@\n   %7D%0A\n-    %0A    %7D%0A\n     \n@@ -537,19 +537,25 @@\n (%22t%22)%0A    %7D%0A\n+    %7D%0A\n     %0A%7D%0A\n",
+            "lines": "37"
+        },
+        {
+            "label": "2026-06-06_19-36-43",
+            "content": "@@ -349,24 +349,29 @@\n rde++%0A    %7D%0A\n+    %0A\n     %7D%0A    if\n@@ -431,29 +431,8 @@\n lse \n-if limao %3E chocolate \n %7B%0A  \n@@ -458,51 +458,8 @@\n l%22)%0A\n-    %7D else %7B%0A        fmt.Println(%22empate%22)%0A\n     \n@@ -523,25 +523,8 @@\n lse \n-if tarde %3C manha \n %7B%0A  \n@@ -550,51 +550,8 @@\n t%22)%0A\n-    %7D else %7B%0A        fmt.Println(%22empate%22)%0A\n     \n",
+            "lines": "38"
+        },
+        {
+            "label": "2026-06-06_19-38-19",
+            "content": "@@ -53,31 +53,8 @@\n int%0A\n-    fmt.Scan(&qtd)%0A    \n %0A   \n",
+            "lines": "41"
+        },
+        {
+            "label": "2026-06-06_19-39-11",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var qtd int\n    fmt.Scan(&qtd)\n    \n    chocolate := 0\n    limao := 0\n    manha := 0\n    tarde := 0\n\n    for i := 0; i < qtd; i++{\n    var sabor, turno string\n    fmt.Scan(&sabor, &turno)\n\n    if sabor == \"c\" {\n        chocolate++\n    } else {\n        limao++\n    }\n    if turno == \"m\" {\n        manha++\n    } else {\n        tarde++\n    }\n    }\n    if chocolate > limao {\n        fmt.Println(\"c\")\n    } else if limao > chocolate {\n        fmt.Println(\"l\")\n    } else {\n        fmt.Println(\"empate\")\n    }\n    if manha < tarde {\n        fmt.Println(\"m\")\n    } else if tarde < manha {\n        fmt.Println(\"t\")\n    } else {\n        fmt.Println(\"empate\")\n    }\n    \n}\n",
+            "lines": "42"
         }
     ]
 }

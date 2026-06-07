@@ -1,0 +1,63 @@
+2026-06-06 19:24:51, MOVE, v:1, k:fup@dindin, mode:PICK
+2026-06-06 19:25:28, EXEC, v:1, k:fup@dindin, mode:FULL, rate:0
+2026-06-06 19:24:51, MOVE, v:1, k:fup@dindin, mode:EDIT
+2026-06-06 19:25:27, MOVE, v:1, k:fup@dindin, mode:EDIT
+2026-06-06 19:26:07, MOVE, v:1, k:fup@dindin, mode:EDIT
+2026-06-06 19:32:46, MOVE, v:1, k:fup@dindin, mode:EDIT
+2026-06-06 19:33:30, EXEC, v:1, k:fup@dindin, mode:FULL, rate:0, size:27
+2026-06-06 19:36:21, EXEC, v:1, k:fup@dindin, mode:FULL, rate:0, size:37
+2026-06-06 19:36:43, EXEC, v:1, k:fup@dindin, mode:FULL, rate:12, size:38
+2026-06-06 19:37:45, MOVE, v:1, k:fup@dindin, mode:EDIT
+2026-06-06 19:36:42, MOVE, v:1, k:fup@dindin, mode:EDIT
+2026-06-06 19:38:19, EXEC, v:1, k:fup@dindin, mode:FULL, rate:12, size:41
+2026-06-06 19:39:11, EXEC, v:1, k:fup@dindin, mode:FULL, rate:100, size:42
+2026-06-06 19:39:15, MOVE, v:1, k:fup@dindin, mode:BACK
+2026-06-06 19:39:21, SELF, v:1, k:fup@dindin, self:1, rate:100
+2026-06-06 19:39:09, MOVE, v:1, k:fup@dindin, mode:EDIT
+2026-06-06 19:38:17, MOVE, v:1, k:fup@dindin, mode:EDIT
+2026-06-06 19:39:11, MOVE, v:1, k:fup@dindin, mode:EDIT
+2026-06-06 21:50:47, MOVE, v:1, k:fup@repetidos, mode:DOWN
+2026-06-06 21:50:52, MOVE, v:1, k:fup@repetidos, mode:PICK
+2026-06-06 21:51:07, EXEC, v:1, k:fup@repetidos, mode:FULL, rate:0, size:5
+2026-06-06 21:51:09, MOVE, v:1, k:fup@repetidos, mode:EDIT
+2026-06-06 21:50:47, MOVE, v:1, k:fup@repetidos, mode:EDIT
+2026-06-06 21:51:08, MOVE, v:1, k:fup@repetidos, mode:EDIT
+2026-06-06 21:50:58, MOVE, v:1, k:fup@dindin, mode:EDIT
+2026-06-06 21:50:58, MOVE, v:1, k:fup@dindin, mode:EDIT
+2026-06-06 21:51:06, MOVE, v:1, k:fup@repetidos, mode:EDIT
+2026-06-06 22:17:56, MOVE, v:1, k:fup@repetidos, mode:EDIT
+2026-06-06 22:22:56, MOVE, v:1, k:fup@repetidos, mode:EDIT
+2026-06-06 22:25:27, EXEC, v:1, k:fup@repetidos, mode:FULL, rate:0, size:19
+2026-06-06 22:26:42, EXEC, v:1, k:fup@repetidos, mode:FULL, rate:100, size:19
+2026-06-06 22:26:51, MOVE, v:1, k:fup@repetidos, mode:BACK
+2026-06-06 22:26:58, SELF, v:1, k:fup@repetidos, self:1, rate:100, concept:1, refactor:1
+2026-06-06 22:27:07, MOVE, v:1, k:fup@batraquios, mode:DOWN
+2026-06-06 22:27:08, MOVE, v:1, k:fup@batraquios, mode:PICK
+2026-06-06 22:26:39, MOVE, v:1, k:fup@repetidos, mode:EDIT
+2026-06-06 22:26:42, MOVE, v:1, k:fup@repetidos, mode:EDIT
+2026-06-06 22:27:16, MOVE, v:1, k:fup@batraquios, mode:EDIT
+2026-06-06 22:27:07, MOVE, v:1, k:fup@batraquios, mode:EDIT
+2026-06-06 22:27:16, MOVE, v:1, k:fup@batraquios, mode:EDIT
+2026-06-06 22:30:31, EXEC, v:1, k:fup@batraquios, mode:FULL, rate:0, size:5
+2026-06-06 22:30:30, MOVE, v:1, k:fup@batraquios, mode:EDIT
+2026-06-06 22:32:56, MOVE, v:1, k:fup@batraquios, mode:EDIT
+2026-06-06 22:34:46, MOVE, v:1, k:fup@batraquios, mode:EDIT
+2026-06-06 22:42:09, MOVE, v:1, k:fup@batraquios, mode:EDIT
+2026-06-06 22:47:57, MOVE, v:1, k:fup@batraquios, mode:EDIT
+2026-06-06 22:52:13, EXEC, v:1, k:fup@batraquios, mode:FULL, rate:14, size:30
+2026-06-06 22:52:41, EXEC, v:1, k:fup@batraquios, mode:FULL, rate:28, size:32
+2026-06-06 22:52:38, MOVE, v:1, k:fup@batraquios, mode:EDIT
+2026-06-06 22:52:40, MOVE, v:1, k:fup@batraquios, mode:EDIT
+2026-06-06 22:57:46, MOVE, v:1, k:fup@batraquios, mode:EDIT
+2026-06-06 22:59:32, EXEC, v:1, k:fup@batraquios, mode:FULL, rate:42, size:38
+2026-06-06 23:02:51, MOVE, v:1, k:fup@batraquios, mode:EDIT
+2026-06-06 22:59:32, MOVE, v:1, k:fup@batraquios, mode:EDIT
+2026-06-06 23:03:32, EXEC, v:1, k:fup@batraquios, mode:FULL, rate:42, size:40
+2026-06-06 23:03:22, MOVE, v:1, k:fup@batraquios, mode:EDIT
+2026-06-06 23:03:31, MOVE, v:1, k:fup@batraquios, mode:EDIT
+2026-06-06 23:08:10, EXEC, v:1, k:fup@batraquios, mode:FULL, rate:100, size:47
+2026-06-06 23:09:02, EXEC, v:1, k:fup@batraquios, mode:FULL, rate:100, size:43
+2026-06-06 23:09:16, MOVE, v:1, k:fup@batraquios, mode:EDIT
+2026-06-06 23:09:01, MOVE, v:1, k:fup@batraquios, mode:EDIT
+2026-06-06 23:18:20, MOVE, v:1, k:fup@batraquios, mode:BACK
+2026-06-06 23:18:28, SELF, v:1, k:fup@batraquios, self:1, rate:100, concept:1, refactor:1
