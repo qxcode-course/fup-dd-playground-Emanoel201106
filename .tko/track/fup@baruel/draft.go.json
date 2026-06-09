@@ -1,0 +1,39 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-09_16-38-14",
+            "content": "@@ -41,125 +41,35 @@\n     \n-var qtdtotal, qtdpossui int%0A    fmt.Scan(&qtdtotal, &qtdpossui)%0A    var figurinhas %5B%5Dint = make(%5B%5Dint, qtdpossui)%0A    \n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-06-09_16-47-08",
+            "content": "@@ -109,10 +109,8 @@\n     \n-//\n var \n@@ -151,11 +151,15 @@\n possui)%0A\n+    \n %0A%7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-06-09_16-47-46",
+            "content": "@@ -101,24 +101,26 @@\n possui)%0A    \n+//\n var figurinh\n@@ -158,104 +158,6 @@\n i)%0A%0A\n-    for i := range figurinhas%7B%0A        fmt.Scan(&figurinhas%5Bi%5D)%0A    %7D%0A    fmt.Println(figurinhas)%0A\n %7D%0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2026-06-09_17-03-51",
+            "content": "@@ -226,295 +226,32 @@\n   %7D%0A\n-%0A\n     \n-repetidas := %5B%5Dint%7B%7D%0A%0A    for i := 0; i %3C len(figurinhas); i++ %7B%0A        for a := 0; a %3C i; a++ %7B%0A            if figurinhas%5Bi%5D == figurinhas%5Ba%5D %7B%0A                repetidas = append(repetidas, figurinhas%5Bi%5D)%0A                break%0A            %7D%0A        %7D%0A    %7D%0A    fmt.Println(repetid\n+fmt.Println(figurinh\n as)%0A\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-06-09_17-15-24",
+            "content": "@@ -482,28 +482,24 @@\n     %7D%0A    %7D%0A\n-    \n     fmt.Prin\n@@ -503,106 +503,20 @@\n rint\n-(%22%5B %22)%0A%0A    for _, num := range repetidas %7B%0A        fmt.Print(num, %22 %22)%0A    %7D%0A%0A    fmt.Println(%22%5D%22\n+ln(repetidas\n )%0A%7D%0A\n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-06-09_17-18-09",
+            "content": "@@ -490,581 +490,123 @@\n   %7D%0A\n-%0A\n     \n-faltando := %5B%5Dint%7B%7D%0A%0A    for num := 1; num %3C= qtdtotal; num++ %7B%0A        encontrou := false%0A%0A        for i := 0; i %3C len(figurinhas); i++ %7B%0A            if figurinhas%5Bi%5D == num %7B%0A                encontrou = true%0A                break%0A            %7D%0A        %7D%0A%0A        if !encontrou %7B%0A            faltando = append(faltando, num)%0A        %7D%0A    %7D%0A%0A    fmt.Print(%22%5B %22)%0A%0A    for _, num := range repetidas %7B%0A        fmt.Print(num, %22 %22)%0A    %7D%0A%0A    fmt.Println(%22%5D%22)%0A%0A    fmt.Print(%22%5B %22)%0A%0A    for _, num := range faltando %7B%0A        fmt.Print(num, %22 %22)%0A    %7D%0A%0A    fmt.Println(%22%5D%22)%0A\n+    fmt.Print(%22%5B %22)%0A%0A    for _, num := range repetidas %7B%0A        fmt.Print(num, %22 %22)%0A    %7D%0A%0A    fmt.Println(%22%5D%22)\n %0A%7D%0A\n",
+            "lines": "29"
+        },
+        {
+            "label": "2026-06-09_17-25-02",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var qtdtotal, qtdpossui int\n    fmt.Scan(&qtdtotal, &qtdpossui)\n    var figurinhas []int = make([]int, qtdpossui)\n\n    for i := range figurinhas{\n        fmt.Scan(&figurinhas[i])\n    }\n\n    repetidas := []int{}\n\n    for i := 0; i < len(figurinhas); i++ {\n        for a := 0; a < i; a++ {\n            if figurinhas[i] == figurinhas[a] {\n                repetidas = append(repetidas, figurinhas[i])\n                break\n            }\n        }\n    }\n\n    faltando := []int{}\n\n    for num := 1; num <= qtdtotal; num++ {\n        encontrou := false\n\n        for i := 0; i < len(figurinhas); i++ {\n            if figurinhas[i] == num {\n                encontrou = true\n                break\n            }\n        }\n\n        if !encontrou {\n            faltando = append(faltando, num)\n        }\n    }\n\n    fmt.Print(\"[ \")\n\n    for _, num := range repetidas {\n        fmt.Print(num, \" \")\n    }\n\n    fmt.Println(\"]\")\n\n    fmt.Print(\"[ \")\n\n    for _, num := range faltando {\n        fmt.Print(num, \" \")\n    }\n\n    fmt.Println(\"]\")\n\n}\n",
+            "lines": "56"
+        }
+    ]
+}
