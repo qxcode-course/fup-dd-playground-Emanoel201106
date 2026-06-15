@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-15_17-36-37",
+            "content": "@@ -41,218 +41,35 @@\n     \n-nomes := make (map%5Bstring%5Dint)%0A%0A    for %7B%0A        palavra := %22%22%0A        fmt.Scan(&palavra)%0A        if palavra == %22pare%22 %7B%0A            break%0A        %7D%0A        nomes%5Bpalavra%5D += 1%0A    %7D%0A    %0A    fmt.Println(nomes\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-06-15_17-39-56",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    nomes := make (map[string]int)\n\n    for {\n        palavra := \"\"\n        fmt.Scan(&palavra)\n        if palavra == \"pare\" {\n            break\n        }\n        nomes[palavra] += 1\n    }\n    \n    fmt.Println(nomes)\n}\n",
+            "lines": "16"
+        }
+    ]
+}
