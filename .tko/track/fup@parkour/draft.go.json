@@ -2,8 +2,13 @@
     "patches": [
         {
             "label": "2026-06-09_18-05-38",
-            "content": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}\n",
+            "content": "@@ -41,359 +41,35 @@\n     \n-var m int%0A    fmt.Scan(&m)%0A%0A    anterior := 0%0A    fmt.Scan(&anterior)%0A    var x int%0A    parkour := 0%0A    for i := 1; i %3C m; i++ %7B%0A        fmt.Scan(&x)%0A        if x - anterior %3E 1 %7C%7C x - anterior %3C -1 %7B%0A            anterior = x%0A            parkour++%0A        %7D else %7B%0A            anterior = x%0A            continue%0A        %7D%0A    %7D%0A    fmt.Println(parkour\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
             "lines": "5"
+        },
+        {
+            "label": "2026-06-22_17-16-29",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var m int\n    fmt.Scan(&m)\n\n    anterior := 0\n    fmt.Scan(&anterior)\n    var x int\n    parkour := 0\n    for i := 1; i < m; i++ {\n        fmt.Scan(&x)\n        if x - anterior > 1 || x - anterior < -1 {\n            anterior = x\n            parkour++\n        } else {\n            anterior = x\n            continue\n        }\n    }\n    fmt.Println(parkour)\n}\n",
+            "lines": "22"
         }
     ]
 }

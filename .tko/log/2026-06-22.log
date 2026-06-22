@@ -1,0 +1,37 @@
+2026-06-22 16:57:16, MOVE, v:1, k:fup@troco, mode:PICK
+2026-06-22 16:57:19, EXEC, v:1, k:fup@troco, mode:FULL, rate:0
+2026-06-22 16:58:26, MOVE, v:1, k:fup@troco, mode:BACK
+2026-06-22 16:59:10, MOVE, v:1, k:fup@troco, mode:PICK
+2026-06-22 16:59:11, EXEC, v:1, k:fup@troco, mode:FULL, rate:0
+2026-06-22 16:59:11, MOVE, v:1, k:fup@troco, mode:EDIT
+2026-06-22 17:01:35, MOVE, v:1, k:fup@troco, mode:EDIT
+2026-06-22 17:05:47, EXEC, v:1, k:fup@troco, mode:FULL, rate:0, size:19
+2026-06-22 17:06:25, MOVE, v:1, k:fup@troco, mode:EDIT
+2026-06-22 17:05:46, MOVE, v:1, k:fup@troco, mode:EDIT
+2026-06-22 17:07:59, EXEC, v:1, k:fup@troco, mode:FULL, rate:40, size:27
+2026-06-22 17:10:39, EXEC, v:1, k:fup@troco, mode:FULL, rate:40, size:30
+2026-06-22 17:10:53, EXEC, v:1, k:fup@troco, mode:FULL, rate:100, size:31
+2026-06-22 17:11:07, EXEC, v:1, k:fup@troco, mode:FULL, rate:100, size:31
+2026-06-22 17:11:10, MOVE, v:1, k:fup@troco, mode:BACK
+2026-06-22 17:11:31, SELF, v:1, k:fup@troco, self:1, rate:100, friend:Hanna
+2026-06-22 17:11:04, MOVE, v:1, k:fup@troco, mode:EDIT
+2026-06-22 17:11:07, MOVE, v:1, k:fup@troco, mode:EDIT
+2026-06-22 17:11:38, MOVE, v:1, k:fup@parkour, mode:PICK
+2026-06-22 17:12:25, MOVE, v:1, k:fup@parkour, mode:PICK
+2026-06-22 17:12:26, EXEC, v:1, k:fup@parkour, mode:FULL, rate:0
+2026-06-22 17:16:29, EXEC, v:1, k:fup@parkour, mode:FULL, rate:100, size:22
+2026-06-22 17:16:59, MOVE, v:1, k:fup@parkour, mode:BACK
+2026-06-22 17:16:29, MOVE, v:1, k:fup@parkour, mode:EDIT
+2026-06-22 17:16:28, MOVE, v:1, k:fup@parkour, mode:EDIT
+2026-06-22 17:17:11, SELF, v:1, k:fup@parkour, self:1, rate:100, friend:Hanna
+2026-06-22 17:17:15, MOVE, v:1, k:fup@jedi, mode:PICK
+2026-06-22 17:19:11, EXEC, v:1, k:fup@jedi, mode:FULL, size:10, fail:COMP
+2026-06-22 17:20:46, EXEC, v:1, k:fup@jedi, mode:FULL, rate:0, size:17
+2026-06-22 17:22:05, MOVE, v:1, k:fup@jedi, mode:EDIT
+2026-06-22 17:20:46, MOVE, v:1, k:fup@jedi, mode:EDIT
+2026-06-22 17:22:48, EXEC, v:1, k:fup@jedi, mode:FULL, rate:33, size:23
+2026-06-22 17:26:07, EXEC, v:1, k:fup@jedi, mode:FULL, rate:100, size:31
+2026-06-22 17:26:08, MOVE, v:1, k:fup@jedi, mode:BACK
+2026-06-22 17:26:26, SELF, v:1, k:fup@jedi, self:1, rate:100, friend:Hanna
+2026-06-22 17:26:03, MOVE, v:1, k:fup@jedi, mode:EDIT
+2026-06-22 17:26:07, MOVE, v:1, k:fup@jedi, mode:EDIT

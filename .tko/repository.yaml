@@ -19,13 +19,15 @@ sources:
   writeable: false
   quests: null
 expanded:
-- sandbox@sandbox
+- fup@list
 flags:
   inbox: all
   panel: skills
-  show_panel: 'false'
   task_graph_mode: executions
   show_time: 'true'
+audit:
+  enabled: true
+  interval_seconds: null
 lang: go
-selected: sandbox@user_003
-selected_index: 3
+selected: fup@tazos
+selected_index: 17
