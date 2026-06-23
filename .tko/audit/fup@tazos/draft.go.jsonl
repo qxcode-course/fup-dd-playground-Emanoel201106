@@ -1,0 +1,7 @@
+{"ts":1782235338,"hash":"147bdec9b22b6eec7d95c284f62e86726037e0c8fbeb395a0d328798195b5e3a","mode":"full","content":"H4sIANHAOmoC/ytITM5OTE9VyE3MzOPKzC3ILypRUErLLVHiSivNSwYLa2gqVHMpAEFZYpFCYUmKAlctFwDNq1ZANwAAAA=="}
+{"ts":1782235365,"hash":"a9599e4e918d91c788305dbd0ccf3b65c946aa3c0df88e235a76d0b1e74091af","mode":"diff","ops":[{"tag":"replace","a1":3,"a2":4,"text":"    var qtd int\n    var coleça\n"}]}
+{"ts":1782235414,"hash":"71b39dc704cd22e768a1bf5cc457e9412682dd8a6d77d267689676ba2449a106","mode":"diff","ops":[{"tag":"replace","a1":4,"a2":5,"text":"    var colecao []int\n    \n"}]}
+{"ts":1782235442,"hash":"ee81645dbf7ad639fb598eec7d7e898bcd300494e4bdc679a2f4da3eeb4e0ccc","mode":"diff","ops":[{"tag":"replace","a1":4,"a2":5,"text":"    fmt.Scan(qtd)\n    \n    colecao\n"}]}
+{"ts":1782235485,"hash":"c43aef7db14de6275c36602784c6b15a77a3bd1dfe6f144b4c6af77af19918c2","mode":"diff","ops":[{"tag":"replace","a1":6,"a2":7,"text":"    colecao := make([]int, qtd)\n    fmt.Scan(&c)\n"}]}
+{"ts":1782235544,"hash":"eecb9a3abbd42e0e35b795457f91a0d272226b8d256527d1c374a5b66fd997b4","mode":"diff","ops":[{"tag":"replace","a1":4,"a2":5,"text":"    fmt.Scan(&qtd)\n"},{"tag":"replace","a1":7,"a2":8,"text":"    for i := range colec\n"}]}
+{"ts":1782235564,"hash":"1b1b9c102259d152dba04c9a97474a32dd22d2eb5ff3091797193ad58d1d60b3","mode":"diff","ops":[{"tag":"replace","a1":7,"a2":8,"text":"    for i := range colecao {\n        fmt.Scan(&colecao)\n    }\n"}]}

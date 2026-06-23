@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-23_17-20-56",
+            "content": "@@ -41,78 +41,35 @@\n     \n-var qtd int%0A    fmt.Scan(qtd)%0A    %0A    colecao := make(%5B%5Dint, qtd)%0A    \n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-06-23_17-24-29",
+            "content": "@@ -62,17 +62,16 @@\n mt.Scan(\n-&\n qtd)%0A   \n@@ -108,31 +108,8 @@\n td)%0A\n-    fmt.Scan(&colecao)%0A\n     \n",
+            "lines": "9"
+        },
+        {
+            "label": "2026-06-23_17-24-53",
+            "content": "@@ -109,41 +109,8 @@\n td)%0A\n-    for i := range colecao %7B%0A    \n     \n@@ -130,18 +130,9 @@\n ecao\n-%5Bi%5D)%0A    %7D\n+)\n %0A   \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-06-23_17-26-12",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var qtd int\n    fmt.Scan(&qtd)\n    \n    colecao := make([]int, qtd)\n    for i := range colecao {\n        fmt.Scan(&colecao[i])\n    }\n    \n}\n",
+            "lines": "12"
+        }
+    ]
+}
