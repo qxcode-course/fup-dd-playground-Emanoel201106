@@ -1,0 +1,7 @@
+{"ts":1782692061,"hash":"db3b03f6fbe0dc132b6c32a2c7aa83378f95cb6a1a54ff9c1f1243dd3ad41413","mode":"full","content":"H4sIAAAAAAAC/ytITM5OTE9VyE3MzOPKzC3ILypRUErLLVHiSivNSwYLa2gqVHMpAAFQWC+gKDOvJCdPQ8kjNScnX0chPL8oJ0VRSZOrlgsAdYpEcEsAAAA="}
+{"ts":1782692246,"hash":"07498fcc526f3fbe3e4d60179a294089e389cfa0f2a222e29719d7ee5b407d1b","mode":"diff","ops":[{"tag":"replace","a1":3,"a2":4,"text":"    \n"}]}
+{"ts":1782692268,"hash":"6475727bc0068fd1c87d4e86ef284de660714f79619c7ca41327ed13ee44d5c7","mode":"diff","ops":[{"tag":"replace","a1":3,"a2":4,"text":"    var A, G, \n"}]}
+{"ts":1782692308,"hash":"01fa43a9e3e3133ee87b3235d1ead0b0800016b26e71807d86aef5b9adfce3b1","mode":"diff","ops":[{"tag":"replace","a1":3,"a2":4,"text":"    var A, G, Ra, Rg float64\n    fmt.Scan(&A, &G, &Ra, &Rg)\n"}]}
+{"ts":1782692367,"hash":"807d1d289d7be483eba7535d69c26ce6a131e49c2aef26afb5b8b16b1f614408","mode":"diff","ops":[{"tag":"insert","a1":5,"a2":5,"text":"\n    if A == G {\n        fmt.Println(\"G\")\n    }\n"}]}
+{"ts":1782692446,"hash":"817623a92c35889f4fba45802dcd68e8052588dde60fc5e6c87984c1433923aa","mode":"diff","ops":[{"tag":"replace","a1":6,"a2":9,"text":"    if A / Ra \n"}]}
+{"ts":1782692487,"hash":"8e670db000c8a554ade19f51604c70fdccbff902172a596e8d79df1a0e9529da","mode":"diff","ops":[{"tag":"replace","a1":6,"a2":7,"text":"    if A / Ra < G / Rg {\n        fmt.Println(\"A\")\n    } else {\n        \n    }\n"}]}

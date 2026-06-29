@@ -8,7 +8,7 @@ Sinta-se à vontade para organizar seus rascunhos em subpastas dentro do sandbox
 ## sandbox <!-- @sandbox deps=none factor=1 xpgoal=0 active=1 -->
 
 <!--autoload_cluster=.-->
-- [ ] `@user_001 🛠️ 👤 type=make xp=1 tier=1 loss=part :self` [vetores](user_001/README.md)
-- [ ] `@user_002 🛠️ 👤 type=make xp=1 tier=1 loss=part :self` [tamarindo](user_002/README.md)
+- [ ] `@user_001 🛠️ 👤 type=make xp=1 tier=1 loss=part :self` [vetores](user_001\README.md)
+- [ ] `@user_002 🛠️ 👤 type=make xp=1 tier=1 loss=part :self` [tamarindo](user_002\README.md)
 
-- [ ] `@user_003 🛠️ 👤 type=make xp=1 tier=1 loss=part :self` [mapa](user_003/README.md)
+- [ ] `@user_003 🛠️ 👤 type=make xp=1 tier=1 loss=part :self` [mapa](user_003\README.md)

@@ -1,0 +1,29 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-28_20-41-55",
+            "content": "@@ -41,138 +41,35 @@\n     \n-var valor, chute1, chute2 int%0A    fmt.Scan(&valor, &chute1, &chute2)%0A%0A    if chute1 == chute2 %7B%0A        fmt.Println(%22empate%22)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-06-28_20-45-02",
+            "content": "@@ -115,100 +115,26 @@\n     \n-d\n if\n-eren%C3%A7a1 := valor - chute1%0A    diferen%C3%A7a2 := valor - chute2%0A%0A    if diferen%C3%A7a1 %3C diferen%C3%A7a\n+ chute1 == chute\n 2 %7B%0A\n@@ -158,16 +158,14 @@\n ln(%22\n-primeiro\n+empate\n %22)%0A \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-06-28_20-48-24",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -19,17 +19,16 @@\n t %22fmt%22%0A\n-%0A\n func mai\n@@ -33,17 +33,20 @@\n ain() %7B%0A\n-%09\n+    \n var valo\n@@ -67,17 +67,20 @@\n te2 int%0A\n-%09\n+    \n fmt.Scan\n@@ -107,17 +107,20 @@\n hute2)%0A%0A\n-%09\n+    \n diferen%C3%A7\n@@ -140,17 +140,20 @@\n  chute1%0A\n-%09\n+    \n diferen%C3%A7\n@@ -174,17 +174,20 @@\n chute2%0A%0A\n-%09\n+    \n if difer\n@@ -207,18 +207,24 @@\n en%C3%A7a2 %7B%0A\n-%09%09\n+        \n fmt.Prin\n@@ -243,105 +243,12 @@\n o%22)%0A\n-%09%7D else if diferen%C3%A7a2 %3C diferen%C3%A7a1 %7B%0A%09%09fmt.Println(%22segundo%22)%0A%09%7D else %7B%0A%09%09fmt.Println(%22empate%22)%0A%09\n+    \n %7D%0A%7D%0A\n",
+            "lines": "13"
+        },
+        {
+            "label": "2026-06-28_20-49-47",
+            "content": "@@ -137,163 +137,37 @@\n te1%0A\n-    if diferen%C3%A7a1 %3C 0 %7B%0A        diferen%C3%A7a1 = -diferen%C3%A7a1%0A    %7D%0A%09diferen%C3%A7a2 := valor - chute2%0A    if diferen%C3%A7a2 %3C 0 %7B%0A        diferen%C3%A7a2 = -diferen%C3%A7a2%0A    %7D\n+%09diferen%C3%A7a2 := valor - chute2\n %0A%0A%09i\n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-06-28_20-52-18",
+            "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar valor, chute1, chute2 int\n\tfmt.Scan(&valor, &chute1, &chute2)\n\n\tdiferen\u00e7a1 := valor - chute1\n    if diferen\u00e7a1 < 0 {\n        diferen\u00e7a1 = -diferen\u00e7a1\n    }\n\tdiferen\u00e7a2 := valor - chute2\n    if diferen\u00e7a2 < 0 {\n        diferen\u00e7a2 = -diferen\u00e7a2\n    }\n\n\tif diferen\u00e7a1 < diferen\u00e7a2 {\n\t\tfmt.Println(\"primeiro\")\n\t} else if diferen\u00e7a2 < diferen\u00e7a1 {\n\t\tfmt.Println(\"segundo\")\n\t} else {\n\t\tfmt.Println(\"empate\")\n\t}\n}\n",
+            "lines": "25"
+        }
+    ]
+}

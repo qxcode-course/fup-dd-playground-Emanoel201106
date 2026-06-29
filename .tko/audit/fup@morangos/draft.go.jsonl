@@ -1,0 +1,10 @@
+{"ts":1782691680,"hash":"db3b03f6fbe0dc132b6c32a2c7aa83378f95cb6a1a54ff9c1f1243dd3ad41413","mode":"full","content":"H4sIAAAAAAAC/ytITM5OTE9VyE3MzOPKzC3ILypRUErLLVHiSivNSwYLa2gqVHMpAAFQWC+gKDOvJCdPQ8kjNScnX0chPL8oJ0VRSZOrlgsAdYpEcEsAAAA="}
+{"ts":1782691822,"hash":"053e56ba841a49b9e9e08812d7dff691b2880aa77ea43783d613b52c03adcd2f","mode":"diff","ops":[{"tag":"replace","a1":3,"a2":4,"text":"    var comprimento, largura\n"}]}
+{"ts":1782691844,"hash":"a4afae0e6ebabf86f3924f64e541b1ff20bbc559c54881383d618c4b27123b91","mode":"diff","ops":[{"tag":"replace","a1":3,"a2":4,"text":"    var comprimento1, largura\n"}]}
+{"ts":1782691866,"hash":"47b7442e3d85442fc339a5b4cc3a4f147eb6b47ac8c46e6e6927aab71167e1fd","mode":"diff","ops":[{"tag":"replace","a1":3,"a2":4,"text":"    var comp1, lar1, comp2, lar2 int\n    \n"}]}
+{"ts":1782691907,"hash":"3e7def53ccc41ac8e658734aab959f118bd2573f8a7a4525ef0d9ceb7d2d4230","mode":"diff","ops":[{"tag":"replace","a1":4,"a2":5,"text":"    fmt.Scan(&comp1, &lar1, &comp2)\n"}]}
+{"ts":1782691945,"hash":"72dc7c7fbf41763f155df7bfa61f21fb188ef15c4d40f3a6a91c8144ce77852a","mode":"diff","ops":[{"tag":"replace","a1":4,"a2":5,"text":"    fmt.Scan(&comp1, &lar1, &comp2, &lar2)\n\n    area1 := comp1 * \n"}]}
+{"ts":1782691966,"hash":"150a7ce3ef5d6d9acf317deac5cc5d84dc96ee8e10161e94135dd5fb75b6f91c","mode":"diff","ops":[{"tag":"replace","a1":6,"a2":7,"text":"    area1 := comp1 * lar1\n    area2 := comp2 * lar2\n\n"}]}
+{"ts":1782691987,"hash":"d6c9965149b901ca763e4580eb638c67d35dac3b3c4152df68d4844f6219a8c4","mode":"diff","ops":[{"tag":"insert","a1":9,"a2":9,"text":"    if area1  {\n        \n    }\n"}]}
+{"ts":1782692007,"hash":"0333544e75224f2d930bcf6daf854382114c3ec8312497c558be53fc45f079e9","mode":"diff","ops":[{"tag":"replace","a1":9,"a2":10,"text":"    if area1 > area{\n"}]}
+{"ts":1782692040,"hash":"b8ff83d70a7896f582e72f03fac7a5dceac35c6ac4f314e33a77aacce04358ba","mode":"diff","ops":[{"tag":"replace","a1":9,"a2":11,"text":"    if area1 > area2 {\n        fmt.Println(area1)\n    } else {\n        fmt.Println(area2)\n"}]}

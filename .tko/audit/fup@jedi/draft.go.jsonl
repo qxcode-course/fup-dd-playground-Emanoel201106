@@ -13,3 +13,4 @@
 {"ts":1782149103,"hash":"cb06fdaf12f4910cb744cda1ada8b5e63c767106fb8ff78024cca3bba77bbb0e","mode":"diff","ops":[{"tag":"replace","a1":17,"a2":18,"text":"            forcaJ += vetor[i]\n        } else {\n            \n"}]}
 {"ts":1782149129,"hash":"3b755e70faa78ea4f663a1b0ecd97cf5ee23a70431972b9c360e76ad930e4734","mode":"diff","ops":[{"tag":"replace","a1":16,"a2":17,"text":"        if i < (nElementos / 2) {\n"},{"tag":"replace","a1":18,"a2":20,"text":"        } else if i >= {\n\n"}]}
 {"ts":1782149150,"hash":"fb46d6a14799a289c6a3920de0d40e70783fad1d2841cd0eeb2dfa49f184a151","mode":"diff","ops":[{"tag":"replace","a1":18,"a2":20,"text":"        } else if i >= (nElementos / 2) {\n            \n"}]}
+{"ts":1782692925,"hash":"d7e1023322d257c7789614ee9bcce1eb4a998852413ebb039254db1bc8df337e","mode":"diff","ops":[{"tag":"replace","a1":19,"a2":20,"text":"            forcaS += vetor[i]\n"}]}

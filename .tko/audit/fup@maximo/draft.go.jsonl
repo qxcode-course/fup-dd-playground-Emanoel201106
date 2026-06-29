@@ -1,0 +1,5 @@
+{"ts":1782689716,"hash":"db3b03f6fbe0dc132b6c32a2c7aa83378f95cb6a1a54ff9c1f1243dd3ad41413","mode":"full","content":"H4sIAAAAAAAC/ytITM5OTE9VyE3MzOPKzC3ILypRUErLLVHiSivNSwYLa2gqVHMpAAFQWC+gKDOvJCdPQ8kjNScnX0chPL8oJ0VRSZOrlgsAdYpEcEsAAAA="}
+{"ts":1782689767,"hash":"a1ff31dd46b62d0e84954a69d5ed006a6eba3a22b2f323a7d0b1342b60b408ce","mode":"diff","ops":[{"tag":"replace","a1":3,"a2":4,"text":"    var num1, num2 int\n    \n"}]}
+{"ts":1782689795,"hash":"d733f7e2e91ec73291c1cc70d144cf5d508a2bc20b9bacae27d2fc5beffb6ddf","mode":"diff","ops":[{"tag":"replace","a1":4,"a2":5,"text":"    fmt.Scan(&num1, &num2)\n\n    if \n"}]}
+{"ts":1782689834,"hash":"e9032187f9e1ba7163d080eb8f2419a722d69a05d6454fd722dd32377760d02b","mode":"diff","ops":[{"tag":"replace","a1":6,"a2":7,"text":"    if num1 > num2 {\n        fmt.Println(num1)\n    } else if num1 < num2 {\n        fmt.Println(num2)\n    }\n"}]}
+{"ts":1782689855,"hash":"41970678c5ed2830d9e02f0c09925caa47fb1e51c74dcdbb5dd5c56bde462be5","mode":"diff","ops":[{"tag":"insert","a1":10,"a2":10,"text":"    } else {\n        fmt.p\n"}]}

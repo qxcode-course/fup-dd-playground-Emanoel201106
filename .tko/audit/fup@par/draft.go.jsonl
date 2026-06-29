@@ -1,0 +1,5 @@
+{"ts":1782691500,"hash":"db3b03f6fbe0dc132b6c32a2c7aa83378f95cb6a1a54ff9c1f1243dd3ad41413","mode":"full","content":"H4sIAAAAAAAC/ytITM5OTE9VyE3MzOPKzC3ILypRUErLLVHiSivNSwYLa2gqVHMpAAFQWC+gKDOvJCdPQ8kjNScnX0chPL8oJ0VRSZOrlgsAdYpEcEsAAAA="}
+{"ts":1782691544,"hash":"e7be9afe1d4458376b934d437cea0cc37c2617f60ceeb0b6aa6637366231f0ca","mode":"diff","ops":[{"tag":"replace","a1":3,"a2":4,"text":"    var num int\n    fmt.Scan(&num)\n\n    if num \n"}]}
+{"ts":1782691606,"hash":"a3764e5b933d7221f0adb4a21ea4e6b7c51f0dd4075de8b8976618480291b957","mode":"diff","ops":[{"tag":"replace","a1":6,"a2":7,"text":"    if num % 2 == 0 {\n        \n    }\n"}]}
+{"ts":1782691626,"hash":"657b85592b5e6495bba93710d3ca97e79b701ae642a1036b1af4b9d675b5c31e","mode":"diff","ops":[{"tag":"replace","a1":7,"a2":8,"text":"        fmt.Println(\"par\")\n    } else {\n        fmt. pr\n"}]}
+{"ts":1782691648,"hash":"edae0855f6abcecdc6390302caacd50efd3d49a4227173c7203417c86ae33d95","mode":"diff","ops":[{"tag":"replace","a1":7,"a2":8,"text":"        fmt.Println(\"PAR\")\n"},{"tag":"replace","a1":9,"a2":10,"text":"        fmt. Println(\"IMPAR\")\n"}]}

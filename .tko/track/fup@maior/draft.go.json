@@ -1,0 +1,34 @@
+{
+    "patches": [
+        {
+            "label": "2026-06-28_20-53-45",
+            "content": "@@ -41,171 +41,35 @@\n     \n-var chute float64%0A    var escolha string%0A    var valor float64%0A    fmt.Scan(&chute, &escolha, &valor)%0A%0A    if chute == valor %7B%0A        fmt.Println(%22primeiro%22)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-06-28_21-00-20",
+            "content": "@@ -200,112 +200,8 @@\n o%22)%0A\n-    %7D else if escolha == %22M%22 %7B%0A        if chute %3C valor %7B%0A            fmt.Println(%22primeiro%22)%0A        %7D%0A\n     \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-06-28_21-01-58",
+            "content": "@@ -248,9 +248,9 @@\n ute \n-%3E\n+%3C\n  val\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-06-28_21-02-15",
+            "content": "@@ -242,21 +242,21 @@\n  if \n-valor %3E chute\n+chute %3E valor\n  %7B%0A \n@@ -283,14 +283,15 @@\n ln(%22\n-segund\n+primeir\n o%22)%0A\n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-06-28_21-02-49",
+            "content": "@@ -293,199 +293,8 @@\n o%22)%0A\n-        %7D else %7B%0A            fmt.Println(%22primeiro%22)%0A        %7D%0A    %7D else %7B%0A        if valor %3E chute %7B%0A            fmt.Println(%22primeiro%22)%0A        %7D else %7B%0A            fmt.Println(%22segundo%22)%0A\n     \n",
+            "lines": "16"
+        },
+        {
+            "label": "2026-06-28_21-04-04",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var chute float64\n    var escolha string\n    var valor float64\n    fmt.Scan(&chute, &escolha, &valor)\n\n    if chute == valor {\n        fmt.Println(\"primeiro\")\n    } else if escolha == \"M\" {\n        if valor > chute {\n            fmt.Println(\"segundo\")\n        } else {\n            fmt.Println(\"primeiro\")\n        }\n    } else {\n        if valor > chute {\n            fmt.Println(\"primeiro\")\n        } else {\n            fmt.Println(\"segundo\")\n        }\n    }\n}\n",
+            "lines": "24"
+        }
+    ]
+}

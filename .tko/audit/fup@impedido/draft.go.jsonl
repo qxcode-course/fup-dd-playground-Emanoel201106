@@ -1,0 +1,7 @@
+{"ts":1782689421,"hash":"db3b03f6fbe0dc132b6c32a2c7aa83378f95cb6a1a54ff9c1f1243dd3ad41413","mode":"full","content":"H4sIAAAAAAAC/ytITM5OTE9VyE3MzOPKzC3ILypRUErLLVHiSivNSwYLa2gqVHMpAAFQWC+gKDOvJCdPQ8kjNScnX0chPL8oJ0VRSZOrlgsAdYpEcEsAAAA="}
+{"ts":1782689554,"hash":"1acb9d003ce5e604e08ecf54c77b46a75691550202e7f40baf69e1178c2924b3","mode":"diff","ops":[{"tag":"replace","a1":3,"a2":4,"text":"    var L, R\n"}]}
+{"ts":1782689576,"hash":"4c0a3841ea2fd8a834d147a56c80b970ae65334c9daa1a5abd261d946b51f6d1","mode":"diff","ops":[{"tag":"replace","a1":3,"a2":4,"text":"    var L, R, D int\n    fmt.Scan(&L, &R, &D)\n    \n"}]}
+{"ts":1782689605,"hash":"a76c0d748b2be087cc33cfc816405d2dc49df239e7716ae2af12a7ab236a9aa7","mode":"diff","ops":[{"tag":"replace","a1":5,"a2":6,"text":"\n    if \n"}]}
+{"ts":1782689635,"hash":"40ff0b88147f9aafc78ab5fddfb73406f43eadede82b7ae7892c7a84aeb8157b","mode":"diff","ops":[{"tag":"replace","a1":6,"a2":7,"text":"    if R > 50 && L < R \n"}]}
+{"ts":1782689656,"hash":"9fdb40231816d1bb0ce4cf8eed6fdb3f64113ffebd80e01b95e47a83e1747cef","mode":"diff","ops":[{"tag":"replace","a1":6,"a2":7,"text":"    if R > 50 && L < R && R > D {\n        fmt.Println(\"\")\n    }\n"}]}
+{"ts":1782689686,"hash":"7674fb8290ef06babc3522f508a0db2afc516ca640815f89d144edf3e0bbb777","mode":"diff","ops":[{"tag":"replace","a1":7,"a2":8,"text":"        fmt.Println(\"S\")\n    } else {\n        fmt.Println(\"N\")\n"}]}
