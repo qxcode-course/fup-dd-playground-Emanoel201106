@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-04_23-57-47",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -23,942 +23,53 @@\n mt%22%0A\n-%0Atype Jogada struct %7B%0A    p1, p2 int%0A%7D%0A%0Afunc calc_pontuacao(jogada Jogada) (bool, int)%7B%0A    if jogada.p1 %3C 10 %7C%7C jogada.p2 %3C 10 %7B%0A        return false, 0%0A    %7D%0A%0A    pontos := jogada.p1 - jogada.p2%0A    if pontos %3C 0 %7B%0A        pontos = -pontos%0A    %7D%0A    return true, pontos%0A%7D%0A%0Afunc procurar_melhor_jogada(jogadas %5B%5DJogada) int%7B%0A    melhor := -1%0A    menorPontuacao := 101%0A%0A    for i := 0; i %3C len(jogadas); i++%7B%0A        valida, pontos := calc_pontuacao(jogadas%5Bi%5D)%0A%0A        if valida %7B%0A            if melhor == -1 %7C%7C pontos %3C menorPontuacao %7B%0A                melhor = i%0A                menorPontuacao = pontos%0A            %7D%0A        %7D%0A    %7D%0A    return melhor%0A%7D%0A%0Afunc main() %7B%0A%09var n int %0A    fmt.Scan(&n)%0A%0A    jogadas := make(%5B%5DJogada, n)%0A%0A    for i := 0; i %3C n; i++ %7B%0A        fmt.Scan(&jogadas%5Bi%5D.p1, &jogadas%5Bi%5D.p2)%0A    %7D%0A%0A    ganhador := procurar_melhor_jogada(jogadas)%0A%0A    if ganhador == -1 %7B%0A        fmt.Println(%22sem ganhador%22)%0A    %7D\n+func main() %7B%0A    fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-05_00-11-46",
+            "content": "@@ -954,51 +954,8 @@\n r%22)%0A\n-    %7D else %7B%0A        fmt.Println(ganhador)%0A\n     \n",
+            "lines": "53"
+        },
+        {
+            "label": "2026-07-05_00-12-12",
+            "content": "package main\n\nimport \"fmt\"\n\ntype Jogada struct {\n    p1, p2 int\n}\n\nfunc calc_pontuacao(jogada Jogada) (bool, int){\n    if jogada.p1 < 10 || jogada.p2 < 10 {\n        return false, 0\n    }\n\n    pontos := jogada.p1 - jogada.p2\n    if pontos < 0 {\n        pontos = -pontos\n    }\n    return true, pontos\n}\n\nfunc procurar_melhor_jogada(jogadas []Jogada) int{\n    melhor := -1\n    menorPontuacao := 101\n\n    for i := 0; i < len(jogadas); i++{\n        valida, pontos := calc_pontuacao(jogadas[i])\n\n        if valida {\n            if melhor == -1 || pontos < menorPontuacao {\n                melhor = i\n                menorPontuacao = pontos\n            }\n        }\n    }\n    return melhor\n}\n\nfunc main() {\n\tvar n int \n    fmt.Scan(&n)\n\n    jogadas := make([]Jogada, n)\n\n    for i := 0; i < n; i++ {\n        fmt.Scan(&jogadas[i].p1, &jogadas[i].p2)\n    }\n\n    ganhador := procurar_melhor_jogada(jogadas)\n\n    if ganhador == -1 {\n        fmt.Println(\"sem ganhador\")\n    } else {\n        fmt.Println(ganhador)\n    }\n}\n",
+            "lines": "55"
+        }
+    ]
+}

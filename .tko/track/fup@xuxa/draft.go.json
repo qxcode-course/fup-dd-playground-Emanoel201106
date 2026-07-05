@@ -67,8 +67,18 @@
         },
         {
             "label": "2026-05-04_18-12-28",
-            "content": "package main\nimport \"fmt\"\n//import \"strings\"\nfunc main() {\n    var frase []string \n    fmt.Scan(&frase)\n    fmt.Println(frase)\n}\n",
+            "content": "@@ -17,35 +17,13 @@\n ort \n-(%0A    %22fmt%22%0A    %22strings%22%0A)\n+%22fmt%22\n %0A//i\n@@ -66,16 +66,18 @@\n r frase \n+%5B%5D\n string %0A\n@@ -105,36 +105,19 @@\n     \n-%0A    partes := strings.split\n+fmt.Println\n (fra\n",
             "lines": "8"
+        },
+        {
+            "label": "2026-07-04_23-55-31",
+            "content": "@@ -144,17 +144,17 @@\n strings.\n-S\n+s\n plit(fra\n@@ -159,91 +159,8 @@\n rase\n-, %22%22)%0A    for i := len(partes) - 1; i %3E= 0; i--%7B%0A        fmt.Print(partes%5Bi%5D)%0A    %7D \n+)\n %0A%7D%0A\n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-07-04_23-56-55",
+            "content": "package main\nimport (\n    \"fmt\"\n    \"strings\"\n)\n//import \"strings\"\nfunc main() {\n    var frase string \n    fmt.Scan(&frase)\n    \n    partes := strings.Split(frase, \"\")\n    for i := len(partes) - 1; i >= 0; i--{\n        fmt.Print(partes[i])\n    } \n}\n",
+            "lines": "15"
         }
     ]
 }

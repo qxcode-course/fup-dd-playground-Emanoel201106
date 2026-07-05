@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-05_00-44-22",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -23,722 +23,53 @@\n mt%22%0A\n-%0Atype Gomo struct %7B%0A    x int %0A    y int%0A%7D%0A%0Afunc main() %7B%0A%09var q int%0A%09var d string%0A%09fmt.Scan(&q, &d)%0A%0A%09cobra := make(%5B%5DGomo, q)%0A%0A%09for i := 0; i %3C q; i++ %7B%0A%09%09fmt.Scan(&cobra%5Bi%5D.x, &cobra%5Bi%5D.y)%0A%09%7D%0A%0A    antigox := cobra%5B0%5D.x%0A    antigoy := cobra%5B0%5D.y%0A    %0A    if d == %22L%22 %7B%0A        cobra%5B0%5D.x--%0A    %7D else if d == %22R%22 %7B%0A        cobra%5B0%5D.x++%0A    %7D else if d == %22U%22 %7B%0A        cobra%5B0%5D.y--%0A    %7D else if d == %22D%22 %7B%0A        cobra%5B0%5D.y++%0A    %7D%0A%0A    for i := 1; i %3C q; i++ %7B%0A        novox := cobra%5Bi%5D.x%0A        novoy := cobra%5Bi%5D.y%0A%0A        cobra%5Bi%5D.x = antigox%0A        cobra%5Bi%5D.y = antigoy%0A%0A        antigox = novox%0A        antigoy = novoy%0A    %7D%0A%0A    for i := 0; i %3C q; i++ %7B%0A        fmt.Println(cobra%5Bi%5D.x, cobra%5Bi%5D.y)%0A    %7D\n+func main() %7B%0A    fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-05_00-56-18",
+            "content": "package main\n\nimport \"fmt\"\n\ntype Gomo struct {\n    x int \n    y int\n}\n\nfunc main() {\n\tvar q int\n\tvar d string\n\tfmt.Scan(&q, &d)\n\n\tcobra := make([]Gomo, q)\n\n\tfor i := 0; i < q; i++ {\n\t\tfmt.Scan(&cobra[i].x, &cobra[i].y)\n\t}\n\n    antigox := cobra[0].x\n    antigoy := cobra[0].y\n    \n    if d == \"L\" {\n        cobra[0].x--\n    } else if d == \"R\" {\n        cobra[0].x++\n    } else if d == \"U\" {\n        cobra[0].y--\n    } else if d == \"D\" {\n        cobra[0].y++\n    }\n\n    for i := 1; i < q; i++ {\n        novox := cobra[i].x\n        novoy := cobra[i].y\n\n        cobra[i].x = antigox\n        cobra[i].y = antigoy\n\n        antigox = novox\n        antigoy = novoy\n    }\n\n    for i := 0; i < q; i++ {\n        fmt.Println(cobra[i].x, cobra[i].y)\n    }\n}\n",
+            "lines": "48"
+        }
+    ]
+}

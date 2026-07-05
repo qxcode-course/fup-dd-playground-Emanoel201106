@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-04_23-41-24",
+            "content": "@@ -41,247 +41,35 @@\n     \n-var p, e int%0A    fmt.Scan(&p, &e)%0A%0A    forca := 1%0A    %0A    for %7B%0A        posicao := 0%0A        salto := forca%0A%0A        for %7B%0A            pos += salto%0A%0A            if pos %3E= p %7B%0A                fmt.Println(forca)%0A            %7D%0A        %7D%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-04_23-44-34",
+            "content": "@@ -176,20 +176,16 @@\n      pos\n-icao\n  += salt\n@@ -205,20 +205,16 @@\n   if pos\n-icao\n  %3E= p %7B%0A\n@@ -252,31 +252,8 @@\n ca)%0A\n-                return%0A\n     \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-07-04_23-44-58",
+            "content": "@@ -297,274 +297,17 @@\n   %7D%0A\n-%0A            posicao -= e%0A%0A            if posicao %3C 0 %7B%0A                break%0A            %7D%0A%0A            if salto %3E 0 %7B%0A                salto -= 10%0A                if salto %3C 0 %7B%0A                    salto = 0%0A                %7D%0A            %7D%0A        %7D%0A        forca++\n+        %7D\n %0A   \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-07-04_23-48-09",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var p, e int\n    fmt.Scan(&p, &e)\n\n    forca := 1\n    \n    for {\n        posicao := 0\n        salto := forca\n\n        for {\n            posicao += salto\n\n            if posicao >= p {\n                fmt.Println(forca)\n                return\n            }\n\n            posicao -= e\n\n            if posicao < 0 {\n                break\n            }\n\n            if salto > 0 {\n                salto -= 10\n                if salto < 0 {\n                    salto = 0\n                }\n            }\n        }\n        forca++\n    }\n}\n",
+            "lines": "36"
+        }
+    ]
+}

@@ -20,6 +20,7 @@ sources:
   quests: null
 expanded:
 - fup@list
+- fup@struct
 flags:
   inbox: all
   panel: skills
@@ -29,5 +30,5 @@ audit:
   enabled: true
   interval_seconds: null
 lang: go
-selected: fup@tazos
-selected_index: 17
+selected: fup@estudante
+selected_index: 65

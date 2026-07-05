@@ -1,0 +1,79 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-04_23-10-10",
+            "content": "@@ -41,52 +41,35 @@\n     \n-var p, s, e int%0A    fmt.Scan(&p, &s, &e)%0A    \n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-04_23-14-14",
+            "content": "@@ -81,56 +81,8 @@\n  &e)\n-%0A%0A    posicao := 0%0A    fmt.Printf(%22%25d%22, posicao)\n %0A   \n",
+            "lines": "7"
+        },
+        {
+            "label": "2026-07-04_23-16-43",
+            "content": "@@ -130,135 +130,11 @@\n ao)%0A\n-%0A\n     \n-for %7B%0A        posicao += s%0A        fmt.Println(posicao)%0A        %0A        if posicao%3E= p %7B%0A            break%0A        %7D%0A    %7D\n %0A%7D%0A\n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-07-04_23-18-43",
+            "content": "@@ -252,59 +252,8 @@\n    %7D\n-%0A%0A        posicao -= e%0A        fmt.Println(posicao)\n %0A   \n",
+            "lines": "18"
+        },
+        {
+            "label": "2026-07-04_23-19-29",
+            "content": "@@ -304,70 +304,8 @@\n ao)%0A\n-        %0A        if posicao %3C 0 %7B%0A            break%0A        %7D%0A\n     \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-07-04_23-20-07",
+            "content": "@@ -296,24 +296,32 @@\n ln(posicao)%0A\n+        \n %0A        if \n@@ -365,25 +365,8 @@\n    %7D\n-%0A%0A        s -= 10\n %0A   \n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-07-04_23-20-22",
+            "content": "@@ -114,17 +114,16 @@\n intf(%22%25d\n- \n %22, posic\n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-07-04_23-21-12",
+            "content": "@@ -226,49 +226,8 @@\n p %7B%0A\n-            fmt.Println(posicao, %22saiu%22)%0A\n     \n@@ -331,42 +331,8 @@\n 0 %7B%0A\n-            fmt.Println(%22morreu%22)%0A\n     \n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-07-04_23-22-31",
+            "content": "@@ -312,16 +312,45 @@\n cao -= e\n+%0A        fmt.Println(posicao)\n %0A%0A      \n",
+            "lines": "29"
+        },
+        {
+            "label": "2026-07-04_23-25-05",
+            "content": "@@ -150,27 +150,49 @@\n     \n-novo :\n+posicao +\n = \n+s%0A        fmt.Println(\n posicao\n- + s\n+)\n %0A   \n@@ -208,21 +208,23 @@\n      if \n-novo \n+posicao\n %3E= p %7B%0A \n@@ -294,43 +294,8 @@\n    %7D\n-%0A        fmt.Println(posicao, novo)\n %0A%0A  \n@@ -312,16 +312,10 @@\n cao \n+-\n =\n- novo -\n  e%0A%0A\n@@ -341,23 +341,8 @@\n %3C 0 \n-&& posicao %3C p \n %7B%0A  \n@@ -418,17 +418,16 @@\n s -= 10%0A\n-%0A\n     %7D%0A%7D%0A\n",
+            "lines": "28"
+        },
+        {
+            "label": "2026-07-04_23-35-51",
+            "content": "@@ -95,16 +95,47 @@\n cao := 0\n+%0A    fmt.Printf(%22%25d %22, posicao)\n %0A%0A    fo\n",
+            "lines": "29"
+        },
+        {
+            "label": "2026-07-04_23-36-02",
+            "content": "@@ -322,16 +322,32 @@\n icao %3C 0\n+ && posicao %3C p \n %7B%0A      \n",
+            "lines": "28"
+        },
+        {
+            "label": "2026-07-04_23-37-36",
+            "content": "@@ -348,25 +348,16 @@\n Println(\n-posicao, \n %22morreu%22\n",
+            "lines": "28"
+        },
+        {
+            "label": "2026-07-04_23-39-13",
+            "content": "@@ -408,48 +408,16 @@\n     \n-if s %3E 0 %7B%0A            s -= 10%0A        %7D\n+s -= 10%0A\n %0A   \n",
+            "lines": "28"
+        },
+        {
+            "label": "2026-07-04_23-41-05",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var p, s, e int\n    fmt.Scan(&p, &s, &e)\n\n    posicao := 0\n\n    for {\n        novo := posicao + s\n        \n        if novo >= p {\n            fmt.Println(posicao, \"saiu\")\n            break\n        }\n        fmt.Println(posicao, novo)\n\n        posicao = novo - e\n\n        if posicao < 0{\n            fmt.Println(posicao, \"morreu\")\n            break\n        }\n\n        if s > 0 {\n            s -= 10\n        }\n    }\n}\n",
+            "lines": "29"
+        }
+    ]
+}
