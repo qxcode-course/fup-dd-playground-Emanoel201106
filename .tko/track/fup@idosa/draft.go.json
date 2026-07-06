@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-05_23-20-13",
+            "content": "@@ -6,17 +6,16 @@\n ge main%0A\n-%0A\n import %22\n@@ -23,585 +23,53 @@\n mt%22%0A\n-%0Atype Pessoa struct %7B%0A    nome string%0A    idade int%0A    sexo string%0A%7D%0A%0Afunc main() %7B%0A%09var n int%0A    fmt.Scan(&n)%0A%0A    pessoas := make(%5B%5DPessoa, n)%0A%0A    for i := 0; i %3C n; i++ %7B%0A        fmt.Scan(&pessoas%5Bi%5D.nome, &pessoas%5Bi%5D.idade, &pessoas%5Bi%5D.sexo)%0A    %7D%0A    %0A    indiceMaior := -1%0A%0A    for i := 0; i %3C n; i++ %7B%0A        if pessoas%5Bi%5D.sexo == %22f%22 %7B%0A            if indiceMaior == -1 %7C%7C pessoas%5Bi%5D.idade %3E pessoas%5BindiceMaior%5D.idade %7B%0A                indiceMaior = i%0A            %7D%0A        %7D%0A    %7D%0A%0A    if indiceMaior == -1 %7B%0A        fmt.Println(%22nao tem mulher%22)%0A    %7D else %7B%0A    %7D\n+func main() %7B%0A    fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-05_23-28-33",
+            "content": "@@ -597,55 +597,8 @@\n e %7B%0A\n-        fmt.Println(pessoas%5BindiceMaior%5D.nome)%0A\n     \n",
+            "lines": "35"
+        },
+        {
+            "label": "2026-07-05_23-29-07",
+            "content": "package main\n\nimport \"fmt\"\n\ntype Pessoa struct {\n    nome string\n    idade int\n    sexo string\n}\n\nfunc main() {\n\tvar n int\n    fmt.Scan(&n)\n\n    pessoas := make([]Pessoa, n)\n\n    for i := 0; i < n; i++ {\n        fmt.Scan(&pessoas[i].nome, &pessoas[i].idade, &pessoas[i].sexo)\n    }\n    \n    indiceMaior := -1\n\n    for i := 0; i < n; i++ {\n        if pessoas[i].sexo == \"f\" {\n            if indiceMaior == -1 || pessoas[i].idade > pessoas[indiceMaior].idade {\n                indiceMaior = i\n            }\n        }\n    }\n\n    if indiceMaior == -1 {\n        fmt.Println(\"nao tem mulher\")\n    } else {\n        fmt.Println(pessoas[indiceMaior].nome)\n    }\n}\n",
+            "lines": "36"
+        }
+    ]
+}

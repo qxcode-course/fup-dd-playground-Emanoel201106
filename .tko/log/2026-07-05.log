@@ -36,3 +36,94 @@
 2026-07-05 00:56:18, EXEC, v:1, k:fup@gomos, mode:FULL, rate:100, size:48
 2026-07-05 00:56:20, MOVE, v:1, k:fup@gomos, mode:BACK
 2026-07-05 00:56:25, SELF, v:1, k:fup@gomos, self:1, rate:100
+2026-07-05 22:42:23, MOVE, v:1, k:fup@estudante, mode:DOWN
+2026-07-05 22:42:24, MOVE, v:1, k:fup@estudante, mode:PICK
+2026-07-05 22:43:02, EXEC, v:1, k:fup@estudante, mode:FULL, rate:0, size:5
+2026-07-05 22:43:05, EXEC, v:1, k:fup@estudante, mode:FULL, rate:0
+2026-07-05 22:42:23, MOVE, v:1, k:fup@estudante, mode:EDIT
+2026-07-05 22:46:57, MOVE, v:1, k:fup@estudante, mode:EDIT
+2026-07-05 22:43:04, MOVE, v:1, k:fup@estudante, mode:EDIT
+2026-07-05 22:52:16, MOVE, v:1, k:fup@estudante, mode:EDIT
+2026-07-05 22:55:53, EXEC, v:1, k:fup@estudante, mode:FULL, rate:0, size:38
+2026-07-05 22:56:49, EXEC, v:1, k:fup@estudante, mode:FULL, rate:0, size:39
+2026-07-05 22:56:57, EXEC, v:1, k:fup@estudante, mode:FULL, rate:0, size:39
+2026-07-05 22:57:16, MOVE, v:1, k:fup@estudante, mode:EDIT
+2026-07-05 22:56:56, MOVE, v:1, k:fup@estudante, mode:EDIT
+2026-07-05 22:57:25, EXEC, v:1, k:fup@estudante, mode:FULL, rate:0, size:39
+2026-07-05 22:57:44, EXEC, v:1, k:fup@estudante, mode:FULL, rate:0, size:39
+2026-07-05 22:59:39, EXEC, v:1, k:fup@estudante, mode:FULL, rate:0, size:40
+2026-07-05 23:02:19, MOVE, v:1, k:fup@estudante, mode:EDIT
+2026-07-05 22:59:38, MOVE, v:1, k:fup@estudante, mode:EDIT
+2026-07-05 23:04:07, EXEC, v:1, k:fup@estudante, mode:FULL, rate:0, size:48
+2026-07-05 23:06:39, EXEC, v:1, k:fup@estudante, mode:FULL, rate:0, size:48
+2026-07-05 23:06:36, MOVE, v:1, k:fup@estudante, mode:EDIT
+2026-07-05 23:06:38, MOVE, v:1, k:fup@estudante, mode:EDIT
+2026-07-05 23:08:02, EXEC, v:1, k:fup@estudante, mode:FULL, rate:100, size:48
+2026-07-05 23:08:03, MOVE, v:1, k:fup@estudante, mode:BACK
+2026-07-05 23:08:11, SELF, v:1, k:fup@estudante, self:1, rate:100, concept:1, refactor:1
+2026-07-05 23:09:08, MOVE, v:1, k:fup@fatores_struct, mode:DOWN
+2026-07-05 23:10:22, MOVE, v:1, k:fup@fatores_struct, mode:PICK
+2026-07-05 23:10:25, EXEC, v:1, k:fup@fatores_struct, mode:FULL, rate:0, size:5
+2026-07-05 23:07:58, MOVE, v:1, k:fup@estudante, mode:EDIT
+2026-07-05 23:08:01, MOVE, v:1, k:fup@estudante, mode:EDIT
+2026-07-05 23:09:08, MOVE, v:1, k:fup@fatores_struct, mode:EDIT
+2026-07-05 23:12:10, MOVE, v:1, k:fup@fatores_struct, mode:EDIT
+2026-07-05 23:10:25, MOVE, v:1, k:fup@fatores_struct, mode:EDIT
+2026-07-05 23:15:30, MOVE, v:1, k:fup@fatores_struct, mode:EDIT
+2026-07-05 23:19:30, EXEC, v:1, k:fup@fatores_struct, mode:FULL, rate:100, size:41
+2026-07-05 23:19:31, MOVE, v:1, k:fup@fatores_struct, mode:BACK
+2026-07-05 23:19:39, SELF, v:1, k:fup@fatores_struct, self:1, rate:100, concept:1, refactor:1
+2026-07-05 23:20:09, MOVE, v:1, k:fup@idosa, mode:DOWN
+2026-07-05 23:20:10, MOVE, v:1, k:fup@idosa, mode:PICK
+2026-07-05 23:20:13, EXEC, v:1, k:fup@idosa, mode:FULL, rate:0, size:5
+2026-07-05 23:20:09, MOVE, v:1, k:fup@idosa, mode:EDIT
+2026-07-05 23:24:53, MOVE, v:1, k:fup@idosa, mode:EDIT
+2026-07-05 23:20:12, MOVE, v:1, k:fup@idosa, mode:EDIT
+2026-07-05 23:28:33, EXEC, v:1, k:fup@idosa, mode:FULL, rate:22, size:35
+2026-07-05 23:29:07, EXEC, v:1, k:fup@idosa, mode:FULL, rate:100, size:36
+2026-07-05 23:29:09, MOVE, v:1, k:fup@idosa, mode:BACK
+2026-07-05 23:29:18, SELF, v:1, k:fup@idosa, self:1, rate:100, concept:1
+2026-07-05 23:30:08, MOVE, v:1, k:fup@paredes, mode:DOWN
+2026-07-05 23:30:09, MOVE, v:1, k:fup@paredes, mode:PICK
+2026-07-05 23:30:12, EXEC, v:1, k:fup@paredes, mode:FULL, rate:0, size:5
+2026-07-05 23:30:08, MOVE, v:1, k:fup@paredes, mode:EDIT
+2026-07-05 23:34:28, MOVE, v:1, k:fup@paredes, mode:EDIT
+2026-07-05 23:30:11, MOVE, v:1, k:fup@paredes, mode:EDIT
+2026-07-05 23:35:20, EXEC, v:1, k:fup@paredes, mode:FULL, rate:100, size:23
+2026-07-05 23:35:21, MOVE, v:1, k:fup@paredes, mode:BACK
+2026-07-05 23:35:31, SELF, v:1, k:fup@paredes, self:1, rate:100
+2026-07-05 23:35:42, MOVE, v:1, k:fup@casamento, mode:DOWN
+2026-07-05 23:35:43, MOVE, v:1, k:fup@casamento, mode:PICK
+2026-07-05 23:35:46, EXEC, v:1, k:fup@casamento, mode:FULL, rate:0, size:5
+2026-07-05 23:35:17, MOVE, v:1, k:fup@paredes, mode:EDIT
+2026-07-05 23:35:19, MOVE, v:1, k:fup@paredes, mode:EDIT
+2026-07-05 23:35:42, MOVE, v:1, k:fup@casamento, mode:EDIT
+2026-07-05 23:39:29, MOVE, v:1, k:fup@casamento, mode:EDIT
+2026-07-05 23:35:45, MOVE, v:1, k:fup@casamento, mode:EDIT
+2026-07-05 23:39:56, EXEC, v:1, k:fup@casamento, mode:FULL, rate:100, size:22
+2026-07-05 23:40:02, MOVE, v:1, k:fup@casamento, mode:BACK
+2026-07-05 23:40:08, SELF, v:1, k:fup@casamento, self:1, rate:100
+2026-07-05 23:41:57, MOVE, v:1, k:fup@divisiveis, mode:DOWN
+2026-07-05 23:41:58, MOVE, v:1, k:fup@divisiveis, mode:PICK
+2026-07-05 23:42:01, EXEC, v:1, k:fup@divisiveis, mode:FULL, rate:0, size:5
+2026-07-05 23:44:50, EXEC, v:1, k:fup@divisiveis, mode:FULL, rate:12, size:10
+2026-07-05 23:41:57, MOVE, v:1, k:fup@divisiveis, mode:EDIT
+2026-07-05 23:44:48, MOVE, v:1, k:fup@divisiveis, mode:EDIT
+2026-07-05 23:44:50, MOVE, v:1, k:fup@divisiveis, mode:EDIT
+2026-07-05 23:45:52, EXEC, v:1, k:fup@divisiveis, mode:FULL, rate:50, size:12
+2026-07-05 23:46:39, EXEC, v:1, k:fup@divisiveis, mode:FULL, rate:100, size:12
+2026-07-05 23:46:40, MOVE, v:1, k:fup@divisiveis, mode:BACK
+2026-07-05 23:46:46, SELF, v:1, k:fup@divisiveis, self:1, rate:100
+2026-07-05 23:47:31, MOVE, v:1, k:fup@revolta, mode:DOWN
+2026-07-05 23:47:31, MOVE, v:1, k:fup@revolta, mode:PICK
+2026-07-05 23:47:34, EXEC, v:1, k:fup@revolta, mode:FULL, rate:0, size:5
+2026-07-05 23:46:35, MOVE, v:1, k:fup@divisiveis, mode:EDIT
+2026-07-05 23:46:38, MOVE, v:1, k:fup@divisiveis, mode:EDIT
+2026-07-05 23:47:31, MOVE, v:1, k:fup@revolta, mode:EDIT
+2026-07-05 23:47:38, MOVE, v:1, k:fup@revolta, mode:EDIT
+2026-07-05 23:47:33, MOVE, v:1, k:fup@revolta, mode:EDIT
+2026-07-05 23:55:32, MOVE, v:1, k:fup@revolta, mode:EDIT
+2026-07-05 23:55:46, EXEC, v:1, k:fup@revolta, mode:FULL, rate:40, size:24
+2026-07-05 23:56:42, EXEC, v:1, k:fup@revolta, mode:FULL, rate:100, size:28
+2026-07-05 23:56:44, MOVE, v:1, k:fup@revolta, mode:BACK
+2026-07-05 23:56:58, SELF, v:1, k:fup@revolta, self:1, rate:100, refactor:1

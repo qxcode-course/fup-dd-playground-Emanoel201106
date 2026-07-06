@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-05_23-42-01",
+            "content": "@@ -41,159 +41,35 @@\n     \n-var num1, num2 int%0A    fmt.Scan(&num1, &num2)%0A%0A    if num1 %25 3 == 0 && num1 %25 5 == 0 && num2 %25 3 == 0 && num2 %25 5 == 0%7B%0A        fmt.Println(%22sim%22)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-05_23-44-50",
+            "content": "@@ -188,48 +188,8 @@\n m%22)%0A\n-    %7D else %7B%0A        fmt.Println(%22nao%22)%0A\n     \n",
+            "lines": "10"
+        },
+        {
+            "label": "2026-07-05_23-45-52",
+            "content": "@@ -115,30 +115,30 @@\n  num\n-2 %25 3\n+1 %25 5\n  == 0 \n-%7C%7C\n+&&\n  num\n-1 %25 5\n+2 %25 3\n  == \n",
+            "lines": "12"
+        },
+        {
+            "label": "2026-07-05_23-46-39",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var num1, num2 int\n    fmt.Scan(&num1, &num2)\n\n    if num1 % 3 == 0 && num2 % 3 == 0 || num1 % 5 == 0 && num2 % 5 == 0{\n        fmt.Println(\"sim\")\n    } else {\n        fmt.Println(\"nao\")\n    }\n}\n",
+            "lines": "12"
+        }
+    ]
+}

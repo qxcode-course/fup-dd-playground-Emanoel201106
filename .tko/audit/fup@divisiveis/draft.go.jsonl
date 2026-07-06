@@ -1,0 +1,8 @@
+{"ts":1783305729,"hash":"db3b03f6fbe0dc132b6c32a2c7aa83378f95cb6a1a54ff9c1f1243dd3ad41413","mode":"full","content":"H4sIAAAAAAAC/ytITM5OTE9VyE3MzOPKzC3ILypRUErLLVHiSivNSwYLa2gqVHMpAAFQWC+gKDOvJCdPQ8kjNScnX0chPL8oJ0VRSZOrlgsAdYpEcEsAAAA="}
+{"ts":1783305772,"hash":"02b8cc6bab5c85612f4aac1aecc97106509dcb7d8963b6f2ee14f0d93bda7539","mode":"diff","ops":[{"tag":"replace","a1":3,"a2":4,"text":"    var num1, num2 int\n    fmt.Scan(&num1,)\n"}]}
+{"ts":1783305811,"hash":"8eb1c1590e69afb46ffb5f45de918508aa016671e39b02e805ff3a23a5082e51","mode":"diff","ops":[{"tag":"replace","a1":4,"a2":5,"text":"    fmt.Scan(&num1, &num2)\n\n    if num1 % 3 =\n"}]}
+{"ts":1783305832,"hash":"22f1ede82a68ca81059682cfc8298f544fb29d832d4cf3b550d1fa5fdd2987b1","mode":"diff","ops":[{"tag":"replace","a1":6,"a2":7,"text":"    if num1 % 3 == 0 && num1{\n\n    }\n"}]}
+{"ts":1783305864,"hash":"e8e64d328a5883ee2bbcba1952be9ea472502237d861c53004a756bf0f4274f7","mode":"diff","ops":[{"tag":"replace","a1":6,"a2":7,"text":"    if num1 % 3 == 0 && num1 % 5 == 0 && num1 % 3 == 0 && num1 % 5 == 0{\n"}]}
+{"ts":1783305888,"hash":"3c51c1cd99ecf7c35fb5a23a1fc8cbb04621d1e1951c34736356475d7535ed5a","mode":"diff","ops":[{"tag":"replace","a1":6,"a2":8,"text":"    if num1 % 3 == 0 && num1 % 5 == 0 && num2 % 3 == 0 && num2 % 5 == 0{\n        fmt.Println(\"sim\")\n"}]}
+{"ts":1783305949,"hash":"727d2e45438e224a6709f8dacfa4f1c0ec5c63456ca2be2205f37b8f624d4e5f","mode":"diff","ops":[{"tag":"insert","a1":8,"a2":8,"text":"    } else {\n        fmt.Println(\"nao\")\n"}]}
+{"ts":1783305991,"hash":"1f7420cc49a19fc1723fcb48d19227e81419aed95a335b394b3e75ca873201ce","mode":"diff","ops":[{"tag":"replace","a1":6,"a2":7,"text":"    if num1 % 3 == 0 && num2 % 3 == 0 || num1 % 3 == 0 && num2 % 5 == 0{\n"}]}

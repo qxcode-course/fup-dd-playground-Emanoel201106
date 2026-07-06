@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-05_23-35-46",
+            "content": "@@ -41,344 +41,35 @@\n     \n-vetor := make(%5B%5Dint, 5)%0A%0A    for i := 0; i %3C 5; i++ %7B%0A        fmt.Scan(&vetor%5Bi%5D)%0A    %7D%0A%0A    maior := vetor%5B0%5D%0A    menor := vetor%5B0%5D%0A%0A    for i := 1; i %3C 5; i++ %7B%0A        if vetor%5Bi%5D %3E maior %7B%0A            maior = vetor%5Bi%5D%0A        %7D%0A        if vetor%5Bi%5D %3C menor %7B%0A            menor = vetor%5Bi%5D%0A        %7D%0A    %7D%0A    fmt.Println(maior + menor\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-05_23-39-56",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    vetor := make([]int, 5)\n\n    for i := 0; i < 5; i++ {\n        fmt.Scan(&vetor[i])\n    }\n\n    maior := vetor[0]\n    menor := vetor[0]\n\n    for i := 1; i < 5; i++ {\n        if vetor[i] > maior {\n            maior = vetor[i]\n        }\n        if vetor[i] < menor {\n            menor = vetor[i]\n        }\n    }\n    fmt.Println(maior + menor)\n}\n",
+            "lines": "22"
+        }
+    ]
+}
