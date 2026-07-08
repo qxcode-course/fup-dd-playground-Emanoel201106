@@ -1,0 +1,6 @@
+{"ts":1783483727,"hash":"db3b03f6fbe0dc132b6c32a2c7aa83378f95cb6a1a54ff9c1f1243dd3ad41413","mode":"full","content":"H4sIAAAAAAAC/ytITM5OTE9VyE3MzOPKzC3ILypRUErLLVHiSivNSwYLa2gqVHMpAAFQWC+gKDOvJCdPQ8kjNScnX0chPL8oJ0VRSZOrlgsAdYpEcEsAAAA="}
+{"ts":1783483807,"hash":"a175ac246d2c6084fc1f4f3955e675c0638e8ae8ad3812cac267b392f1a904f9","mode":"diff","ops":[{"tag":"replace","a1":3,"a2":4,"text":"    var n int\n    fmt.Scan(&n)\n"}]}
+{"ts":1783483828,"hash":"0702b497f72994fcea84ade0a597009572c4b20544483aeae1ed7cc7b7b621d2","mode":"diff","ops":[{"tag":"insert","a1":5,"a2":5,"text":"\n    vetor := make([]int, n)\n    for\n"}]}
+{"ts":1783483869,"hash":"ca16f1fb9f3d82afa18082a670a645b5944c348fdcd1e8ad3ca81b9258c19d18","mode":"diff","ops":[{"tag":"replace","a1":7,"a2":8,"text":"    for i := 0; i < n; i++ {\n        fmt.Scan(&vetor[i])\n    }\n\n    fmt.Print(\"[ ]\")\n"}]}
+{"ts":1783483905,"hash":"d413e35788fc1903cec6f779991207887f5dd1336b1160f74eaf9b06e99a4e62","mode":"diff","ops":[{"tag":"replace","a1":11,"a2":12,"text":"    fmt.Print(\"[ \")\n    for i := n; i >= 0; i-- {\n        fmt.pr\n    }\n"}]}
+{"ts":1783483927,"hash":"3567d479c0c0d27abfbaf285bbe56e3ace5021a3beba030206381a0636eabadd","mode":"diff","ops":[{"tag":"replace","a1":13,"a2":14,"text":"        fmt.Print(vetor[i], \" \")\n"},{"tag":"insert","a1":15,"a2":15,"text":"    fmt.Println(\"\")\n"}]}

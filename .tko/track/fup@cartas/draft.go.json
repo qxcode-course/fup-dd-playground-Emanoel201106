@@ -1,0 +1,44 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-08_00-57-05",
+            "content": "@@ -41,368 +41,35 @@\n     \n-var n int%0A    fmt.Scan(&n)%0A%0A    cartas := make(%5B%5Dint, n)%0A    for i := 0; i %3C n; i++ %7B%0A        fmt.Scan(&cartas%5Bi%5D)%0A    %0A        if cartas%5Bi%5D == 1 %7B%0A        fmt.Println(%22A%22)%0A    %7D else if cartas%5Bi%5D == 11 %7B%0A        fmt.Println(%22J%22)%0A    %7D else if cartas%5Bi%5D == 12 %7B%0A        fmt.Println(%22Q%22)%0A    %7D else if cartas%5Bi%5D == 13 %7B%0A        fmt.Println(%22K%22)%0A    %7D%0A    %7D%0A%0A    \n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-08_01-03-27",
+            "content": "@@ -160,65 +160,8 @@\n     \n-%7D%0A%0A    fmt.Println(%22%5B%22)%0A    %0A    for i := 0; i %3C n; i++ %7B\n %0A   \n@@ -392,11 +392,17 @@\n  %7D%0A    %7D\n+%0A%0A    \n %0A%7D%0A\n",
+            "lines": "23"
+        },
+        {
+            "label": "2026-07-08_01-05-25",
+            "content": "@@ -454,27 +454,6 @@\n   %7D%0A\n-    fmt.Println(%22%5D%22)%0A\n %7D%0A\n",
+            "lines": "25"
+        },
+        {
+            "label": "2026-07-08_01-05-59",
+            "content": "@@ -176,14 +176,16 @@\n rint\n+ln\n (%22%5B%22)%0A\n-\n     \n@@ -259,16 +259,18 @@\n mt.Print\n+ln\n (%22A%22)%0A  \n@@ -316,16 +316,18 @@\n mt.Print\n+ln\n (%22J%22)%0A  \n@@ -373,16 +373,18 @@\n mt.Print\n+ln\n (%22Q%22)%0A  \n@@ -413,16 +413,16 @@\n == 13 %7B%0A\n-\n         \n@@ -430,16 +430,18 @@\n mt.Print\n+ln\n (%22K%22)%0A  \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-07-08_01-06-19",
+            "content": "@@ -432,50 +432,8 @@\n K%22)%0A\n-    %7D else %7B%0A        fmt.Print(cartas%5Bi%5D)%0A\n     \n",
+            "lines": "26"
+        },
+        {
+            "label": "2026-07-08_01-06-38",
+            "content": "@@ -479,54 +479,8 @@\n    %7D\n-%0A%0A    if i %3E 0 %7B%0A        fmt.Print(%22, %22)%0A    %7D\n %0A   \n",
+            "lines": "28"
+        },
+        {
+            "label": "2026-07-08_01-07-18",
+            "content": "@@ -216,74 +216,8 @@\n + %7B%0A\n-        if i %3E 0 %7B%0A                fmt.Print(%22, %22)%0A            %7D%0A%0A\n     \n@@ -477,24 +477,64 @@\n %0A    %7D%0A%0A    \n+if i %3E 0 %7B%0A        fmt.Print(%22, %22)%0A    %7D\n %0A    %7D%0A    f\n",
+            "lines": "32"
+        },
+        {
+            "label": "2026-07-08_01-07-59",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n int\n    fmt.Scan(&n)\n\n    cartas := make([]int, n)\n    for i := 0; i < n; i++ {\n        fmt.Scan(&cartas[i])\n    }\n\n    fmt.Print(\"[\")\n    \n    for i := 0; i < n; i++ {\n        if i > 0 {\n                fmt.Print(\", \")\n            }\n\n        if cartas[i] == 1 {\n        fmt.Print(\"A\")\n    } else if cartas[i] == 11 {\n        fmt.Print(\"J\")\n    } else if cartas[i] == 12 {\n        fmt.Print(\"Q\")\n    } else if cartas[i] == 13 {\n        fmt.Print(\"K\")\n    } else {\n        fmt.Print(cartas[i])\n    }\n\n    \n    }\n    fmt.Println(\"]\")\n}\n",
+            "lines": "34"
+        }
+    ]
+}

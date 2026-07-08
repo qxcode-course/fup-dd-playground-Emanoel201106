@@ -29,5 +29,5 @@ audit:
   enabled: true
   interval_seconds: null
 lang: go
-selected: fup@revolta
-selected_index: 18
+selected: fup@pedra
+selected_index: 36

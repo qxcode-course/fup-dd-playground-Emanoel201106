@@ -1,0 +1,39 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-08_01-22-25",
+            "content": "@@ -41,459 +41,35 @@\n     \n-var n int%0A    fmt.Scan(&n)%0A%0A    animais := make(%5B%5Dint, n)%0A    for i := 0; i %3C n; i++ %7B%0A        fmt.Scan(&animais)%0A    %7D%0A%0A    formado := make(%5B%5Dbool, n)%0A    casais := 0%0A%0A    for i := 0; i %3C n; i++ %7B%0A        if formado%5Bi%5D %7B%0A            continue%0A        %7D%0A    %7D%0A%0A    for i := 0; i %3C n; i++ %7B%0A        if !formado%5Bi%5D && animais%5Bi%5D == -animais%5Bi%5D %7B%0A            casais++%0A            formado%5Bi%5D = true%0A            break%0A        %7D%0A    %7D%0A%0A    fmt.Println(casais\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-08_01-29-27",
+            "content": "@@ -294,21 +294,23 @@\n   %7D%0A\n-%0A\n     \n+%7D%0A%0A\n     for \n a :=\n@@ -309,33 +309,29 @@\n for \n-a\n+i\n  := 0; \n-a\n+i\n  %3C n; \n-a\n+i\n ++ %7B%0A\n-    \n     \n@@ -375,17 +375,17 @@\n animais%5B\n-a\n+i\n %5D %7B%0A    \n@@ -392,20 +392,16 @@\n         \n-   \n- \n casais++\n@@ -401,20 +401,16 @@\n asais++%0A\n-    \n         \n@@ -447,65 +447,13 @@\n     \n-    formado%5Ba%5D = true%0A                break%0A            %7D\n+break\n %0A   \n",
+            "lines": "30"
+        },
+        {
+            "label": "2026-07-08_01-31-25",
+            "content": "@@ -308,17 +308,17 @@\n or a := \n-i\n+0\n ; a %3C n;\n",
+            "lines": "31"
+        },
+        {
+            "label": "2026-07-08_01-31-59",
+            "content": "@@ -313,12 +313,8 @@\n := i\n- + 1\n ; a \n",
+            "lines": "31"
+        },
+        {
+            "label": "2026-07-08_01-32-12",
+            "content": "@@ -352,17 +352,17 @@\n formado%5B\n-a\n+i\n %5D && ani\n@@ -366,17 +366,17 @@\n animais%5B\n-a\n+i\n %5D == -an\n@@ -381,17 +381,17 @@\n animais%5B\n-i\n+a\n %5D %7B%0A    \n",
+            "lines": "31"
+        },
+        {
+            "label": "2026-07-08_01-33-01",
+            "content": "@@ -149,19 +149,16 @@\n &animais\n-%5Bi%5D\n )%0A    %7D%0A\n",
+            "lines": "31"
+        },
+        {
+            "label": "2026-07-08_01-33-29",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n int\n    fmt.Scan(&n)\n\n    animais := make([]int, n)\n    for i := 0; i < n; i++ {\n        fmt.Scan(&animais[i])\n    }\n\n    formado := make([]bool, n)\n    casais := 0\n\n    for i := 0; i < n; i++ {\n        if formado[i] {\n            continue\n        }\n\n        for a := i + 1; a < n; a++ {\n            if !formado[a] && animais[a] == -animais[i] {\n                casais++\n                formado[i] = true\n                formado[a] = true\n                break\n            }\n        }\n    }\n\n    fmt.Println(casais)\n}\n",
+            "lines": "31"
+        }
+    ]
+}

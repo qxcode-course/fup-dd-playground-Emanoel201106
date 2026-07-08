@@ -1,0 +1,34 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-08_01-33-51",
+            "content": "@@ -41,761 +41,35 @@\n     \n-var n int%0A    fmt.Scan(&n)%0A%0A    animais := make(%5B%5Dint, n)%0A    for i := 0; i %3C n; i++ %7B%0A        fmt.Scan(&animais%5Bi%5D)%0A    %7D%0A%0A    unicos := %5B%5Dint%7B%7D%0A%0A    for i := 0; i %3C n; i++ %7B%0A        existe := false%0A%0A        for a := 0; a %3C len(unicos); a++ %7B%0A            if animais%5Bi%5D == unicos%5Ba%5D %7B%0A                existe = true%0A                break%0A            %7D%0A        %7D%0A        if !existe %7B%0A            unicos = append(unicos, animais%5Bi%5D)%0A        %7D%0A    %7D%0A    %0A    for i := 0; i %3C len(unicos) - 1; i++ %7B%0A        for b := 0; b %3C len(unicos) - 1 - i; b++ %7B%0A            if unicos%5Bb%5D %3E unicos%5Bb+1%5D %7B%0A                unicos%5Bb%5D, unicos%5Bb+1%5D = unicos%5Bb+1%5D, unicos%5Bb%5D%0A            %7D%0A        %7D%0A    %7D%0A%0A    for i := 0; i %3C len(unicos); i++ %7B%0A        fmt.Print(unicos%5Bi%5D)%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-08_01-45-33",
+            "content": "@@ -778,10 +778,8 @@\n rint\n-ln\n (uni\n",
+            "lines": "39"
+        },
+        {
+            "label": "2026-07-08_01-45-42",
+            "content": "@@ -761,64 +761,8 @@\n + %7B%0A\n-        if i %3E 0 %7B%0A            fmt.Print(%22 %22)%0A        %7D%0A\n     \n",
+            "lines": "39"
+        },
+        {
+            "label": "2026-07-08_01-46-08",
+            "content": "@@ -830,16 +830,18 @@\n mt.Print\n+ln\n (unicos%5B\n",
+            "lines": "42"
+        },
+        {
+            "label": "2026-07-08_01-46-19",
+            "content": "@@ -852,24 +852,6 @@\n   %7D%0A\n-    fmt.Println()%0A\n %7D%0A\n",
+            "lines": "42"
+        },
+        {
+            "label": "2026-07-08_01-46-40",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n int\n    fmt.Scan(&n)\n\n    animais := make([]int, n)\n    for i := 0; i < n; i++ {\n        fmt.Scan(&animais[i])\n    }\n\n    unicos := []int{}\n\n    for i := 0; i < n; i++ {\n        existe := false\n\n        for a := 0; a < len(unicos); a++ {\n            if animais[i] == unicos[a] {\n                existe = true\n                break\n            }\n        }\n        if !existe {\n            unicos = append(unicos, animais[i])\n        }\n    }\n    \n    for i := 0; i < len(unicos) - 1; i++ {\n        for b := 0; b < len(unicos) - 1 - i; b++ {\n            if unicos[b] > unicos[b+1] {\n                unicos[b], unicos[b+1] = unicos[b+1], unicos[b]\n            }\n        }\n    }\n\n    for i := 0; i < len(unicos); i++ {\n        if i > 0 {\n            fmt.Print(\" \")\n        }\n        fmt.Print(unicos[i])\n    }\n    fmt.Println()\n}\n",
+            "lines": "43"
+        }
+    ]
+}
