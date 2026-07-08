@@ -1,0 +1,49 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-08_18-17-48",
+            "content": "@@ -41,338 +41,35 @@\n     \n-var n int%0A    fmt.Scan(&n)%0A%0A    matriz := make(%5B%5D%5B%5Dint, int)%0A%0A    for i := 0; i %3C n; i++ %7B%0A        matriz%5Bi%5D = make(%5B%5Dint, n)%0A        for e := 0; e %3C n; e++ %7B%0A            fmt.Scan(&matriz%5Bi%5D%5Be%5D)%0A        %7D%0A    %7D%0A    %0A    for i := 0; i %3C n; i++ %7B%0A        for e := 0; e %3C n; e++ %7B%0A            fmt.Println(matriz%5Bi%5D%5Be%5D)%0A        %7D%0A    %7D\n+fmt.Println(%22Hello, World!%22)\n %0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-08_18-24-59",
+            "content": "@@ -93,17 +93,19 @@\n %5D%5B%5Dint, \n-n\n+int\n )%0A%0A    f\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-07-08_18-25-16",
+            "content": "@@ -334,16 +334,18 @@\n mt.Print\n+ln\n (matriz%5B\n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-07-08_18-25-26",
+            "content": "@@ -351,13 +351,8 @@\n %5D%5Be%5D\n-, %22 %22\n )%0A  \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-07-08_18-25-47",
+            "content": "@@ -368,30 +368,8 @@\n   %7D%0A\n-        fmt.Println()%0A\n     \n",
+            "lines": "21"
+        },
+        {
+            "label": "2026-07-08_18-25-59",
+            "content": "@@ -88,22 +88,19 @@\n ake(%5B%5D%5B%5D\n-str\n in\n-g\n+t\n , n)%0A%0A  \n@@ -157,14 +157,11 @@\n e(%5B%5D\n-str\n in\n-g\n+t\n , n)\n@@ -254,26 +254,8 @@\n     \n-g := 0%0A    c := 0%0A\n %0A   \n@@ -325,19 +325,26 @@\n         \n-if \n+fmt.Print(\n matriz%5Bi\n@@ -351,241 +351,24 @@\n %5D%5Be%5D\n- == %22G%22 %7B%0A                g += 2%0A            %7D else %7B%0A                c += 1%0A            %7D%0A        %7D%0A    %7D%0A    if g %3E c %7B%0A        fmt.Println(%22Gladiadores%22)%0A    %7D else if c %3E g %7B%0A        fmt.Println(%22Condenados a morte%22)%0A    %7D else %7B\n+, %22 %22)%0A        %7D\n %0A   \n@@ -388,17 +388,8 @@\n tln(\n-%22Ninguem%22\n )%0A  \n",
+            "lines": "22"
+        },
+        {
+            "label": "2026-07-08_18-34-01",
+            "content": "@@ -102,41 +102,8 @@\n , n)\n-%0A    linhaLeao, colLeao := -1, -1\n %0A%0A  \n@@ -239,118 +239,8 @@\n %5Be%5D)\n-%0A%0A            if matriz%5Bi%5D%5Be%5D == %22L%22 %7B%0A                linhaLeao = i%0A                colLeao = e%0A            %7D\n %0A   \n@@ -341,95 +341,8 @@\n + %7B%0A\n-            if i == linhaLeao %7C%7C e ==colLeao %7B%0A                continue%0A            %7D%0A%0A\n     \n",
+            "lines": "34"
+        },
+        {
+            "label": "2026-07-08_18-39-08",
+            "content": "@@ -650,163 +650,32 @@\n lse \n-if matriz%5Bi%5D%5Be%5D == %22C%22 %7B%0A                if i + e == n-1 %7B%0A                    c += 2%0A                %7D else %7B%0A                    c += 1%0A                %7D\n+%7B%0A                c += 1\n %0A   \n",
+            "lines": "44"
+        },
+        {
+            "label": "2026-07-08_18-41-25",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n int\n    fmt.Scan(&n)\n\n    matriz := make([][]string, n)\n    linhaLeao, colLeao := -1, -1\n\n    for i := 0; i < n; i++ {\n        matriz[i] = make([]string, n)\n        for e := 0; e < n; e++ {\n            fmt.Scan(&matriz[i][e])\n\n            if matriz[i][e] == \"L\" {\n                linhaLeao = i\n                colLeao = e\n            }\n        }\n    }\n    g := 0\n    c := 0\n\n    for i := 0; i < n; i++ {\n        for e := 0; e < n; e++ {\n            if i == linhaLeao || e ==colLeao {\n                continue\n            }\n\n            if matriz[i][e] == \"G\" {\n                g += 2\n            } else if matriz[i][e] == \"C\" {\n                if i + e == n-1 {\n                    c += 2\n                } else {\n                    c += 1\n                }\n            }\n        }\n    }\n    if g > c {\n        fmt.Println(\"Gladiadores\")\n    } else if c > g {\n        fmt.Println(\"Condenados a morte\")\n    } else {\n        fmt.Println(\"Ninguem\")\n    }\n}\n",
+            "lines": "48"
+        }
+    ]
+}

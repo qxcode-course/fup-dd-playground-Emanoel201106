@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-08_17-37-44",
+            "content": "@@ -41,306 +41,35 @@\n     \n-var n int%0A    fmt.Scan(&n)%0A%0A    vetor := make(%5B%5Dfloat64, n)%0A    for i := 0; i %3C n; i++ %7B%0A        fmt.Scan(&vetor%5Bi%5D)%0A    %7D%0A    var mediana float64%0A%0A    if n %25 2 != 0 %7B%0A        mediana = vetor%5Bn/2%5D%0A    %7D else %7B%0A        mediana = (vetor%5Bn/2-1%5D + vetor%5Bn/2%5D) / 2%0A    %7D%0A    fmt.Printf(%22%25.1f%5Cn%22, mediana\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-08_17-43-53",
+            "content": "@@ -164,207 +164,8 @@\n   %7D%0A\n-%0A    for i := 0; i %3C n-1; i++ %7B%0A        for a := 0; a %3C n-1-i; a++ %7B%0A            if vetor%5Ba%5D %3E vetor%5Ba+1%5D %7B%0A                vetor%5Ba%5D, vetor%5Ba+1%5D = vetor%5Ba+1%5D, vetor%5Ba%5D%0A            %7D%0A        %7D%0A    %7D%0A%0A\n     \n",
+            "lines": "19"
+        },
+        {
+            "label": "2026-07-08_17-50-02",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n int\n    fmt.Scan(&n)\n\n    vetor := make([]float64, n)\n    for i := 0; i < n; i++ {\n        fmt.Scan(&vetor[i])\n    }\n\n    for i := 0; i < n-1; i++ {\n        for a := 0; a < n-1-i; a++ {\n            if vetor[a] > vetor[a+1] {\n                vetor[a], vetor[a+1] = vetor[a+1], vetor[a]\n            }\n        }\n    }\n\n    var mediana float64\n\n    if n % 2 != 0 {\n        mediana = vetor[n/2]\n    } else {\n        mediana = (vetor[n/2-1] + vetor[n/2]) / 2\n    }\n    fmt.Printf(\"%.1f\\n\", mediana)\n}\n",
+            "lines": "28"
+        }
+    ]
+}

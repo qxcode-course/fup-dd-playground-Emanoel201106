@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-08_17-50-46",
+            "content": "@@ -41,410 +41,35 @@\n     \n-var n int%0A    fmt.Scan(&n)%0A%0A    fila := make(%5B%5Dint, n)%0A    for i := 0; i %3C n; i++ %7B%0A        fmt.Scan(&fila%5Bi%5D)%0A    %7D%0A%0A    risco := 0%0A%0A    for i := 0; i %3C n; i++ %7B%0A        if fila%5Bi%5D == 0 %7B%0A            medico := true%0A%0A            if i %3E 0 && fila%5Bi-1%5D == 1 %7B%0A                medico = true%0A            %7D%0A            if !medico %7B%0A                risco++%0A            %7D%0A        %7D%0A    %7D%0A    fmt.Println(risco\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2026-07-08_17-57-08",
+            "content": "@@ -343,95 +343,8 @@\n   %7D%0A\n-            if i %3C n-1 && fila%5Bi+1%5D == 1 %7B%0A                medico = true%0A            %7D%0A\n     \n",
+            "lines": "27"
+        },
+        {
+            "label": "2026-07-08_17-58-05",
+            "content": "@@ -252,12 +252,11 @@\n  := \n-fals\n+tru\n e%0A%0A \n",
+            "lines": "30"
+        },
+        {
+            "label": "2026-07-08_17-59-02",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    var n int\n    fmt.Scan(&n)\n\n    fila := make([]int, n)\n    for i := 0; i < n; i++ {\n        fmt.Scan(&fila[i])\n    }\n\n    risco := 0\n\n    for i := 0; i < n; i++ {\n        if fila[i] == 0 {\n            medico := false\n\n            if i > 0 && fila[i-1] == 1 {\n                medico = true\n            }\n            if i < n-1 && fila[i+1] == 1 {\n                medico = true\n            }\n            if !medico {\n                risco++\n            }\n        }\n    }\n    fmt.Println(risco)\n}\n",
+            "lines": "30"
+        }
+    ]
+}

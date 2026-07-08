@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2026-07-08_18-00-02",
+            "content": "@@ -1,8 +1,9 @@\n+%0A\n package \n@@ -42,507 +42,35 @@\n     \n-cartela := %5B4%5D%5B4%5Dint %7B%0A        %7B1, 9, 27, 23%7D,%0A        %7B34, 20, 37, 47%7D,%0A        %7B30, 87, 55, 69%7D,%0A        %7B13, 60, 99, 66%7D,%0A    %7D%0A%0A    cont := 0%0A%0A    for i := 0; i %3C 6; i++ %7B%0A        var num int%0A        fmt.Scan(&num)%0A%0A        tem := false%0A%0A        for a := 0; a %3C 4; a++ %7B%0A            for b := 0; b %3C 4; b++ %7B%0A                if cartela%5Ba%5D%5Bb%5D == num %7B%0A                    tem = true%0A                %7D%0A            %7D%0A        %7D%0A        if tem %7B%0A            cont++%0A        %7D%0A    %7D%0A    fmt.Println(cont\n+fmt.Println(%22Hello, World!%22\n )%0A%7D%0A\n",
+            "lines": "6"
+        },
+        {
+            "label": "2026-07-08_18-12-32",
+            "content": "package main\nimport \"fmt\"\nfunc main() {\n    cartela := [4][4]int {\n        {1, 9, 27, 23},\n        {34, 20, 37, 47},\n        {30, 87, 55, 69},\n        {13, 60, 99, 66},\n    }\n\n    cont := 0\n\n    for i := 0; i < 6; i++ {\n        var num int\n        fmt.Scan(&num)\n\n        tem := false\n\n        for a := 0; a < 4; a++ {\n            for b := 0; b < 4; b++ {\n                if cartela[a][b] == num {\n                    tem = true\n                }\n            }\n        }\n        if tem {\n            cont++\n        }\n    }\n    fmt.Println(cont)\n}\n",
+            "lines": "31"
+        }
+    ]
+}
